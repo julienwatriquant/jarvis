@@ -16,4 +16,12 @@ class JarvisController extends AbstractController
             'controller_name' => 'JarvisController',
         ]);
     }
+    /**
+     * @Route("/jarvis/pro", name="jarvisPro")
+     */
+    public function jarvisPro()
+    {
+        return $this->render('jarvis/pro.html.twig');
+    }
 }
+
