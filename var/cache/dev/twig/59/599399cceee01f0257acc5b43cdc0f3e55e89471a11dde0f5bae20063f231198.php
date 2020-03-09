@@ -87,21 +87,31 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         // line 6
         echo "<style>
     body{min-height:1000vh;width:100%;}
-    header{background:#263271;width:100%;height:50vh;text-align:center;}
+    header{background:#263271;width:100%;min-height:50vh;text-align:center;}
     h1 .pro{text-align:center;}
     div .lien{display:flex;justify-content:space-around;}
     div .cadre{background:#EDEFF8;margin-top: 3vh;}
-    div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
-    margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
+    div .acces{text-align:center;background:#FBFBFD;margin-top: -2VH;margin-bottom: 0vh;margin-right: 0vh;
+    margin-left: 0vh;}
     div .enceinte{display:flex;justify-content:space-around;}
     section{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;}
-    div .jarvisscreen{margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    div .jarvistags{margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
+    div .jarvisscreen{text-align:center;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
+    div .jarvistags{text-align:center;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
     main{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
     article{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
     footer{background:#263271;text-align:center;height:20vh;}
     div .reseau{display:flex;justify-content:space-around;}
     div .copy{align-items:bottom;}
+    #imgfamily{max-width: 100%;
+\theight: auto;}
+    #imghotel{max-width: 100%;
+\theight: auto;}
+    #imgtel{max-width: 100%;
+\theight: auto;}
+    #imgscreen{max-width: 100%;
+\theight: auto;}
+    #imgtags{max-width: 100%;
+\theight: auto;}
 </style>
 
 <body>
@@ -121,7 +131,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <a href=\"\" src=\"\">Acheter</a>
 </div>
 
-    <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\">
+    <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
 
 </header>
 
@@ -160,7 +170,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tablette\">
-             <img class=\"\" src=\"img/Jarvisscreen.jpg\">
+             <img class=\"\" src=\"img/Jarvisscreen.jpg\" id=\"imgscreen\">
            
         </div>   
     </div>
@@ -174,7 +184,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tags\">
-             <img class=\"\" src=\"img/enceinte.jpg\">
+             <img class=\"\" src=\"img/enceinte.jpg\" id=\"imgtags\">
            
         </div>   
 
@@ -195,7 +205,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              
          </div>
           <div class=\"tablette family\">
-             <img class=\"\" src=\"img/FamilyTab.jpg\">
+             <img class=\"\" src=\"img/FamilyTab.jpg\" id=\"imgfamily\">
            
         </div>   
     </div>
@@ -210,7 +220,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             
          </div>
           <div class=\"hotel\">
-             <img class=\"\" src=\"img/Façade1.jpeg\">
+             <img class=\"\" src=\"img/Façade1.jpeg\" id=\"imghotel\">
            
         </div>   
 
@@ -311,21 +321,31 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 {% block body %}
 <style>
     body{min-height:1000vh;width:100%;}
-    header{background:#263271;width:100%;height:50vh;text-align:center;}
+    header{background:#263271;width:100%;min-height:50vh;text-align:center;}
     h1 .pro{text-align:center;}
     div .lien{display:flex;justify-content:space-around;}
     div .cadre{background:#EDEFF8;margin-top: 3vh;}
-    div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
-    margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
+    div .acces{text-align:center;background:#FBFBFD;margin-top: -2VH;margin-bottom: 0vh;margin-right: 0vh;
+    margin-left: 0vh;}
     div .enceinte{display:flex;justify-content:space-around;}
     section{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;}
-    div .jarvisscreen{margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    div .jarvistags{margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
+    div .jarvisscreen{text-align:center;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
+    div .jarvistags{text-align:center;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
     main{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
     article{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
     footer{background:#263271;text-align:center;height:20vh;}
     div .reseau{display:flex;justify-content:space-around;}
     div .copy{align-items:bottom;}
+    #imgfamily{max-width: 100%;
+\theight: auto;}
+    #imghotel{max-width: 100%;
+\theight: auto;}
+    #imgtel{max-width: 100%;
+\theight: auto;}
+    #imgscreen{max-width: 100%;
+\theight: auto;}
+    #imgtags{max-width: 100%;
+\theight: auto;}
 </style>
 
 <body>
@@ -345,7 +365,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <a href=\"\" src=\"\">Acheter</a>
 </div>
 
-    <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\">
+    <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
 
 </header>
 
@@ -384,7 +404,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tablette\">
-             <img class=\"\" src=\"img/Jarvisscreen.jpg\">
+             <img class=\"\" src=\"img/Jarvisscreen.jpg\" id=\"imgscreen\">
            
         </div>   
     </div>
@@ -398,7 +418,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tags\">
-             <img class=\"\" src=\"img/enceinte.jpg\">
+             <img class=\"\" src=\"img/enceinte.jpg\" id=\"imgtags\">
            
         </div>   
 
@@ -419,7 +439,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              
          </div>
           <div class=\"tablette family\">
-             <img class=\"\" src=\"img/FamilyTab.jpg\">
+             <img class=\"\" src=\"img/FamilyTab.jpg\" id=\"imgfamily\">
            
         </div>   
     </div>
@@ -434,7 +454,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             
          </div>
           <div class=\"hotel\">
-             <img class=\"\" src=\"img/Façade1.jpeg\">
+             <img class=\"\" src=\"img/Façade1.jpeg\" id=\"imghotel\">
            
         </div>   
 
