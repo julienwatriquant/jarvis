@@ -69,6 +69,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
    
     </style>
     <body>
+    <nav>
     <ul class=\"nav justify-content-center\">
         <li class=\"nav-item\">
           <a class=\"nav-link active\" href=\"#\">logo</a>
@@ -98,17 +99,18 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>
         </li>
       </ul>
+      </nav>
 <div class=\"container\">
         ";
-        // line 50
+        // line 52
         $this->displayBlock('body', $context, $blocks);
-        // line 54
-        echo "        </div>
+        // line 56
+        echo "</div>
         
         ";
-        // line 56
+        // line 58
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 57
+        // line 59
         echo "    </body>
 </html>
 ";
@@ -157,7 +159,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 50
+    // line 52
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -167,7 +169,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 51
+        // line 53
         echo "        
         
         ";
@@ -179,7 +181,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 56
+    // line 58
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -204,7 +206,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  183 => 56,  171 => 51,  161 => 50,  143 => 11,  124 => 10,  112 => 57,  110 => 56,  106 => 54,  104 => 50,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  185 => 58,  173 => 53,  163 => 52,  145 => 11,  126 => 10,  114 => 59,  112 => 58,  108 => 56,  106 => 52,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -228,6 +230,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
    
     </style>
     <body>
+    <nav>
     <ul class=\"nav justify-content-center\">
         <li class=\"nav-item\">
           <a class=\"nav-link active\" href=\"#\">logo</a>
@@ -257,12 +260,13 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>
         </li>
       </ul>
+      </nav>
 <div class=\"container\">
         {% block body %}
         
         
         {% endblock %}
-        </div>
+</div>
         
         {% block javascripts %}{% endblock %}
     </body>
