@@ -86,31 +86,54 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
         // line 6
         echo "<style>
-    body{min-height:1000vh;width:100%;}
-    header{background:#263271;width:100%;height:50vh;text-align:center;}
-    h1 .pro{text-align:center;}
+    body{min-height:1000vh;width:99%;}
+    header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
+    h1 {text-align:center;color:#C1A291;}
+    div .pro{color:white;}
+    
+    h5{color:#C1A291;}
     div .lien{display:flex;justify-content:space-around;}
-    div .cadre{background:#EDEFF8;margin-top: 3vh;}
+    
+    div .cadre{margin:0 auto;}
     div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
     margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
     div .enceinte{display:flex;justify-content:space-around;}
-    section{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;}
-    div .jarvisscreen{margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    div .jarvistags{margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    main{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
-    article{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
-    footer{background:#263271;text-align:center;height:20vh;}
-    div .reseau{display:flex;justify-content:space-around;}
-    div .copy{align-items:bottom;}
+    section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
+    div .jarvisscreen{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
+    div .jarvistags{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
+    div .imgscreen{width: 250px;height: 250px;}
+    div .imgtags{max-width: 100%;height: auto;}
+    main{width:100%;height:auto;display:flex;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;margin:0 auto;}
+    div .jarvisfamily{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
+    div .jarvisforhotels{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;text-align:center;}
+    div .imghotel{width: 400px;height: 200px;}
+    div .imgfamily{width: 450px;height: 250px;}
+
+    article{width:100%;height:auto;display:flex;justify-content:space-around;margin:0 auto;text-align:center;}
+    div .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
+    
+    div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
+    div .imgabonnement{width:300px;height:200px;}
+    footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
+     div .reseau {height: 50%;
+    display: flex;
+    justify-content: center;
+    /* vertical-align: middle !important; */
+    align-items: center;}
+    div .copy{align-items: flex-end;
+    justify-content: center;
+    color: white;
+    height: 50%;
+    text-align: center;}
 </style>
 
 <body>
 
 <header>
     <div class=\"texte\">
-        <h1 class=\"pro\">JarvisPro</h1>
+        <h1 class=\"\">JarvisPro</h1>
 
-        <h2>Une app pour gérer l'ensemble de votre domotique</h2>
+        <h2 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h2>
 
         <h5>à partir de 900 €</h5>
 
@@ -160,7 +183,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tablette\">
-             <img class=\"\" src=\"img/Jarvisscreen.jpg\">
+             <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">
            
         </div>   
     </div>
@@ -174,7 +197,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tags\">
-             <img class=\"\" src=\"img/enceinte.jpg\">
+             <img class=\"imgtags\" src=\"img/enceinte.jpg\">
            
         </div>   
 
@@ -195,7 +218,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              
          </div>
           <div class=\"tablette family\">
-             <img class=\"\" src=\"img/FamilyTab.jpg\">
+             <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
            
         </div>   
     </div>
@@ -203,14 +226,14 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     <div class=\"jarvisforhotels\">
         <h1>JarvisForHotels</h1>
         <h2>l'expérience client au coeur de votre hôtel</h2>
-        <h4>à partir de 1500 € par chambre</h4>
+        <h5>à partir de 1500 € par chambre</h5>
 
          <div>
              <a href=\"jarvisforhotels\" src=\"\">En savoir plus</a>
             
          </div>
           <div class=\"hotel\">
-             <img class=\"\" src=\"img/Façade1.jpeg\">
+             <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
            
         </div>   
 
@@ -230,21 +253,23 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              
          </div>
           <div class=\"\">
-             <img class=\"\" src=\"img/img/Annotation 2020-02-28 155121.png\">
+             <img class=\"imgabonnement\" src=\"img/img/Annotation 2020-02-28 155121.png\">
            
         </div>   
     </div>
 
-    <div class=\"services\">
+    <div class=\"jarvisservices\">
+       
         <h1>Services</h1>
-        <h2>Femme de ménage,jardinier,nounous,tout ce monde à votre service</h2>
+        <h2>Femme de ménage,jardinier,nounous,
+        tout ce monde à votre service</h2>
         
 
          <div>
              <a href=\"Services\" src=\"\">En savoir plus</a>
             
          </div>
-          <div class=\"jarvisservices\">
+          <div class=\"imgservices\">
              <img class=\"background:blue;\" src=\"img/\">
            
         </div>   
@@ -310,31 +335,54 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 {% block body %}
 <style>
-    body{min-height:1000vh;width:100%;}
-    header{background:#263271;width:100%;height:50vh;text-align:center;}
-    h1 .pro{text-align:center;}
+    body{min-height:1000vh;width:99%;}
+    header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
+    h1 {text-align:center;color:#C1A291;}
+    div .pro{color:white;}
+    
+    h5{color:#C1A291;}
     div .lien{display:flex;justify-content:space-around;}
-    div .cadre{background:#EDEFF8;margin-top: 3vh;}
+    
+    div .cadre{margin:0 auto;}
     div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
     margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
     div .enceinte{display:flex;justify-content:space-around;}
-    section{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;}
-    div .jarvisscreen{margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    div .jarvistags{margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    main{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
-    article{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
-    footer{background:#263271;text-align:center;height:20vh;}
-    div .reseau{display:flex;justify-content:space-around;}
-    div .copy{align-items:bottom;}
+    section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
+    div .jarvisscreen{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
+    div .jarvistags{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
+    div .imgscreen{width: 250px;height: 250px;}
+    div .imgtags{max-width: 100%;height: auto;}
+    main{width:100%;height:auto;display:flex;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;margin:0 auto;}
+    div .jarvisfamily{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
+    div .jarvisforhotels{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;text-align:center;}
+    div .imghotel{width: 400px;height: 200px;}
+    div .imgfamily{width: 450px;height: 250px;}
+
+    article{width:100%;height:auto;display:flex;justify-content:space-around;margin:0 auto;text-align:center;}
+    div .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
+    
+    div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
+    div .imgabonnement{width:300px;height:200px;}
+    footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
+     div .reseau {height: 50%;
+    display: flex;
+    justify-content: center;
+    /* vertical-align: middle !important; */
+    align-items: center;}
+    div .copy{align-items: flex-end;
+    justify-content: center;
+    color: white;
+    height: 50%;
+    text-align: center;}
 </style>
 
 <body>
 
 <header>
     <div class=\"texte\">
-        <h1 class=\"pro\">JarvisPro</h1>
+        <h1 class=\"\">JarvisPro</h1>
 
-        <h2>Une app pour gérer l'ensemble de votre domotique</h2>
+        <h2 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h2>
 
         <h5>à partir de 900 €</h5>
 
@@ -384,7 +432,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tablette\">
-             <img class=\"\" src=\"img/Jarvisscreen.jpg\">
+             <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">
            
         </div>   
     </div>
@@ -398,7 +446,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tags\">
-             <img class=\"\" src=\"img/enceinte.jpg\">
+             <img class=\"imgtags\" src=\"img/enceinte.jpg\">
            
         </div>   
 
@@ -419,7 +467,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              
          </div>
           <div class=\"tablette family\">
-             <img class=\"\" src=\"img/FamilyTab.jpg\">
+             <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
            
         </div>   
     </div>
@@ -427,14 +475,14 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     <div class=\"jarvisforhotels\">
         <h1>JarvisForHotels</h1>
         <h2>l'expérience client au coeur de votre hôtel</h2>
-        <h4>à partir de 1500 € par chambre</h4>
+        <h5>à partir de 1500 € par chambre</h5>
 
          <div>
              <a href=\"jarvisforhotels\" src=\"\">En savoir plus</a>
             
          </div>
           <div class=\"hotel\">
-             <img class=\"\" src=\"img/Façade1.jpeg\">
+             <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
            
         </div>   
 
@@ -454,21 +502,23 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              
          </div>
           <div class=\"\">
-             <img class=\"\" src=\"img/img/Annotation 2020-02-28 155121.png\">
+             <img class=\"imgabonnement\" src=\"img/img/Annotation 2020-02-28 155121.png\">
            
         </div>   
     </div>
 
-    <div class=\"services\">
+    <div class=\"jarvisservices\">
+       
         <h1>Services</h1>
-        <h2>Femme de ménage,jardinier,nounous,tout ce monde à votre service</h2>
+        <h2>Femme de ménage,jardinier,nounous,
+        tout ce monde à votre service</h2>
         
 
          <div>
              <a href=\"Services\" src=\"\">En savoir plus</a>
             
          </div>
-          <div class=\"jarvisservices\">
+          <div class=\"imgservices\">
              <img class=\"background:blue;\" src=\"img/\">
            
         </div>   

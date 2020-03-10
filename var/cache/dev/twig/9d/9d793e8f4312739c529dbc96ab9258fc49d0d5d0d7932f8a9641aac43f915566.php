@@ -103,7 +103,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         // line 50
         $this->displayBlock('body', $context, $blocks);
         // line 54
-        echo "        </div>
+        echo "</div>
         
         ";
         // line 56
@@ -262,7 +262,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         
         
         {% endblock %}
-        </div>
+</div>
         
         {% block javascripts %}{% endblock %}
     </body>
