@@ -86,6 +86,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
         // line 6
         echo "<style>
+
     body{min-height:1000vh;width:99%;}
     header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
     h1 {text-align:center;color:#C1A291;}
@@ -125,6 +126,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     color: white;
     height: 50%;
     text-align: center;}
+
 </style>
 
 <body>
@@ -144,7 +146,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <a href=\"\" src=\"\">Acheter</a>
 </div>
 
-    <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\">
+    <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
 
 </header>
 
@@ -183,7 +185,10 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tablette\">
+
              <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">
+
+
            
         </div>   
     </div>
@@ -197,7 +202,10 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tags\">
+
              <img class=\"imgtags\" src=\"img/enceinte.jpg\">
+
+             
            
         </div>   
 
@@ -218,7 +226,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              
          </div>
           <div class=\"tablette family\">
+
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
+
+             
+
            
         </div>   
     </div>
@@ -233,7 +245,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             
          </div>
           <div class=\"hotel\">
+
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
+
+             
+
            
         </div>   
 
@@ -335,6 +351,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 {% block body %}
 <style>
+
     body{min-height:1000vh;width:99%;}
     header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
     h1 {text-align:center;color:#C1A291;}
@@ -374,6 +391,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     color: white;
     height: 50%;
     text-align: center;}
+
 </style>
 
 <body>
@@ -393,7 +411,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <a href=\"\" src=\"\">Acheter</a>
 </div>
 
-    <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\">
+    <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
 
 </header>
 
@@ -432,7 +450,10 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tablette\">
+
              <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">
+
+
            
         </div>   
     </div>
@@ -446,7 +467,10 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tags\">
+
              <img class=\"imgtags\" src=\"img/enceinte.jpg\">
+           
+
            
         </div>   
 
@@ -467,7 +491,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              
          </div>
           <div class=\"tablette family\">
+
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
+
+            
+
            
         </div>   
     </div>
@@ -482,7 +510,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             
          </div>
           <div class=\"hotel\">
+
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
+
+           
+
            
         </div>   
 
