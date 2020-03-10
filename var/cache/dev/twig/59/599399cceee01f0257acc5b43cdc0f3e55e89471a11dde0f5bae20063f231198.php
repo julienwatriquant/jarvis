@@ -86,17 +86,13 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
         // line 6
         echo "<style>
-    body{min-height:1000vh;width:99%;}
-    header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
-    h1 {text-align:center;color:#C1A291;}
-    div .pro{color:white;}
-    
-    h5{color:#C1A291;}
+    body{min-height:1000vh;width:100%;}
+    header{background:#263271;width:99%;min-height:50vh;text-align:center;}
+    h1 .pro{text-align:center;}
     div .lien{display:flex;justify-content:space-around;}
-    
-    div .cadre{margin:0 auto;}
-    div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
-    margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
+    div .cadre{background:#EDEFF8;margin-top: 3vh;margin-right:1vh;}
+    div .acces{text-align:center;background:#FBFBFD;margin-top: -2VH;margin-bottom: 0vh;margin-right: 0vh;
+    margin-left: 0vh;}
     div .enceinte{display:flex;justify-content:space-around;}
     section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
     div .jarvisscreen{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
@@ -335,17 +331,13 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 {% block body %}
 <style>
-    body{min-height:1000vh;width:99%;}
-    header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
-    h1 {text-align:center;color:#C1A291;}
-    div .pro{color:white;}
-    
-    h5{color:#C1A291;}
+    body{min-height:1000vh;width:100%;}
+    header{background:#263271;width:99%;min-height:50vh;text-align:center;}
+    h1 .pro{text-align:center;}
     div .lien{display:flex;justify-content:space-around;}
-    
-    div .cadre{margin:0 auto;}
-    div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
-    margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
+    div .cadre{background:#EDEFF8;margin-top: 3vh;margin-right:1vh;}
+    div .acces{text-align:center;background:#FBFBFD;margin-top: -2VH;margin-bottom: 0vh;margin-right: 0vh;
+    margin-left: 0vh;}
     div .enceinte{display:flex;justify-content:space-around;}
     section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
     div .jarvisscreen{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
