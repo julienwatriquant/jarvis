@@ -90,6 +90,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     body{min-height:1000vh;width:99%;}
     header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
     h1 {text-align:center;color:#C1A291;}
+    h2{color:#C1A291;}
     div .pro{color:white;}
     
     h5{color:#C1A291;}
@@ -97,7 +98,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     
     div .cadre{margin:0 auto;}
     div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
-    margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
+    margin-bottom: 1vh;margin-right: 0vh;margin-left: 1vh;}
     div .enceinte{display:flex;justify-content:space-around;}
     section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
     div .jarvisscreen{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
@@ -116,16 +117,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
     div .imgabonnement{width:300px;height:200px;}
     footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
-     div .reseau {height: 50%;
-    display: flex;
-    justify-content: center;
-    /* vertical-align: middle !important; */
-    align-items: center;}
-    div .copy{align-items: flex-end;
-    justify-content: center;
-    color: white;
-    height: 50%;
-    text-align: center;}
+     div .reseau {height: 50%;display: flex;justify-content: center;/* vertical-align: middle !important; */align-items: center;}
+    div .copy{align-items: flex-end;justify-content: center;color:#C1A291;height: 50%;text-align: center;font-weight:bold;}
 
 </style>
 
@@ -152,8 +145,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 <div class=\"cadre\">
     <div class=\"acces\">
-            <h1>JarvisAcces</h1>
-            <h2>Une alternative au Ehpad à domicile</h2>
+            <h2>JarvisAcces</h2>
+            <h3>Une alternative au Ehpad à domicile</h3>
             <h5>à partir de 450 €</h5>
         <div>
              <a href=\"jarvisAcces\" src=\"\">En savoir plus</a>
@@ -174,9 +167,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 <section>
     
     <div class=\"jarvisscreen\">
-            <h1 class=\"screen\">JarvisScreen</h1>
+            <h2 class=\"screen\">JarvisScreen</h2>
 
-            <h2>Plus qu'un écran un monstre</h2>
+            <h3>Plus qu'un écran un monstre</h3>
 
             <h5>à partir de 1020 €</h5>
 
@@ -188,14 +181,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
              <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">
 
+            
 
            
         </div>   
     </div>
 
     <div class=\"jarvistags\">
-        <h1>JarvisTags</h1>
-        <h2>Prochainement disponible</h2>
+        <h2>JarvisTags</h2>
+        <h3>Prochainement disponible</h3>
 
          <div>
              <a href=\"jarvistag\" src=\"\">En savoir plus</a>
@@ -205,7 +199,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
              <img class=\"imgtags\" src=\"img/enceinte.jpg\">
 
-             
+            
+
            
         </div>   
 
@@ -215,9 +210,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 <main>
  <div class=\"jarvisfamily\">
-            <h1 class=\"family\">JarvisFamily</h1>
+            <h2 class=\"family\">JarvisFamily</h2>
 
-            <h2>Le réseau familial,privé et sécurisé</h2>
+            <h3>Le réseau familial,privé et sécurisé</h3>
 
           
 
@@ -229,15 +224,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
 
-             
+           
 
            
         </div>   
     </div>
 
     <div class=\"jarvisforhotels\">
-        <h1>JarvisForHotels</h1>
-        <h2>l'expérience client au coeur de votre hôtel</h2>
+        <h2>JarvisForHotels</h2>
+        <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
 
          <div>
@@ -248,7 +243,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
 
-             
+            
 
            
         </div>   
@@ -258,9 +253,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 <article>
 
 <div class=\"jarvisabonnement\">
-            <h1 class=\"\">Abonnement</h1>
+            <h2 class=\"\">Abonnement</h2>
 
-            <h2>En achat ou en location, votre Jarvis à porter de main</h2>
+            <h3>En achat ou en location, votre Jarvis à porter de main</h3>
 
           
 
@@ -276,9 +271,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     <div class=\"jarvisservices\">
        
-        <h1>Services</h1>
-        <h2>Femme de ménage,jardinier,nounous,
-        tout ce monde à votre service</h2>
+        <h2>Services</h2>
+        <h3>Femme de ménage,jardinier,nounous,
+        tout ce monde à votre service</h3>
         
 
          <div>
@@ -303,7 +298,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 </div>
     <div class=\"copy\">
         <p>Copyright 2020 mySmartJarvis All Rights Reserved</p>
-        <p>Engagement de confisdentialité Utilisation des cookies Mentiobns légales Plan du site</p>
+        <p>Engagement de confisdentialité Utilisation des cookies Mentions légales Plan du site</p>
 </div>
 
  
@@ -355,6 +350,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     body{min-height:1000vh;width:99%;}
     header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
     h1 {text-align:center;color:#C1A291;}
+    h2{color:#C1A291;}
     div .pro{color:white;}
     
     h5{color:#C1A291;}
@@ -362,7 +358,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     
     div .cadre{margin:0 auto;}
     div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
-    margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
+    margin-bottom: 1vh;margin-right: 0vh;margin-left: 1vh;}
     div .enceinte{display:flex;justify-content:space-around;}
     section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
     div .jarvisscreen{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
@@ -381,16 +377,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
     div .imgabonnement{width:300px;height:200px;}
     footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
-     div .reseau {height: 50%;
-    display: flex;
-    justify-content: center;
-    /* vertical-align: middle !important; */
-    align-items: center;}
-    div .copy{align-items: flex-end;
-    justify-content: center;
-    color: white;
-    height: 50%;
-    text-align: center;}
+     div .reseau {height: 50%;display: flex;justify-content: center;/* vertical-align: middle !important; */align-items: center;}
+    div .copy{align-items: flex-end;justify-content: center;color:#C1A291;height: 50%;text-align: center;font-weight:bold;}
 
 </style>
 
@@ -417,8 +405,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 <div class=\"cadre\">
     <div class=\"acces\">
-            <h1>JarvisAcces</h1>
-            <h2>Une alternative au Ehpad à domicile</h2>
+            <h2>JarvisAcces</h2>
+            <h3>Une alternative au Ehpad à domicile</h3>
             <h5>à partir de 450 €</h5>
         <div>
              <a href=\"jarvisAcces\" src=\"\">En savoir plus</a>
@@ -439,9 +427,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 <section>
     
     <div class=\"jarvisscreen\">
-            <h1 class=\"screen\">JarvisScreen</h1>
+            <h2 class=\"screen\">JarvisScreen</h2>
 
-            <h2>Plus qu'un écran un monstre</h2>
+            <h3>Plus qu'un écran un monstre</h3>
 
             <h5>à partir de 1020 €</h5>
 
@@ -453,14 +441,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
              <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">
 
+            
 
            
         </div>   
     </div>
 
     <div class=\"jarvistags\">
-        <h1>JarvisTags</h1>
-        <h2>Prochainement disponible</h2>
+        <h2>JarvisTags</h2>
+        <h3>Prochainement disponible</h3>
 
          <div>
              <a href=\"jarvistag\" src=\"\">En savoir plus</a>
@@ -469,7 +458,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
           <div class=\"tags\">
 
              <img class=\"imgtags\" src=\"img/enceinte.jpg\">
-           
+
+            
 
            
         </div>   
@@ -480,9 +470,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 <main>
  <div class=\"jarvisfamily\">
-            <h1 class=\"family\">JarvisFamily</h1>
+            <h2 class=\"family\">JarvisFamily</h2>
 
-            <h2>Le réseau familial,privé et sécurisé</h2>
+            <h3>Le réseau familial,privé et sécurisé</h3>
 
           
 
@@ -494,15 +484,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
 
-            
+           
 
            
         </div>   
     </div>
 
     <div class=\"jarvisforhotels\">
-        <h1>JarvisForHotels</h1>
-        <h2>l'expérience client au coeur de votre hôtel</h2>
+        <h2>JarvisForHotels</h2>
+        <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
 
          <div>
@@ -513,7 +503,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
 
-           
+            
 
            
         </div>   
@@ -523,9 +513,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 <article>
 
 <div class=\"jarvisabonnement\">
-            <h1 class=\"\">Abonnement</h1>
+            <h2 class=\"\">Abonnement</h2>
 
-            <h2>En achat ou en location, votre Jarvis à porter de main</h2>
+            <h3>En achat ou en location, votre Jarvis à porter de main</h3>
 
           
 
@@ -541,9 +531,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     <div class=\"jarvisservices\">
        
-        <h1>Services</h1>
-        <h2>Femme de ménage,jardinier,nounous,
-        tout ce monde à votre service</h2>
+        <h2>Services</h2>
+        <h3>Femme de ménage,jardinier,nounous,
+        tout ce monde à votre service</h3>
         
 
          <div>
@@ -568,7 +558,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 </div>
     <div class=\"copy\">
         <p>Copyright 2020 mySmartJarvis All Rights Reserved</p>
-        <p>Engagement de confisdentialité Utilisation des cookies Mentiobns légales Plan du site</p>
+        <p>Engagement de confisdentialité Utilisation des cookies Mentions légales Plan du site</p>
 </div>
 
  
