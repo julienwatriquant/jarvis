@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class JarvisController extends AbstractController
 {
     /**
-     * @Route("/jarvis", name="jarvis")
+     * @Route("/", name="jarvis")
      */
     public function index()
     {

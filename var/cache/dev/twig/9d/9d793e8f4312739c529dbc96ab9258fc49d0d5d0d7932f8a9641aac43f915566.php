@@ -75,7 +75,10 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           <a class=\"nav-link active\" href=\"#\">logo</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">JarvisPro</a>
+          <a class=\"nav-link\" href=\"";
+        // line 26
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisPro");
+        echo "\">JarvisPro</a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">JarvisAcces</a>
@@ -204,9 +207,14 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         return "base.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  185 => 58,  173 => 53,  163 => 52,  145 => 11,  126 => 10,  114 => 59,  112 => 58,  108 => 56,  106 => 52,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  188 => 58,  176 => 53,  166 => 52,  148 => 11,  129 => 10,  117 => 59,  115 => 58,  111 => 56,  109 => 52,  80 => 26,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -236,7 +244,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           <a class=\"nav-link active\" href=\"#\">logo</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">JarvisPro</a>
+          <a class=\"nav-link\" href=\"{{ path('jarvisPro') }}\">JarvisPro</a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">JarvisAcces</a>
