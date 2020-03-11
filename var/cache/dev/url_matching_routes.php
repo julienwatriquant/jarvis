@@ -15,6 +15,7 @@ return [
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
         '/jarvis' => [[['_route' => 'jarvis', '_controller' => 'App\\Controller\\JarvisController::index'], null, null, null, false, false, null]],
         '/jarvis/pro' => [[['_route' => 'jarvisPro', '_controller' => 'App\\Controller\\JarvisController::jarvisPro'], null, null, null, false, false, null]],
+        '/jarvis/acces' => [[['_route' => 'jarvisAcces', '_controller' => 'App\\Controller\\JarvisController::jarvisAcces'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'
