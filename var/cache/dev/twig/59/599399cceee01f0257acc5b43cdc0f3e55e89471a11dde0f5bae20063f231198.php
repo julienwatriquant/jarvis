@@ -159,7 +159,10 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Une alternative au Ehpad à domicile</h3>
             <h5>à partir de 450 €</h5>
         <div>
-             <a href=\"jarvisAcces\" src=\"\">En savoir plus</a>
+             <a href=\"";
+        // line 62
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
+        echo "\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
         </div>
 
@@ -227,10 +230,14 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
           
 
         <div>
+
              <a href=\"";
         // line 148
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
         echo "\" src=\"\">En savoir plus</a>
+
+             <a href=\"\" src=\"\">En savoir plus</a>
+
              
          </div>
           <div class=\"tablette family\">
@@ -359,7 +366,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     public function getDebugInfo()
     {
+
         return array (  232 => 148,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+
+        return array (  146 => 62,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+
     }
 
     public function getSourceContext()
@@ -443,7 +454,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Une alternative au Ehpad à domicile</h3>
             <h5>à partir de 450 €</h5>
         <div>
-             <a href=\"jarvisAcces\" src=\"\">En savoir plus</a>
+             <a href=\"{{path('jarvisAcces')}}\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
         </div>
 
@@ -511,7 +522,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
           
 
         <div>
+
              <a href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus</a>
+
+             <a href=\"\" src=\"\">En savoir plus</a>
+
              
          </div>
           <div class=\"tablette family\">
