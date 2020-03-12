@@ -18,4 +18,5 @@ return new \ContainerWSKRaXM\App_KernelDevDebugContainer([
     'container.build_hash' => 'WSKRaXM',
     'container.build_id' => 'bcdf314b',
     'container.build_time' => 1583849917,
+
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerWSKRaXM');

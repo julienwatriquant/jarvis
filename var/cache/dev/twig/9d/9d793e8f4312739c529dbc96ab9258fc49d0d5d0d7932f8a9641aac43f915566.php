@@ -65,20 +65,28 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
     <style>
     
 
-    nav{background:#263271;}
-   
+    nav{background:#263271;height:7vh;display:flex;justify-content:center;position:fixed;width:100%;opacity:0.98;}
+    .logo{height:6vh;}
+    .panier{height:4.4vh;}
+    li{margin-left:7vh;}
     </style>
     <body>
     <nav>
-    <ul class=\"nav justify-content-center\">
+    <ul class=\"nav justify-content:center\">
         <li class=\"nav-item\">
-          <a class=\"nav-link active\" href=\"#\">logo</a>
+          <a class=\"nav-link active\" href=\"";
+        // line 25
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvis");
+        echo "\"><img class=\"logo\" src=\"../img/img/jarvisLogo.gif\"></a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">JarvisPro</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">JarvisAcces</a>
+          <a class=\"nav-link\" href=\"";
+        // line 31
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
+        echo "\">JarvisAcces</a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">JarvisScreen</a>
@@ -93,26 +101,21 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           <a class=\"nav-link\" href=\"#\">S'identifier</a>
         </li>
          <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Panier</a>
-        </li>
-        <li class=\"nav-item\">
-          <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>
+          <a class=\"nav-link\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
         </li>
       </ul>
       </nav>
 <div class=\"container\">
         ";
-        // line 52
+        // line 51
         $this->displayBlock('body', $context, $blocks);
-
-        // line 54
 
         echo "</div>
         
         ";
-        // line 58
+        // line 57
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 59
+        // line 58
         echo "    </body>
 </html>
 ";
@@ -161,7 +164,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 52
+    // line 51
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -171,7 +174,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 53
+        // line 52
         echo "        
         
         ";
@@ -183,7 +186,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 58
+    // line 57
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -206,9 +209,14 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         return "base.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  185 => 58,  173 => 53,  163 => 52,  145 => 11,  126 => 10,  114 => 59,  112 => 58,  108 => 56,  106 => 52,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  190 => 57,  178 => 52,  168 => 51,  150 => 11,  131 => 10,  119 => 58,  117 => 57,  113 => 55,  111 => 51,  88 => 31,  79 => 25,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -228,20 +236,22 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
     <style>
     
 
-    nav{background:#263271;}
-   
+    nav{background:#263271;height:7vh;display:flex;justify-content:center;position:fixed;width:100%;opacity:0.98;}
+    .logo{height:6vh;}
+    .panier{height:4.4vh;}
+    li{margin-left:7vh;}
     </style>
     <body>
     <nav>
-    <ul class=\"nav justify-content-center\">
+    <ul class=\"nav justify-content:center\">
         <li class=\"nav-item\">
-          <a class=\"nav-link active\" href=\"#\">logo</a>
+          <a class=\"nav-link active\" href=\"{{path('jarvis')}}\"><img class=\"logo\" src=\"../img/img/jarvisLogo.gif\"></a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">JarvisPro</a>
         </li>
         <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">JarvisAcces</a>
+          <a class=\"nav-link\" href=\"{{path('jarvisAcces')}}\">JarvisAcces</a>
         </li>
         <li class=\"nav-item\">
           <a class=\"nav-link\" href=\"#\">JarvisScreen</a>
@@ -256,10 +266,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           <a class=\"nav-link\" href=\"#\">S'identifier</a>
         </li>
          <li class=\"nav-item\">
-          <a class=\"nav-link\" href=\"#\">Panier</a>
-        </li>
-        <li class=\"nav-item\">
-          <a class=\"nav-link disabled\" href=\"#\" tabindex=\"-1\" aria-disabled=\"true\">Disabled</a>
+          <a class=\"nav-link\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
         </li>
       </ul>
       </nav>

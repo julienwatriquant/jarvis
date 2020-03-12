@@ -13,20 +13,22 @@
     <style>
     
 
-    nav{background:#263271;}
-   
+    nav{background:#263271;height:7vh;display:flex;justify-content:center;position:fixed;width:100%;opacity:0.98;}
+    .logo{height:6vh;}
+    .panier{height:4.4vh;}
+    li{margin-left:7vh;}
     </style>
     <body>
     <nav>
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content:center">
         <li class="nav-item">
-          <a class="nav-link active" href="#">logo</a>
+          <a class="nav-link active" href="{{path('jarvis')}}"><img class="logo" src="../img/img/jarvisLogo.gif"></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">JarvisPro</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">JarvisAcces</a>
+          <a class="nav-link" href="{{path('jarvisAcces')}}">JarvisAcces</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">JarvisScreen</a>
@@ -41,10 +43,7 @@
           <a class="nav-link" href="#">S'identifier</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">Panier</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#"><img class="panier" src="../img/BagOr.png"></a>
         </li>
       </ul>
       </nav>
