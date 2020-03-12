@@ -8,14 +8,13 @@ use Symfony\Component\Routing\Annotation\Route;
 class JarvisController extends AbstractController
 {
     /**
-     * @Route("/jarvis", name="jarvis")
+     * @Route("/", name="jarvis")
      */
     public function index()
     {
-        return $this->render('jarvis/index.html.twig', [
-            'controller_name' => 'JarvisController',
-        ]);
+        return $this->render('jarvis/index.html.twig');
     }
+
     /**
      * @Route("/jarvis/pro", name="jarvisPro")
      */
@@ -23,7 +22,6 @@ class JarvisController extends AbstractController
     {
         return $this->render('jarvis/pro.html.twig');
     }
-
 
     /**
      * @Route("/jarvis/acces", name="jarvisAcces")
@@ -33,8 +31,6 @@ class JarvisController extends AbstractController
         return $this->render('jarvis/acces.html.twig');
     }
 
-
-
     /**
      * @Route("/jarvis/family", name="jarvisFamily")
      */
@@ -42,5 +38,6 @@ class JarvisController extends AbstractController
     {    
         return $this->render('jarvis/family.html.twig');
     }
+    
 }
 
