@@ -23,5 +23,12 @@ class JarvisController extends AbstractController
     {
         return $this->render('jarvis/pro.html.twig');
     }
+    /**
+     * @Route("/jarvis/family", name="jarvisFamily")
+     */
+    public function jarvisFamily()
+    {    
+        return $this->render('jarvis/family.html.twig');
+    }
 }
 
