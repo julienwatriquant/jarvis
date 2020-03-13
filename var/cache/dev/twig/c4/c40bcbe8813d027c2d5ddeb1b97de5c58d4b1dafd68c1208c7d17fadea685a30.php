@@ -78,11 +78,17 @@ div .texte{color:white;display:flex;justify-content:center;}
 
 section{}
  .transports{height:50px;width:50px;}
+ .pTransport{position: relative;top:1vh;right:1vh;}
  .photo{height:50px;width:50px;}
+ .pPhoto{position: relative;top:1vh;right:1vh;}
  .new{height:50px;width:50px;}
+ .pNews{position: relative;top:1vh;right:1vh;}
  .calendrier{height:50px;width:50px;}
+ .pCalendrier{position: relative;top:1vh;right:1vh;}
  .listeB{height:50px;width:50px;}
+ .pListe{position: relative;top:1vh;right:1vh;}
  .message{height:50px;width:50px;}
+ .pMessage{position: relative;top:1vh;right:1vh;}
 
  .my{color:#C1A291;}
  footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
@@ -117,24 +123,24 @@ section{}
 <h2><strong class=\"cloud\">Cloud privé et sécurisé à la maison</strong></h2>
 
 <div class=\"texte\">
-    <p>Un lieu d'echange et de partage au sein du foyer.Sécurisé car stocké
+    <article>Un lieu d'echange et de partage au sein du foyer.Sécurisé car stocké
        localement
         à la maison .Créez des albums photos de vos plus beaux 
        souvenirs , échangez des messages en toute confiance et même créer 
-               des listes partagées</p>
+               des listes partagées</article>
 
 </div>
 <section>
 <div class=\"news text-white\">
     <img class=\"new\" src=\"../img/news1.png\" alt=\"\">
     <span><strong>News</strong></span>
-    <p>Consulter la météo et l'ensemble des actualités à proximité de chez vous</p>
+    <p class=\"pNews\">Consulter la météo et l'ensemble des actualités à proximité de chez vous</p>
 </div>
 
 <div class=\"messages text-white\">
     <img class=\"message\" src=\"../img/message.png\" alt=\"\">
     <span><strong>Messages</strong></span>
-    <p>Echanger des messages avec les membres
+    <p class=\"pMessage\">Echanger des messages avec les membres
      de votre famille
       en toute confidentialité.</p>
 </div>
@@ -142,7 +148,7 @@ section{}
 <div class=\"Transport text-white\">
     <img class=\"transports\" src=\"../img/transport.png\" alt=\"\">
     <span><strong>Transport</strong></span>
-    <p>Visualiser en direct 
+    <p class=\"pTransport\">Visualiser en direct 
     l'ensemble des transports
      disponibles proche de chez vous.
     (prochainement disponible)</p>
@@ -151,7 +157,7 @@ section{}
 <div class=\"Photos text-white\">
     <img class=\"photo\" src=\"../img/photos1.png\" alt=\"\">
     <span><strong>Photos</strong></span>
-    <p>Créer à nouveau vos albums photos
+    <p class=\"pPhoto\">Créer à nouveau vos albums photos
      d'antan de manière
     sécurisée et accessible 
     depuis n'importe ou dans le monde.
@@ -161,7 +167,7 @@ section{}
 <div class=\"agenda text-white\">
     <img class=\"calendrier\" src=\"../img/calendar1.png\" alt=\"icone calendrier\">
     <span><strong>Agenda</strong></span>
-    <p>Partager vos rencontres 
+    <p class=\"pCalendrier\">Partager vos rencontres 
     et rendez-vous
      commun à la famille.
       (prochainement disponible)</p>
@@ -171,7 +177,7 @@ section{}
     <img class=\"listeB\" src=\"../img/listeB.png\" alt=\"\">
     <span><strong>Listes</strong></span>
     
-    <p>Créer des listes à l'ensemble du foyer,
+    <p class=\"pListe\">Créer des listes à l'ensemble du foyer,
       comme vos listes de courses et assignez
       les à chacun des membres.</p>
 </div>
@@ -180,7 +186,7 @@ section{}
 
 <h3 class=\"text-white\">Services gratuit inclus dans l'ensemble des produits <strong class=\"my\">mySmartJarvis</strong></h3>
 
-<footer class=\"border-color:#C1A291\">
+<footer class=\"\">
     <div class=\"reseau\">
             <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
             <a href=\"#\"><img class=\"linkedin\" src=\"img/\"></a>
@@ -256,11 +262,17 @@ div .texte{color:white;display:flex;justify-content:center;}
 
 section{}
  .transports{height:50px;width:50px;}
+ .pTransport{position: relative;top:1vh;right:1vh;}
  .photo{height:50px;width:50px;}
+ .pPhoto{position: relative;top:1vh;right:1vh;}
  .new{height:50px;width:50px;}
+ .pNews{position: relative;top:1vh;right:1vh;}
  .calendrier{height:50px;width:50px;}
+ .pCalendrier{position: relative;top:1vh;right:1vh;}
  .listeB{height:50px;width:50px;}
+ .pListe{position: relative;top:1vh;right:1vh;}
  .message{height:50px;width:50px;}
+ .pMessage{position: relative;top:1vh;right:1vh;}
 
  .my{color:#C1A291;}
  footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
@@ -295,24 +307,24 @@ section{}
 <h2><strong class=\"cloud\">Cloud privé et sécurisé à la maison</strong></h2>
 
 <div class=\"texte\">
-    <p>Un lieu d'echange et de partage au sein du foyer.Sécurisé car stocké
+    <article>Un lieu d'echange et de partage au sein du foyer.Sécurisé car stocké
        localement
         à la maison .Créez des albums photos de vos plus beaux 
        souvenirs , échangez des messages en toute confiance et même créer 
-               des listes partagées</p>
+               des listes partagées</article>
 
 </div>
 <section>
 <div class=\"news text-white\">
     <img class=\"new\" src=\"../img/news1.png\" alt=\"\">
     <span><strong>News</strong></span>
-    <p>Consulter la météo et l'ensemble des actualités à proximité de chez vous</p>
+    <p class=\"pNews\">Consulter la météo et l'ensemble des actualités à proximité de chez vous</p>
 </div>
 
 <div class=\"messages text-white\">
     <img class=\"message\" src=\"../img/message.png\" alt=\"\">
     <span><strong>Messages</strong></span>
-    <p>Echanger des messages avec les membres
+    <p class=\"pMessage\">Echanger des messages avec les membres
      de votre famille
       en toute confidentialité.</p>
 </div>
@@ -320,7 +332,7 @@ section{}
 <div class=\"Transport text-white\">
     <img class=\"transports\" src=\"../img/transport.png\" alt=\"\">
     <span><strong>Transport</strong></span>
-    <p>Visualiser en direct 
+    <p class=\"pTransport\">Visualiser en direct 
     l'ensemble des transports
      disponibles proche de chez vous.
     (prochainement disponible)</p>
@@ -329,7 +341,7 @@ section{}
 <div class=\"Photos text-white\">
     <img class=\"photo\" src=\"../img/photos1.png\" alt=\"\">
     <span><strong>Photos</strong></span>
-    <p>Créer à nouveau vos albums photos
+    <p class=\"pPhoto\">Créer à nouveau vos albums photos
      d'antan de manière
     sécurisée et accessible 
     depuis n'importe ou dans le monde.
@@ -339,7 +351,7 @@ section{}
 <div class=\"agenda text-white\">
     <img class=\"calendrier\" src=\"../img/calendar1.png\" alt=\"icone calendrier\">
     <span><strong>Agenda</strong></span>
-    <p>Partager vos rencontres 
+    <p class=\"pCalendrier\">Partager vos rencontres 
     et rendez-vous
      commun à la famille.
       (prochainement disponible)</p>
@@ -349,7 +361,7 @@ section{}
     <img class=\"listeB\" src=\"../img/listeB.png\" alt=\"\">
     <span><strong>Listes</strong></span>
     
-    <p>Créer des listes à l'ensemble du foyer,
+    <p class=\"pListe\">Créer des listes à l'ensemble du foyer,
       comme vos listes de courses et assignez
       les à chacun des membres.</p>
 </div>
@@ -358,7 +370,7 @@ section{}
 
 <h3 class=\"text-white\">Services gratuit inclus dans l'ensemble des produits <strong class=\"my\">mySmartJarvis</strong></h3>
 
-<footer class=\"border-color:#C1A291\">
+<footer class=\"\">
     <div class=\"reseau\">
             <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
             <a href=\"#\"><img class=\"linkedin\" src=\"img/\"></a>
