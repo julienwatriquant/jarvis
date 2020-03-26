@@ -110,10 +110,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     div .jarvisforhotels{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;text-align:center;}
     div .imghotel{width: 400px;height: 200px;}
     div .imgfamily{width: 450px;height: 250px;}
-
     article{width:100%;height:auto;display:flex;justify-content:space-around;margin:0 auto;text-align:center;}
     div .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
-    
     div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
     div .imgabonnement{width:300px;height:200px;}
     footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
@@ -127,22 +125,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 <header>
     <div class=\"texte\">
         <h1 class=\"\">JarvisPro</h1>
-
         <h2 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h2>
-
         <h5>à partir de 900 €</h5>
-
     </div>
-
-<div class=\"lien\">
-        <a href=\"jarvisPro\" src=\"\">En savoir plus</a>
-        <a href=\"\" src=\"\">Acheter</a>
-</div>
-
+    <div class=\"lien\">
+            <a href=\"jarvisPro\" src=\"\">En savoir plus</a>
+            <a href=\"\" src=\"\">Acheter</a>
+    </div>
     <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
-
 </header>
-
 <div class=\"cadre\">
     <div class=\"acces\">
             <h2>JarvisAcces</h2>
@@ -150,89 +141,57 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h5>à partir de 450 €</h5>
         <div>
              <a href=\"";
-        // line 62
+        // line 61
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
         echo "\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
         </div>
-
         <div class=\"enceinte\">
              <img class=\"\" src=\"img/enceinte1.jpg\">
              <br>
              <img class=\"\" src=\"img/enceinte.jpg\">
-        
         </div>
-        
-        
     </div>
 </div>
-
 <section>
-    
     <div class=\"jarvisscreen\">
             <h2 class=\"screen\">JarvisScreen</h2>
-
             <h3>Plus qu'un écran un monstre</h3>
-
             <h5>à partir de 1020 €</h5>
-
         <div>
              <a href=\"jarvisscreen\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tablette\">
-
              <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">
-
-            
-
-           
         </div>   
     </div>
-
     <div class=\"jarvistags\">
         <h2>JarvisTags</h2>
         <h3>Prochainement disponible</h3>
-
          <div>
              <a href=\"jarvistag\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tags\">
-
              <img class=\"imgtags\" src=\"img/enceinte.jpg\">
-
-            
-
-           
         </div>   
-
     </div>
-
 </section>
-
 <main>
- <div class=\"jarvisfamily\">
+    <div class=\"jarvisfamily\">
             <h2 class=\"family\">JarvisFamily</h2>
-
             <h3>Le réseau familial,privé et sécurisé</h3>
-
-          
-
         <div>
-             <a href=\"\" src=\"\">En savoir plus</a>
-             
+             <a href=\"";
+        // line 101
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
+        echo "\" src=\"\">En savoir plus</a>
          </div>
           <div class=\"tablette family\">
-
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
-
-           
-
-           
         </div>   
     </div>
-
     <div class=\"jarvisforhotels\">
         <h2>JarvisForHotels</h2>
         <h3>l'expérience client au coeur de votre hôtel</h3>
@@ -338,7 +297,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     public function getDebugInfo()
     {
-        return array (  146 => 62,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  188 => 101,  145 => 61,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -373,10 +332,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     div .jarvisforhotels{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;text-align:center;}
     div .imghotel{width: 400px;height: 200px;}
     div .imgfamily{width: 450px;height: 250px;}
-
     article{width:100%;height:auto;display:flex;justify-content:space-around;margin:0 auto;text-align:center;}
     div .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
-    
     div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
     div .imgabonnement{width:300px;height:200px;}
     footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
@@ -390,22 +347,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 <header>
     <div class=\"texte\">
         <h1 class=\"\">JarvisPro</h1>
-
         <h2 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h2>
-
         <h5>à partir de 900 €</h5>
-
     </div>
-
-<div class=\"lien\">
-        <a href=\"jarvisPro\" src=\"\">En savoir plus</a>
-        <a href=\"\" src=\"\">Acheter</a>
-</div>
-
+    <div class=\"lien\">
+            <a href=\"jarvisPro\" src=\"\">En savoir plus</a>
+            <a href=\"\" src=\"\">Acheter</a>
+    </div>
     <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
-
 </header>
-
 <div class=\"cadre\">
     <div class=\"acces\">
             <h2>JarvisAcces</h2>
@@ -415,84 +365,49 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"{{path('jarvisAcces')}}\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
         </div>
-
         <div class=\"enceinte\">
              <img class=\"\" src=\"img/enceinte1.jpg\">
              <br>
              <img class=\"\" src=\"img/enceinte.jpg\">
-        
         </div>
-        
-        
     </div>
 </div>
-
 <section>
-    
     <div class=\"jarvisscreen\">
             <h2 class=\"screen\">JarvisScreen</h2>
-
             <h3>Plus qu'un écran un monstre</h3>
-
             <h5>à partir de 1020 €</h5>
-
         <div>
              <a href=\"jarvisscreen\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tablette\">
-
              <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">
-
-            
-
-           
         </div>   
     </div>
-
     <div class=\"jarvistags\">
         <h2>JarvisTags</h2>
         <h3>Prochainement disponible</h3>
-
          <div>
              <a href=\"jarvistag\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
          </div>
           <div class=\"tags\">
-
              <img class=\"imgtags\" src=\"img/enceinte.jpg\">
-
-            
-
-           
         </div>   
-
     </div>
-
 </section>
-
 <main>
- <div class=\"jarvisfamily\">
+    <div class=\"jarvisfamily\">
             <h2 class=\"family\">JarvisFamily</h2>
-
             <h3>Le réseau familial,privé et sécurisé</h3>
-
-          
-
         <div>
-             <a href=\"\" src=\"\">En savoir plus</a>
-             
+             <a href=\"{{path('jarvisFamily')}}\" src=\"\">En savoir plus</a>
          </div>
           <div class=\"tablette family\">
-
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
-
-           
-
-           
         </div>   
     </div>
-
     <div class=\"jarvisforhotels\">
         <h2>JarvisForHotels</h2>
         <h3>l'expérience client au coeur de votre hôtel</h3>

@@ -17,9 +17,6 @@ return [
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
     'jarvis' => [[], ['_controller' => 'App\\Controller\\JarvisController::index'], [], [['text', '/jarvis']], [], []],
     'jarvisPro' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisPro'], [], [['text', '/jarvis/pro']], [], []],
-
     'jarvisAcces' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisAcces'], [], [['text', '/jarvis/acces']], [], []],
-
     'jarvisFamily' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisFamily'], [], [['text', '/jarvis/family']], [], []],
-
 ];

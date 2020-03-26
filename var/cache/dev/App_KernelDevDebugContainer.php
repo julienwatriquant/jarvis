@@ -16,7 +16,6 @@ if (!\class_exists(App_KernelDevDebugContainer::class, false)) {
 
 return new \ContainerWSKRaXM\App_KernelDevDebugContainer([
     'container.build_hash' => 'WSKRaXM',
-    'container.build_id' => 'bcdf314b',
-    'container.build_time' => 1583849917,
-
+    'container.build_id' => 'edec0246',
+    'container.build_time' => 1584004183,
 ], __DIR__.\DIRECTORY_SEPARATOR.'ContainerWSKRaXM');
