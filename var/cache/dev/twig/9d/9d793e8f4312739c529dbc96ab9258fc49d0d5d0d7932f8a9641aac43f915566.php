@@ -63,8 +63,6 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         // line 12
         echo "    </head>
     <style>
-    
-
     nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
     .logo{height:5vh;}
     .panier{height:3vh;}
@@ -110,15 +108,14 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         </nav>
 <div class=\"container\">
         ";
-        // line 51
+        // line 32
         $this->displayBlock('body', $context, $blocks);
         // line 55
         echo "</div>
-        
         ";
-        // line 57
+        // line 37
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 58
+        // line 38
         echo "    </body>
 </html>
 ";
@@ -167,7 +164,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 51
+    // line 32
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -177,7 +174,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 52
+        // line 33
         echo "        
         
         ";
@@ -189,7 +186,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 57
+    // line 37
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -237,7 +234,6 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         {% block stylesheets %}{% endblock %}
     </head>
     <style>
-    
 
     nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
     .logo{height:5vh;}
@@ -278,7 +274,6 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         
         
         {% endblock %}
-</div>
         
         {% block javascripts %}{% endblock %}
     </body>
