@@ -15,7 +15,7 @@ return [
     '_profiler_router' => [['token'], ['_controller' => 'web_profiler.controller.router::panelAction'], [], [['text', '/router'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
     '_profiler_exception' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::body'], [], [['text', '/exception'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
     '_profiler_exception_css' => [['token'], ['_controller' => 'web_profiler.controller.exception_panel::stylesheet'], [], [['text', '/exception.css'], ['variable', '/', '[^/]++', 'token', true], ['text', '/_profiler']], [], []],
-    'jarvis' => [[], ['_controller' => 'App\\Controller\\JarvisController::index'], [], [['text', '/jarvis']], [], []],
+    'jarvis' => [[], ['_controller' => 'App\\Controller\\JarvisController::index'], [], [['text', '/']], [], []],
     'jarvisPro' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisPro'], [], [['text', '/jarvis/pro']], [], []],
     'jarvisAcces' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisAcces'], [], [['text', '/jarvis/acces']], [], []],
     'jarvisFamily' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisFamily'], [], [['text', '/jarvis/family']], [], []],

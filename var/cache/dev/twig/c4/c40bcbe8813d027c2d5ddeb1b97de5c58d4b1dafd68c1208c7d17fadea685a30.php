@@ -67,12 +67,34 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
         // line 4
         echo "
 <style>
-body{height:1000vh;width:100%;}
+body{background:#263271;height:1000vh;width:100%;}
 header{width:100%;max-height:400VH;}
-h1{position: relative;bottom: -4vh;color:#C1A291;}
+h1{position: relative;bottom: -6vh;right: -21vh;color: #C1A291;}
+h2 .cloud{text-align:center;color:white;display:flex;justify-content:center;}
 div .jarvis{display: flex;justify-content: space-evenly;position: relative;right: -60vh;}
-div .family{height:100vh;width:100%;}
-div .imgfamily{height: 250px; width: 250px;position: relative;right: -73vh;bottom: -16vh;}
+div .family{height: 750px;width: 750px;position: relative;right: 13vh;}
+div .imgtablettefamily{height:auto;max-width:100%;position: relative;right: -73vh;bottom: -16vh;}
+div .texte{color:white;display:flex;justify-content:center;}
+
+section{}
+ .transports{height:50px;width:50px;}
+ .pTransport{position: relative;top:1vh;right:1vh;}
+ .photo{height:50px;width:50px;}
+ .pPhoto{position: relative;top:1vh;right:1vh;}
+ .new{height:50px;width:50px;}
+ .pNews{position: relative;top:1vh;right:1vh;}
+ .calendrier{height:50px;width:50px;}
+ .pCalendrier{position: relative;top:1vh;right:1vh;}
+ .listeB{height:50px;width:50px;}
+ .pListe{position: relative;top:1vh;right:1vh;}
+ .message{height:50px;width:50px;}
+ .pMessage{position: relative;top:1vh;right:1vh;}
+
+ .my{color:#C1A291;}
+ footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
+     div .reseau {height: 50%;display: flex;justify-content: center;/* vertical-align: middle !important; */align-items: center;}
+    div .copy{align-items: flex-end;justify-content: center;color:#C1A291;height: 50%;text-align: center;font-weight:bold;}
+
 </style>
 
 <body>
@@ -84,19 +106,106 @@ div .imgfamily{height: 250px; width: 250px;position: relative;right: -73vh;botto
          <a href=\"#\" >Compatibilités </a>
         
              <a href=\"#\" >  Caractéristiques techniques </a>
-</div>
+                </div>
 
-    <div class=\"family\">
-        <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
-</div>
+            <div class=\"family\">
+                 <img class=\"imgtablettefamily\" src=\"../img/FamilyTab.jpg\" alt=\"photo tablette jarvis family\">
+            </div>
 
-<div class=\"\">
+    <div class=\"\">
     <p></p>
 </div>
 
 
 
 </header>
+
+<h2><strong class=\"cloud\">Cloud privé et sécurisé à la maison</strong></h2>
+
+<div class=\"texte\">
+    <article>Un lieu d'echange et de partage au sein du foyer.Sécurisé car stocké
+       localement
+        à la maison .Créez des albums photos de vos plus beaux 
+       souvenirs , échangez des messages en toute confiance et même créer 
+               des listes partagées</article>
+
+</div>
+<section>
+<div class=\"news text-white\">
+    <img class=\"new\" src=\"../img/news1.png\" alt=\"\">
+    <span><strong>News</strong></span>
+    <p class=\"pNews\">Consulter la météo et l'ensemble des actualités à proximité de chez vous</p>
+</div>
+
+<div class=\"messages text-white\">
+    <img class=\"message\" src=\"../img/message.png\" alt=\"\">
+    <span><strong>Messages</strong></span>
+    <p class=\"pMessage\">Echanger des messages avec les membres
+     de votre famille
+      en toute confidentialité.</p>
+</div>
+
+<div class=\"Transport text-white\">
+    <img class=\"transports\" src=\"../img/transport.png\" alt=\"\">
+    <span><strong>Transport</strong></span>
+    <p class=\"pTransport\">Visualiser en direct 
+    l'ensemble des transports
+     disponibles proche de chez vous.
+    (prochainement disponible)</p>
+</div>
+
+<div class=\"Photos text-white\">
+    <img class=\"photo\" src=\"../img/photos1.png\" alt=\"\">
+    <span><strong>Photos</strong></span>
+    <p class=\"pPhoto\">Créer à nouveau vos albums photos
+     d'antan de manière
+    sécurisée et accessible 
+    depuis n'importe ou dans le monde.
+         (prochainement disponible)</p>
+</div>
+
+<div class=\"agenda text-white\">
+    <img class=\"calendrier\" src=\"../img/calendar1.png\" alt=\"icone calendrier\">
+    <span><strong>Agenda</strong></span>
+    <p class=\"pCalendrier\">Partager vos rencontres 
+    et rendez-vous
+     commun à la famille.
+      (prochainement disponible)</p>
+</div>
+
+<div class=\"listes text-white\">
+    <img class=\"listeB\" src=\"../img/listeB.png\" alt=\"\">
+    <span><strong>Listes</strong></span>
+    
+    <p class=\"pListe\">Créer des listes à l'ensemble du foyer,
+      comme vos listes de courses et assignez
+      les à chacun des membres.</p>
+</div>
+
+</section>
+
+<h3 class=\"text-white\">Services gratuit inclus dans l'ensemble des produits <strong class=\"my\">mySmartJarvis</strong></h3>
+
+<footer class=\"\">
+    <div class=\"reseau\">
+            <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
+            <a href=\"#\"><img class=\"linkedin\" src=\"img/\"></a>
+            <a href=\"#\"><img class=\"instagram\" src=\"img/\"></a>
+            <a href=\"#\"><img class=\"twitter\" src=\"img/\"></a>
+</div>
+    <div class=\"copy\">
+        <p>Copyright 2020 mySmartJarvis All Rights Reserved</p>
+        <p>Engagement de confisdentialité Utilisation des cookies Mentions légales Plan du site</p>
+</div>
+
+ 
+
+
+
+
+
+</footer>
+
 
 
 
@@ -142,12 +251,34 @@ div .imgfamily{height: 250px; width: 250px;position: relative;right: -73vh;botto
 {% block body %}
 
 <style>
-body{height:1000vh;width:100%;}
+body{background:#263271;height:1000vh;width:100%;}
 header{width:100%;max-height:400VH;}
-h1{position: relative;bottom: -4vh;color:#C1A291;}
+h1{position: relative;bottom: -6vh;right: -21vh;color: #C1A291;}
+h2 .cloud{text-align:center;color:white;display:flex;justify-content:center;}
 div .jarvis{display: flex;justify-content: space-evenly;position: relative;right: -60vh;}
-div .family{height:100vh;width:100%;}
-div .imgfamily{height: 250px; width: 250px;position: relative;right: -73vh;bottom: -16vh;}
+div .family{height: 750px;width: 750px;position: relative;right: 13vh;}
+div .imgtablettefamily{height:auto;max-width:100%;position: relative;right: -73vh;bottom: -16vh;}
+div .texte{color:white;display:flex;justify-content:center;}
+
+section{}
+ .transports{height:50px;width:50px;}
+ .pTransport{position: relative;top:1vh;right:1vh;}
+ .photo{height:50px;width:50px;}
+ .pPhoto{position: relative;top:1vh;right:1vh;}
+ .new{height:50px;width:50px;}
+ .pNews{position: relative;top:1vh;right:1vh;}
+ .calendrier{height:50px;width:50px;}
+ .pCalendrier{position: relative;top:1vh;right:1vh;}
+ .listeB{height:50px;width:50px;}
+ .pListe{position: relative;top:1vh;right:1vh;}
+ .message{height:50px;width:50px;}
+ .pMessage{position: relative;top:1vh;right:1vh;}
+
+ .my{color:#C1A291;}
+ footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
+     div .reseau {height: 50%;display: flex;justify-content: center;/* vertical-align: middle !important; */align-items: center;}
+    div .copy{align-items: flex-end;justify-content: center;color:#C1A291;height: 50%;text-align: center;font-weight:bold;}
+
 </style>
 
 <body>
@@ -159,19 +290,106 @@ div .imgfamily{height: 250px; width: 250px;position: relative;right: -73vh;botto
          <a href=\"#\" >Compatibilités </a>
         
              <a href=\"#\" >  Caractéristiques techniques </a>
-</div>
+                </div>
 
-    <div class=\"family\">
-        <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
-</div>
+            <div class=\"family\">
+                 <img class=\"imgtablettefamily\" src=\"../img/FamilyTab.jpg\" alt=\"photo tablette jarvis family\">
+            </div>
 
-<div class=\"\">
+    <div class=\"\">
     <p></p>
 </div>
 
 
 
 </header>
+
+<h2><strong class=\"cloud\">Cloud privé et sécurisé à la maison</strong></h2>
+
+<div class=\"texte\">
+    <article>Un lieu d'echange et de partage au sein du foyer.Sécurisé car stocké
+       localement
+        à la maison .Créez des albums photos de vos plus beaux 
+       souvenirs , échangez des messages en toute confiance et même créer 
+               des listes partagées</article>
+
+</div>
+<section>
+<div class=\"news text-white\">
+    <img class=\"new\" src=\"../img/news1.png\" alt=\"\">
+    <span><strong>News</strong></span>
+    <p class=\"pNews\">Consulter la météo et l'ensemble des actualités à proximité de chez vous</p>
+</div>
+
+<div class=\"messages text-white\">
+    <img class=\"message\" src=\"../img/message.png\" alt=\"\">
+    <span><strong>Messages</strong></span>
+    <p class=\"pMessage\">Echanger des messages avec les membres
+     de votre famille
+      en toute confidentialité.</p>
+</div>
+
+<div class=\"Transport text-white\">
+    <img class=\"transports\" src=\"../img/transport.png\" alt=\"\">
+    <span><strong>Transport</strong></span>
+    <p class=\"pTransport\">Visualiser en direct 
+    l'ensemble des transports
+     disponibles proche de chez vous.
+    (prochainement disponible)</p>
+</div>
+
+<div class=\"Photos text-white\">
+    <img class=\"photo\" src=\"../img/photos1.png\" alt=\"\">
+    <span><strong>Photos</strong></span>
+    <p class=\"pPhoto\">Créer à nouveau vos albums photos
+     d'antan de manière
+    sécurisée et accessible 
+    depuis n'importe ou dans le monde.
+         (prochainement disponible)</p>
+</div>
+
+<div class=\"agenda text-white\">
+    <img class=\"calendrier\" src=\"../img/calendar1.png\" alt=\"icone calendrier\">
+    <span><strong>Agenda</strong></span>
+    <p class=\"pCalendrier\">Partager vos rencontres 
+    et rendez-vous
+     commun à la famille.
+      (prochainement disponible)</p>
+</div>
+
+<div class=\"listes text-white\">
+    <img class=\"listeB\" src=\"../img/listeB.png\" alt=\"\">
+    <span><strong>Listes</strong></span>
+    
+    <p class=\"pListe\">Créer des listes à l'ensemble du foyer,
+      comme vos listes de courses et assignez
+      les à chacun des membres.</p>
+</div>
+
+</section>
+
+<h3 class=\"text-white\">Services gratuit inclus dans l'ensemble des produits <strong class=\"my\">mySmartJarvis</strong></h3>
+
+<footer class=\"\">
+    <div class=\"reseau\">
+            <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
+            <a href=\"#\"><img class=\"linkedin\" src=\"img/\"></a>
+            <a href=\"#\"><img class=\"instagram\" src=\"img/\"></a>
+            <a href=\"#\"><img class=\"twitter\" src=\"img/\"></a>
+</div>
+    <div class=\"copy\">
+        <p>Copyright 2020 mySmartJarvis All Rights Reserved</p>
+        <p>Engagement de confisdentialité Utilisation des cookies Mentions légales Plan du site</p>
+</div>
+
+ 
+
+
+
+
+
+</footer>
+
 
 
 

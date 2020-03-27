@@ -63,38 +63,55 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         // line 12
         echo "    </head>
     <style>
-    .logo{height:6vh;}
-    .panier{height:4vh;}
-    nav{background:#263271;opacity:0.98;}
-    a{color:#C1A291;}
-    
+    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
+    .logo{height:5vh;}
+    .panier{height:3vh;}
+    li{margin-left:7vh;}
     </style>
     <body>
-      <nav class=\"navbar fixed-top\">
-          <a class=\"navbar-brand\" href=\"";
-        // line 22
+      <nav>
+        <ul class=\"nav justify-content:center\">
+            <li class=\"nav-item\">
+              <a class=\"nav-link active\" href=\"";
+        // line 25
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvis");
         echo "\"><img class=\"logo\" src=\"../img/img/jarvisLogo.gif\"></a>
-          <a class=\"navbar-brand\" href=\"";
-        // line 23
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"";
+        // line 28
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisPro");
         echo "\">JarvisPro</a>
-          <a class=\"navbar-brand\" href=\"";
-        // line 24
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"";
+        // line 31
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
         echo "\">JarvisAcces</a>
-          <a class=\"navbar-brand\" href=\"#\">JarvisScreen</a>
-          <a class=\"navbar-brand\" href=\"#\">JarvisForHotel</a>
-          <a class=\"navbar-brand\" href=\"#\">Services</a>
-          <a class=\"navbar-brand\" href=\"#\">S'identifier</a>
-          <a class=\"navbar-brand\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
-      </nav>
-        
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">JarvisScreen</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">JarvisForHotel</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">Services</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">S'identifier</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
+            </li>
+          </ul>
+        </nav>
+<div class=\"container\">
         ";
         // line 32
         $this->displayBlock('body', $context, $blocks);
-        // line 36
-        echo "        
+        // line 55
+        echo "</div>
         ";
         // line 37
         $this->displayBlock('javascripts', $context, $blocks);
@@ -120,7 +137,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Welcome!";
+        echo "Accueil";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -199,7 +216,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  173 => 37,  161 => 33,  151 => 32,  133 => 11,  114 => 10,  102 => 38,  100 => 37,  97 => 36,  95 => 32,  84 => 24,  80 => 23,  76 => 22,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  193 => 57,  181 => 52,  171 => 51,  153 => 11,  134 => 10,  122 => 58,  120 => 57,  116 => 55,  114 => 51,  91 => 31,  85 => 28,  79 => 25,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -213,28 +230,46 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
          <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css\">
     <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\"
         integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Accueil{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
     <style>
-    .logo{height:6vh;}
-    .panier{height:4vh;}
-    nav{background:#263271;opacity:0.98;}
-    a{color:#C1A291;}
-    
+
+    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
+    .logo{height:5vh;}
+    .panier{height:3vh;}
+    li{margin-left:7vh;}
     </style>
     <body>
-      <nav class=\"navbar fixed-top\">
-          <a class=\"navbar-brand\" href=\"{{path('jarvis')}}\"><img class=\"logo\" src=\"../img/img/jarvisLogo.gif\"></a>
-          <a class=\"navbar-brand\" href=\"{{path('jarvisPro')}}\">JarvisPro</a>
-          <a class=\"navbar-brand\" href=\"{{path('jarvisAcces')}}\">JarvisAcces</a>
-          <a class=\"navbar-brand\" href=\"#\">JarvisScreen</a>
-          <a class=\"navbar-brand\" href=\"#\">JarvisForHotel</a>
-          <a class=\"navbar-brand\" href=\"#\">Services</a>
-          <a class=\"navbar-brand\" href=\"#\">S'identifier</a>
-          <a class=\"navbar-brand\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
-      </nav>
-        
+      <nav>
+        <ul class=\"nav justify-content:center\">
+            <li class=\"nav-item\">
+              <a class=\"nav-link active\" href=\"{{path('jarvis')}}\"><img class=\"logo\" src=\"../img/img/jarvisLogo.gif\"></a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"{{path('jarvisPro')}}\">JarvisPro</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"{{path('jarvisAcces')}}\">JarvisAcces</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">JarvisScreen</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">JarvisForHotel</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">Services</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\">S'identifier</a>
+            </li>
+            <li class=\"nav-item\">
+              <a class=\"nav-link\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
+            </li>
+          </ul>
+        </nav>
+<div class=\"container\">
         {% block body %}
         
         

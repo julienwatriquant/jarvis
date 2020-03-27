@@ -89,6 +89,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     body{min-height:1000vh;width:99%;}
     header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
+     .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;}
     h1 {text-align:center;color:#C1A291;}
     h2{color:#C1A291;}
     div .pro{color:white;}
@@ -114,6 +115,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     div .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
     div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
     div .imgabonnement{width:300px;height:200px;}
+    .medical{height: 50px;width: 50PX;}
+    .repas{height: 50px;width: 50PX;}
+    .ballade{height: 50px;width: 50PX;}
+    .menage{height: 50px;width: 50PX;}
+
+    .netflix{height: 50px;width: 50PX;}
+    .deliveroo{height: 50px;width: 50PX;}
+    .justEat{height: 50px;width: 50PX;}
+    .uber{height: 50px;width: 50PX;}
     footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
      div .reseau {height: 50%;display: flex;justify-content: center;/* vertical-align: middle !important; */align-items: center;}
     div .copy{align-items: flex-end;justify-content: center;color:#C1A291;height: 50%;text-align: center;font-weight:bold;}
@@ -184,9 +194,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
              <a href=\"";
-        // line 101
+        // line 148
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
         echo "\" src=\"\">En savoir plus</a>
+
+             <a href=\"\" src=\"\">En savoir plus</a>
          </div>
           <div class=\"tablette family\">
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
@@ -242,10 +254,21 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"Services\" src=\"\">En savoir plus</a>
             
          </div>
-          <div class=\"imgservices\">
-             <img class=\"background:blue;\" src=\"img/\">
-           
-        </div>   
+          <div class=\"logoservices\">
+             <img class=\"uber\" src=\"../img/img/logo rond/ubereat.png\">
+             <img class=\"deliveroo\" src=\"../img/img/logo rond/deliveroo.png\">
+            <img class=\"justEat\" src=\"../img/JustEat.png\">
+             <img class=\"netflix\" src=\"../img/img/logo rond/netflix.png\">
+             
+        </div>
+            <div class=\"logo\">
+             <img class=\"ballade\" src=\"../img/img/logo rond/aideballade.png\">
+             <img class=\"medical\" src=\"../img/img/logo rond/aideMedical.jpg\">
+             <img class=\"menage\" src=\"../img/img/logo rond/aideMenage.jpg\">
+             <img class=\"repas\" src=\"../img/img/logo rond/aideRepas.png\">
+             
+        </div>
+
 
     </div>
 </article>
@@ -297,7 +320,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     public function getDebugInfo()
     {
-        return array (  188 => 101,  145 => 61,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  232 => 148,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  146 => 62,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -311,6 +335,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     body{min-height:1000vh;width:99%;}
     header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
+     .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;}
     h1 {text-align:center;color:#C1A291;}
     h2{color:#C1A291;}
     div .pro{color:white;}
@@ -336,6 +361,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     div .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
     div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
     div .imgabonnement{width:300px;height:200px;}
+    .medical{height: 50px;width: 50PX;}
+    .repas{height: 50px;width: 50PX;}
+    .ballade{height: 50px;width: 50PX;}
+    .menage{height: 50px;width: 50PX;}
+
+    .netflix{height: 50px;width: 50PX;}
+    .deliveroo{height: 50px;width: 50PX;}
+    .justEat{height: 50px;width: 50PX;}
+    .uber{height: 50px;width: 50PX;}
     footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
      div .reseau {height: 50%;display: flex;justify-content: center;/* vertical-align: middle !important; */align-items: center;}
     div .copy{align-items: flex-end;justify-content: center;color:#C1A291;height: 50%;text-align: center;font-weight:bold;}
@@ -402,12 +436,14 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
-             <a href=\"{{path('jarvisFamily')}}\" src=\"\">En savoir plus</a>
+             <a href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus</a>
+             <a href=\"\" src=\"\">En savoir plus</a>
          </div>
           <div class=\"tablette family\">
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
         </div>   
     </div>
+
     <div class=\"jarvisforhotels\">
         <h2>JarvisForHotels</h2>
         <h3>l'expérience client au coeur de votre hôtel</h3>
@@ -458,10 +494,21 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"Services\" src=\"\">En savoir plus</a>
             
          </div>
-          <div class=\"imgservices\">
-             <img class=\"background:blue;\" src=\"img/\">
-           
-        </div>   
+          <div class=\"logoservices\">
+             <img class=\"uber\" src=\"../img/img/logo rond/ubereat.png\">
+             <img class=\"deliveroo\" src=\"../img/img/logo rond/deliveroo.png\">
+            <img class=\"justEat\" src=\"../img/JustEat.png\">
+             <img class=\"netflix\" src=\"../img/img/logo rond/netflix.png\">
+             
+        </div>
+            <div class=\"logo\">
+             <img class=\"ballade\" src=\"../img/img/logo rond/aideballade.png\">
+             <img class=\"medical\" src=\"../img/img/logo rond/aideMedical.jpg\">
+             <img class=\"menage\" src=\"../img/img/logo rond/aideMenage.jpg\">
+             <img class=\"repas\" src=\"../img/img/logo rond/aideRepas.png\">
+             
+        </div>
+
 
     </div>
 </article>

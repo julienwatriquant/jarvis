@@ -65,7 +65,9 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Hello JarvisController!";
+
+        echo "JarvisPro";
+
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -85,17 +87,17 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "<style>
-    body{min-height:1000vh;width:100%;}
-    header{background:#263271;width:100%;height:50vh;text-align:center;}
-    .produit{text-align:start;color:#C1A291;}
-    .lien{display:flex;justify-content:flex-end;color:#C1A291;}
-    .cadre{background:#EDEFF8;margin-top: 3vh;}
-    section{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;}
-    .jarvisscreen{margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    .jarvistags{margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    main{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
-    article{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
+        echo "<style>"
+
+    body{margin:auto;padding:auto;}
+    header{background:url(\"../img/home_smarthome.png\")5%;width:100%;height:100vh;text-align:center;}
+    .titre{display:flex;}
+    .prod{color:#C1A291;}
+    a{color:#C1A291;}
+    .navpro{width:80%;align-items: center;}
+    .container{background:#263271;}
+    .imgPro{height:300px;width:80%;image:center;} 
+    .imgagePro{max-width:100%;max-height:100%;}
     footer{background:#263271;text-align:center;height:20vh;}
     .reseau{display:flex;justify-content:space-around;}
     .copy{align-items:bottom;}
@@ -104,149 +106,38 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 <body>
 
 <header>
-    <div class=\"texte\">
-        <h3 class=\"produit\">JarvisPro</h3>
-    </div>
-    <div class=\"lien\">
-        <a href=\"\" src=\"\">Compatibilités</a>
-        <a href=\"\" src=\"\">Caractéristiques techniques</a>
-        <a href=\"\" src=\"\">Acheter</a>
-    </div>
-    <img class=\"tel\" src=\"img/homeTabInterface.png\" alt=\"\">
-    <h2><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1362\" height=\"94\" viewBox=\"0 0 1362 94\">
-  <text id=\"_Bonjour_je_suis_Jarvis_votre_majordome_\" data-name=\"&quot;Bonjour, je suis Jarvis votre majordome&quot;\" transform=\"translate(681 76)\" fill=\"#fbfbfd\" font-size=\"70\" font-family=\"SegoeUI-Bold, Segoe UI\" font-weight=\"700\"><tspan x=\"-680.518\" y=\"0\">&quot;Bonjour, je suis Jarvis votre majordome&quot;</tspan></text>
-</svg>
+    <h2>hello</h2>
+        <ul class=\"nav navpro justify-content-end\">
+            <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+            </li>
+            <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+            </li>
+            <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"#\">Acheter</a>
+            </li>
+        </ul>
+    ";
+        // line 37
+        echo "    <h2 class=\"accroche\">\"Bonjour, je suis Jarvis votre majordome\"</h2>
+
 
 </header>
 
-<div class=\"cadre\">
-    <div class=\"acces\">
-            <h1>JarvisAcces</h1>
-            <h2>Une alternative au Ehpad à domicile</h2>
-            <h5>à partir de 450 €</h5>
-        <div>
-             <a href=\"jarvisAcces\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
+<div class=\"container\">
+    <div class=\"jarvisPro\">
+        <div class=\"accroche\">
+                <h2>Une alternative au Ehpad à domicile</h2>
+            <div>
+                <h2>Une alternative au Ehpad à domicile</h2>
+            </div>
+            <div class=\"imagePro\">
+                <img class=\"imgPro\" src=\"../img/jarvisProMulti.png\">
+            </div>
         </div>
-
-        <div class=\"enceinte\">
-             <img class=\"\" src=\"img/enceinte1.jpg\">
-             <br>
-             <img class=\"\" src=\"img/enceinte.jpg\">
-        
-        </div>
-        
-        
     </div>
 </div>
-
-<section>
-    
-    <div class=\"jarvisscreen\">
-            <h1 class=\"screen\">JarvisScreen</h1>
-
-            <h2>Plus qu'un écran un monstre</h2>
-
-            <h5>à partir de 1020 €</h5>
-
-        <div>
-             <a href=\"jarvisscreen\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
-         </div>
-          <div class=\"tablette\">
-             <img class=\"\" src=\"img/Jarvisscreen.jpg\">
-           
-        </div>   
-    </div>
-
-    <div class=\"jarvistags\">
-        <h1>JarvisTags</h1>
-        <h2>Prochainement disponible</h2>
-
-         <div>
-             <a href=\"jarvistag\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
-         </div>
-          <div class=\"tags\">
-             <img class=\"\" src=\"img/enceinte.jpg\">
-           
-        </div>   
-
-    </div>
-
-</section>
-
-<main>
- <div class=\"jarvisfamily\">
-            <h1 class=\"family\">JarvisFamily</h1>
-
-            <h2>Le réseau familial,privé et sécurisé</h2>
-
-          
-
-        <div>
-             <a href=\"jarvisfamily\" src=\"\">En savoir plus</a>
-             
-         </div>
-          <div class=\"tablette family\">
-             <img class=\"\" src=\"img/FamilyTab.jpg\">
-           
-        </div>   
-    </div>
-
-    <div class=\"jarvisforhotels\">
-        <h1>JarvisForHotels</h1>
-        <h2>l'expérience client au coeur de votre hôtel</h2>
-        <h4>à partir de 1500 € par chambre</h4>
-
-         <div>
-             <a href=\"jarvisforhotels\" src=\"\">En savoir plus</a>
-            
-         </div>
-          <div class=\"hotel\">
-             <img class=\"\" src=\"img/Façade1.jpeg\">
-           
-        </div>   
-
-    </div>
-</main>
-<article>
-
-<div class=\"jarvisabonnement\">
-            <h1 class=\"\">Abonnement</h1>
-
-            <h2>En achat ou en location, votre Jarvis à porter de main</h2>
-
-          
-
-        <div>
-             <a href=\"abonnement\" src=\"\">En savoir plus</a>
-             
-         </div>
-          <div class=\"\">
-             <img class=\"\" src=\"img/img/Annotation 2020-02-28 155121.png\">
-           
-        </div>   
-    </div>
-
-    <div class=\"services\">
-        <h1>Services</h1>
-        <h2>Femme de ménage,jardinier,nounous,tout ce monde à votre service</h2>
-        
-
-         <div>
-             <a href=\"Services\" src=\"\">En savoir plus</a>
-            
-         </div>
-          <div class=\"jarvisservices\">
-             <img class=\"background:blue;\" src=\"img/\">
-           
-        </div>   
-
-    </div>
-</article>
-
-
 <footer>
     <div class=\"reseau\">
             <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
@@ -293,27 +184,27 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  120 => 37,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Hello JarvisController!{% endblock %}
+
+{% block title %}JarvisPro{% endblock %}
 
 {% block body %}
 <style>
-    body{min-height:1000vh;width:100%;}
-    header{background:#263271;width:100%;height:50vh;text-align:center;}
-    .produit{text-align:start;color:#C1A291;}
-    .lien{display:flex;justify-content:flex-end;color:#C1A291;}
-    .cadre{background:#EDEFF8;margin-top: 3vh;}
-    section{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;}
-    .jarvisscreen{margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    .jarvistags{margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    main{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
-    article{display:flex;justify-content:space-around;background:#EDEFF8;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;}
+    body{margin:auto;padding:auto;}
+    header{background:url(\"../img/home_smarthome.png\")5%;width:100%;height:100vh;text-align:center;}
+    .titre{display:flex;}
+    .prod{color:#C1A291;}
+    a{color:#C1A291;}
+    .navpro{width:80%;align-items: center;}
+    .container{background:#263271;}
+    .imgPro{height:300px;width:80%;image:center;} 
+    .imgagePro{max-width:100%;max-height:100%;}
     footer{background:#263271;text-align:center;height:20vh;}
     .reseau{display:flex;justify-content:space-around;}
     .copy{align-items:bottom;}
@@ -322,149 +213,37 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 <body>
 
 <header>
-    <div class=\"texte\">
-        <h3 class=\"produit\">JarvisPro</h3>
-    </div>
-    <div class=\"lien\">
-        <a href=\"\" src=\"\">Compatibilités</a>
-        <a href=\"\" src=\"\">Caractéristiques techniques</a>
-        <a href=\"\" src=\"\">Acheter</a>
-    </div>
-    <img class=\"tel\" src=\"img/homeTabInterface.png\" alt=\"\">
-    <h2><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1362\" height=\"94\" viewBox=\"0 0 1362 94\">
-  <text id=\"_Bonjour_je_suis_Jarvis_votre_majordome_\" data-name=\"&quot;Bonjour, je suis Jarvis votre majordome&quot;\" transform=\"translate(681 76)\" fill=\"#fbfbfd\" font-size=\"70\" font-family=\"SegoeUI-Bold, Segoe UI\" font-weight=\"700\"><tspan x=\"-680.518\" y=\"0\">&quot;Bonjour, je suis Jarvis votre majordome&quot;</tspan></text>
-</svg>
+    <h2>hello</h2>
+        <ul class=\"nav navpro justify-content-end\">
+            <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+            </li>
+            <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+            </li>
+            <li class=\"nav-item\">
+                <a class=\"nav-link\" href=\"#\">Acheter</a>
+            </li>
+        </ul>
+    {# <img class=\"tabInterface\" src=\"../img/homeTabInterface.png\" alt=\"\"> #}
+    <h2 class=\"accroche\">\"Bonjour, je suis Jarvis votre majordome\"</h2>
+
 
 </header>
 
-<div class=\"cadre\">
-    <div class=\"acces\">
-            <h1>JarvisAcces</h1>
-            <h2>Une alternative au Ehpad à domicile</h2>
-            <h5>à partir de 450 €</h5>
-        <div>
-             <a href=\"jarvisAcces\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
+<div class=\"container\">
+    <div class=\"jarvisPro\">
+        <div class=\"accroche\">
+                <h2>Une alternative au Ehpad à domicile</h2>
+            <div>
+                <h2>Une alternative au Ehpad à domicile</h2>
+            </div>
+            <div class=\"imagePro\">
+                <img class=\"imgPro\" src=\"../img/jarvisProMulti.png\">
+            </div>
         </div>
-
-        <div class=\"enceinte\">
-             <img class=\"\" src=\"img/enceinte1.jpg\">
-             <br>
-             <img class=\"\" src=\"img/enceinte.jpg\">
-        
-        </div>
-        
-        
     </div>
 </div>
-
-<section>
-    
-    <div class=\"jarvisscreen\">
-            <h1 class=\"screen\">JarvisScreen</h1>
-
-            <h2>Plus qu'un écran un monstre</h2>
-
-            <h5>à partir de 1020 €</h5>
-
-        <div>
-             <a href=\"jarvisscreen\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
-         </div>
-          <div class=\"tablette\">
-             <img class=\"\" src=\"img/Jarvisscreen.jpg\">
-           
-        </div>   
-    </div>
-
-    <div class=\"jarvistags\">
-        <h1>JarvisTags</h1>
-        <h2>Prochainement disponible</h2>
-
-         <div>
-             <a href=\"jarvistag\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
-         </div>
-          <div class=\"tags\">
-             <img class=\"\" src=\"img/enceinte.jpg\">
-           
-        </div>   
-
-    </div>
-
-</section>
-
-<main>
- <div class=\"jarvisfamily\">
-            <h1 class=\"family\">JarvisFamily</h1>
-
-            <h2>Le réseau familial,privé et sécurisé</h2>
-
-          
-
-        <div>
-             <a href=\"jarvisfamily\" src=\"\">En savoir plus</a>
-             
-         </div>
-          <div class=\"tablette family\">
-             <img class=\"\" src=\"img/FamilyTab.jpg\">
-           
-        </div>   
-    </div>
-
-    <div class=\"jarvisforhotels\">
-        <h1>JarvisForHotels</h1>
-        <h2>l'expérience client au coeur de votre hôtel</h2>
-        <h4>à partir de 1500 € par chambre</h4>
-
-         <div>
-             <a href=\"jarvisforhotels\" src=\"\">En savoir plus</a>
-            
-         </div>
-          <div class=\"hotel\">
-             <img class=\"\" src=\"img/Façade1.jpeg\">
-           
-        </div>   
-
-    </div>
-</main>
-<article>
-
-<div class=\"jarvisabonnement\">
-            <h1 class=\"\">Abonnement</h1>
-
-            <h2>En achat ou en location, votre Jarvis à porter de main</h2>
-
-          
-
-        <div>
-             <a href=\"abonnement\" src=\"\">En savoir plus</a>
-             
-         </div>
-          <div class=\"\">
-             <img class=\"\" src=\"img/img/Annotation 2020-02-28 155121.png\">
-           
-        </div>   
-    </div>
-
-    <div class=\"services\">
-        <h1>Services</h1>
-        <h2>Femme de ménage,jardinier,nounous,tout ce monde à votre service</h2>
-        
-
-         <div>
-             <a href=\"Services\" src=\"\">En savoir plus</a>
-            
-         </div>
-          <div class=\"jarvisservices\">
-             <img class=\"background:blue;\" src=\"img/\">
-           
-        </div>   
-
-    </div>
-</article>
-
-
 <footer>
     <div class=\"reseau\">
             <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
