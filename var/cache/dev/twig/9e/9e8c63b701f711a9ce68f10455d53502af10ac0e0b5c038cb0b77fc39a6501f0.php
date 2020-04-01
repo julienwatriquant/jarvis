@@ -165,7 +165,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
         <br>
         <br>
     </div>";
-        // line 86
+
         echo "    <div class=\"tag\">
     <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisTag</h2>
     <br>
@@ -177,7 +177,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
       </p>
     </div>
     </div>";
-        // line 97
+
         echo "  <div class=\"smoke\">
    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisSmoke</h2>
    <div class=\"smoke-text\">
@@ -245,22 +245,20 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/chute.png\" class=\"img-logo\"><p class=\"text-logo\">Détection de chute</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/gps.png\" class=\"img-logo\"><p class=\"text-logo\">Géofencing</p></div>
         </div>";
-        // line 164
         echo "        <div class=\"item4-6\">
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/appels.png\" class=\"img-logo\"><p class=\"text-logo\">Appels</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/sms.png\" class=\"img-logo\"><p class=\"text-logo\">SMS</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/sos.png\" class=\"img-logo\"><p class=\"text-logo\">SOS</p></div>
         </div>";
-        // line 169
         echo "        <div class=\"item7-8\">
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/vibreur.png\" class=\"img-logo\"><p class=\"text-logo\">Vibreur</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/cardiaque.png\" class=\"img-logo\"><p class=\"text-logo\">Rythme cardiaque</p></div>
         </div>";
-        // line 173
+
         echo "      </div>";
-        // line 174
+       
         echo "    </div> ";
-        // line 175
+     
         echo "    <div class=\"watch-abonement\">
       <p class=\"abonement-text1\">Abonnement 7€ par mois.</p>
       <br>

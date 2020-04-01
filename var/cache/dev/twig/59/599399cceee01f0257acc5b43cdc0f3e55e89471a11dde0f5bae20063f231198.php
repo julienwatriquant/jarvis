@@ -170,11 +170,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <img class=\"imgtags\" src=\"img/enceinte.jpg\"> 
         </div>   
     </div>
-
 </section>
-
 <main>
- <div class=\"jarvisfamily\">
+    <div class=\"jarvisfamily\">
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
@@ -351,11 +349,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <img class=\"imgtags\" src=\"img/enceinte.jpg\"> 
         </div>   
     </div>
-
 </section>
-
 <main>
- <div class=\"jarvisfamily\">
+    <div class=\"jarvisfamily\">
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
@@ -417,34 +413,6 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
    
 
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
-        
-
-        
-       
-        
-
-
-
-    
-    
-    
-    
-
-
-
-
-
-
 
 
    ", "jarvis/index.html.twig", "C:\\xampp\\htdocs\\symfony\\jarvis\\templates\\jarvis\\index.html.twig");
