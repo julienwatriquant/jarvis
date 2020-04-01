@@ -5,12 +5,12 @@
 {% block body %}
 <style>
     .contenu{margin: 0 auto;}
-    header{width:100%;margin: 0 auto;margin-top:10vh;background:#263271;text-align:center;min-height:80vh;align-items:center}
+    header{width:100%;margin: 0 auto;background:#263271;text-align:center;min-height:80vh;align-items:center;padding-top:5vh;}
     .titre{padding-top:2vh;}
     .lien{display:flex;padding-left:30%;}
     .titre{display:flex;align-items:center;justify-content:space-evenly;}
-    a{position:relative;margin-left:6vh;}
-    a:hover{text-decoration:none;color:white;}
+    .a-lien{position:relative;margin-left:6vh;color:#C1A291;}
+    a:hover{text-decoration:none;}
     h2{color:#C1A291;font-size:7vh;}
     span{color:#C1A291;}
     #imgenceinte{width:40%;height:auto;}
@@ -55,19 +55,16 @@
     .watch-bas-page{background-color:#FBFBFD;text-align:center;padding-top:5vh;margin-top:1vh;padding-bottom:5vh;}
     .img-bas-page{width:55%;}
     .bas-page-text{font-size:3.5vh;}
-
 </style>
-
-
 <body>
   <div class="contenu">
     <header>
       <div class="titre">
         <h2>JArvisAcces</h2>
         <div class="lien">
-              <a class="" href="">Compatibilités</a>
-              <a class="" href="">Caractéristiques techniques</a>
-              <a class="" href="">Acheter</a>
+              <a class="a-lien" href="">Compatibilités</a>
+              <a class="a-lien" href="">Caractéristiques techniques</a>
+              <a class="a-lien" href="">Acheter</a>
         </div>
       </div>
     <img class="img-fluid" src="../img/enceinte.jpg" id="imgenceinte">
