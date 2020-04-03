@@ -108,12 +108,12 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
             </li>
           </ul>
         </nav>
-<div class=\"container\">
+
         ";
         // line 51
         $this->displayBlock('body', $context, $blocks);
         // line 55
-        echo "</div>
+        echo "
         
         ";
         // line 57
@@ -273,12 +273,12 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
             </li>
           </ul>
         </nav>
-<div class=\"container\">
+
         {% block body %}
         
         
         {% endblock %}
-</div>
+
         
         {% block javascripts %}{% endblock %}
     </body>

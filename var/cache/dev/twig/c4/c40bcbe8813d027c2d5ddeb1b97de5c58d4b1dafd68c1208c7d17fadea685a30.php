@@ -71,24 +71,24 @@ body{background:#263271;height:1000vh;width:100%;}
 header{width:100%;max-height:400VH;}
 h1{position: relative;bottom: -6vh;right: -21vh;color: #C1A291;}
 h2 .cloud{text-align:center;color:white;display:flex;justify-content:center;}
-div .jarvis{display: flex;justify-content: space-evenly;position: relative;right: -60vh;}
+div .jarvis{display: flex;justify-content: space-evenly;position: relative;right: -41vh;}
 div .family{height: 750px;width: 750px;position: relative;right: 13vh;}
-div .imgtablettefamily{height:auto;max-width:100%;position: relative;right: -73vh;bottom: -16vh;}
+div .imgtablettefamily{height:auto;max-width:100%;position: relative;right: -40vh;bottom: -16vh;}
 div .texte{color:white;display:flex;justify-content:center;}
 
-section{}
+section{margin-top: 5vh;}
  .transports{height:50px;width:50px;}
- .pTransport{position: relative;top:1vh;right:1vh;}
+ .pTransport{position: relative;top: -6vh;right: -24vh;}
  .photo{height:50px;width:50px;}
- .pPhoto{position: relative;top:1vh;right:1vh;}
+ .pPhoto{position: relative;top: -6vh;right: -23vh;}
  .new{height:50px;width:50px;}
- .pNews{position: relative;top:1vh;right:1vh;}
+ .pNews{position: relative;top: -6vh;right: -23vh;}
  .calendrier{height:50px;width:50px;}
- .pCalendrier{position: relative;top:1vh;right:1vh;}
+ .pCalendrier{position: relative;top: -6vh;right: -22vh;}
  .listeB{height:50px;width:50px;}
- .pListe{position: relative;top:1vh;right:1vh;}
+ .pListe{position: relative;top: -6vh;right: -21vh;}
  .message{height:50px;width:50px;}
- .pMessage{position: relative;top:1vh;right:1vh;}
+ .pMessage{position: relative;top: -6vh;right: -24vh;}
 
  .my{color:#C1A291;}
  footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
@@ -255,24 +255,24 @@ body{background:#263271;height:1000vh;width:100%;}
 header{width:100%;max-height:400VH;}
 h1{position: relative;bottom: -6vh;right: -21vh;color: #C1A291;}
 h2 .cloud{text-align:center;color:white;display:flex;justify-content:center;}
-div .jarvis{display: flex;justify-content: space-evenly;position: relative;right: -60vh;}
+div .jarvis{display: flex;justify-content: space-evenly;position: relative;right: -41vh;}
 div .family{height: 750px;width: 750px;position: relative;right: 13vh;}
-div .imgtablettefamily{height:auto;max-width:100%;position: relative;right: -73vh;bottom: -16vh;}
+div .imgtablettefamily{height:auto;max-width:100%;position: relative;right: -40vh;bottom: -16vh;}
 div .texte{color:white;display:flex;justify-content:center;}
 
-section{}
+section{margin-top: 5vh;}
  .transports{height:50px;width:50px;}
- .pTransport{position: relative;top:1vh;right:1vh;}
+ .pTransport{position: relative;top: -6vh;right: -24vh;}
  .photo{height:50px;width:50px;}
- .pPhoto{position: relative;top:1vh;right:1vh;}
+ .pPhoto{position: relative;top: -6vh;right: -23vh;}
  .new{height:50px;width:50px;}
- .pNews{position: relative;top:1vh;right:1vh;}
+ .pNews{position: relative;top: -6vh;right: -23vh;}
  .calendrier{height:50px;width:50px;}
- .pCalendrier{position: relative;top:1vh;right:1vh;}
+ .pCalendrier{position: relative;top: -6vh;right: -22vh;}
  .listeB{height:50px;width:50px;}
- .pListe{position: relative;top:1vh;right:1vh;}
+ .pListe{position: relative;top: -6vh;right: -21vh;}
  .message{height:50px;width:50px;}
- .pMessage{position: relative;top:1vh;right:1vh;}
+ .pMessage{position: relative;top: -6vh;right: -24vh;}
 
  .my{color:#C1A291;}
  footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
