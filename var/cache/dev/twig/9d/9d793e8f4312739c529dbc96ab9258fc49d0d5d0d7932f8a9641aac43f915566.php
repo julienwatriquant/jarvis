@@ -109,14 +109,25 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
             </li>
+
+          </ul>
+        </nav>
+
         </ul>
       </nav>
+
 
         ";
         // line 54
         $this->displayBlock('body', $context, $blocks);
+
+        // line 55
+        echo "
+        
+
         // line 58
         echo "        
+
         ";
         // line 59
         $this->displayBlock('javascripts', $context, $blocks);
@@ -294,13 +305,22 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
             </li>
+
+          </ul>
+        </nav>
+
         </ul>
+
       </nav>
 
         {% block body %}
         
         
         {% endblock %}
+
+
+
+
         
         {% block javascripts %}{% endblock %}
 

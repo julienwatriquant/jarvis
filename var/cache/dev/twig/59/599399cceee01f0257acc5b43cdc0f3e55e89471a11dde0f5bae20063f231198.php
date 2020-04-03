@@ -134,7 +134,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h5>à partir de 450 €</h5>
         <div>
              <a href=\"";
+
+        // line 80
+
         // line 54
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
         echo "\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
@@ -176,10 +180,22 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
+
+
+             <a href=\"\" src=\"\">En savoir plus</a>
+
+             <a href=\"";
+        // line 151
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
+        echo "\" src=\"\">En savoir plus</a>
+
+             
+
              <a href=\"";
         // line 96
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
         echo "\" src=\"\">En savoir plus</a> 
+
          </div>
           <div class=\"tablette family\">
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
@@ -257,7 +273,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     public function getDebugInfo()
     {
+
+        return array (  238 => 151,  164 => 80,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+
         return array (  183 => 96,  138 => 54,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+
     }
 
     public function getSourceContext()
@@ -355,7 +375,16 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
+
+
+             <a href=\"\" src=\"\">En savoir plus</a>
+
+             <a href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus</a>
+
+             
+
              <a href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus</a> 
+
          </div>
           <div class=\"tablette family\">
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
