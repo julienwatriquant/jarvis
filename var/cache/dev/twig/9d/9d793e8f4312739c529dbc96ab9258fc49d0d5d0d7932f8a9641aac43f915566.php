@@ -63,31 +63,34 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         // line 12
         echo "    </head>
     <style>
-    
-
-    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
-    .logo{height:5vh;}
+    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
+    .logo{height:6vh;}
+    a{color:#C1A291;}
     .panier{height:3vh;}
-    li{margin-left:7vh;}
+    ul{align-items:center;}
+    li{margin-left:4vh;margin-right:4vh;}
+    footer{align-items:center;text-align:center;background:#263271;height:20vh;}
+    i{font-size:2em;margin-left:2%;margin-right:2%;}
+    .iconReseaux{padding:3vh;}
     </style>
     <body>
       <nav>
         <ul class=\"nav justify-content:center\">
             <li class=\"nav-item\">
               <a class=\"nav-link active\" href=\"";
-        // line 25
+        // line 28
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvis");
         echo "\"><img class=\"logo\" src=\"../img/img/jarvisLogo.gif\"></a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
-        // line 28
+        // line 31
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisPro");
         echo "\">JarvisPro</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
-        // line 31
+        // line 34
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
         echo "\">JarvisAcces</a>
             </li>
@@ -101,25 +104,53 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
               <a class=\"nav-link\" href=\"#\">Services</a>
             </li>
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"#\">S'identifier</a>
+              <a class=\"nav-link\" href=\"https://www.cloud.mysmartjarvis.com/\">S'identifier</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
             </li>
+
           </ul>
         </nav>
 
+        </ul>
+      </nav>
+
+
         ";
-        // line 51
+        // line 54
         $this->displayBlock('body', $context, $blocks);
+
         // line 55
         echo "
         
-        ";
-        // line 57
-        $this->displayBlock('javascripts', $context, $blocks);
+
         // line 58
-        echo "    </body>
+        echo "        
+
+        ";
+        // line 59
+        $this->displayBlock('javascripts', $context, $blocks);
+        // line 60
+        echo "
+       <footer>
+
+        
+          <div class=\"iconReseaux\">
+
+            <a class=\"icon\" href=\"http://www.facebook.com/mysmartjarvis\"><i class=\"fab fa-facebook-square\"></i></a>
+
+            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis/\"><i class=\"fab fa-instagram\"></i></a>
+          </div>
+          <div>
+            <p>© 2020 Copyright :
+                <a href=\"\" class=\"lienFin\"> mysmartjarivs .com</a></p>
+          </div>
+
+        
+
+      </footer>  
+    </body>
 </html>
 ";
         
@@ -167,7 +198,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 51
+    // line 54
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -177,7 +208,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 52
+        // line 55
         echo "        
         
         ";
@@ -189,7 +220,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 57
+    // line 59
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -219,7 +250,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  193 => 57,  181 => 52,  171 => 51,  153 => 11,  134 => 10,  122 => 58,  120 => 57,  116 => 55,  114 => 51,  91 => 31,  85 => 28,  79 => 25,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  213 => 59,  201 => 55,  191 => 54,  173 => 11,  154 => 10,  124 => 60,  122 => 59,  119 => 58,  117 => 54,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -237,12 +268,15 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         {% block stylesheets %}{% endblock %}
     </head>
     <style>
-    
-
-    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
-    .logo{height:5vh;}
+    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
+    .logo{height:6vh;}
+    a{color:#C1A291;}
     .panier{height:3vh;}
-    li{margin-left:7vh;}
+    ul{align-items:center;}
+    li{margin-left:4vh;margin-right:4vh;}
+    footer{align-items:center;text-align:center;background:#263271;height:20vh;}
+    i{font-size:2em;margin-left:2%;margin-right:2%;}
+    .iconReseaux{padding:3vh;}
     </style>
     <body>
       <nav>
@@ -266,21 +300,47 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
               <a class=\"nav-link\" href=\"#\">Services</a>
             </li>
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"#\">S'identifier</a>
+              <a class=\"nav-link\" href=\"https://www.cloud.mysmartjarvis.com/\">S'identifier</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"#\"><img class=\"panier\" src=\"../img/BagOr.png\"></a>
             </li>
+
           </ul>
         </nav>
+
+        </ul>
+
+      </nav>
 
         {% block body %}
         
         
         {% endblock %}
 
+
+
+
         
         {% block javascripts %}{% endblock %}
+
+       <footer>
+
+        
+          <div class=\"iconReseaux\">
+
+            <a class=\"icon\" href=\"http://www.facebook.com/mysmartjarvis\"><i class=\"fab fa-facebook-square\"></i></a>
+
+            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis/\"><i class=\"fab fa-instagram\"></i></a>
+          </div>
+          <div>
+            <p>© 2020 Copyright :
+                <a href=\"\" class=\"lienFin\"> mysmartjarivs .com</a></p>
+          </div>
+
+        
+
+      </footer>  
     </body>
 </html>
 ", "base.html.twig", "C:\\xampp\\htdocs\\symfony\\jarvis\\templates\\base.html.twig");

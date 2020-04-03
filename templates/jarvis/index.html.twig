@@ -4,49 +4,31 @@
 
 {% block body %}
 <style>
-
-    body{min-height:1000vh;width:99%;}
-    header{background:#263271;width:100%;height:120vh;text-align:center;margin-left:1vh;}
-     .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;}
+    header{background:#263271;width:100%;text-align:center;padding-top:6vh;}
+    .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;}
     h1 {text-align:center;color:#C1A291;}
     h2{color:#C1A291;}
-    div .pro{color:white;}
-    
+    .pro{color:white;}
     h5{color:#C1A291;}
-    div .lien{display:flex;justify-content:space-around;}
-    
-    div .cadre{margin:0 auto;}
-    div .acces{text-align:center;background:#FBFBFD;margin-top: 1VH;
-    margin-bottom: 1vh;margin-right: 0vh;margin-left: 1vh;}
-    div .enceinte{display:flex;justify-content:space-around;}
+    .lien{display:flex;justify-content:space-around;}
+    .cadre{margin:0 auto;padding-bottom:5vh;margin-bottom:0.5vh;background:#FBFBFD;}
+    .acces{text-align:center;background:#FBFBFD;}
+    .enceinte{display:flex;justify-content:space-around;}
     section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
-    div .jarvisscreen{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    div .jarvistags{width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;background:#FBFBFD}
-    div .imgscreen{width: 250px;height: 250px;}
-    div .imgtags{max-width: 100%;height: auto;}
-    main{width:100%;height:auto;display:flex;margin-top: 1VH;margin-bottom: 1vh; margin-right: 1vh;margin-left: 1vh;text-align:center;margin:0 auto;}
-    div .jarvisfamily{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;}
-    div .jarvisforhotels{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-bottom: 1vh;margin-right: 1vh;margin-left: 1vh;text-align:center;}
-    div .imghotel{width: 400px;height: 200px;}
-    div .imgfamily{width: 450px;height: 250px;}
-
+    .jarvisscreen{width: 50%;height: auto;margin:0.5vh;;background:#FBFBFD;}
+    .jarvistags{width: 50%;height: auto;margin: 0.5vh;background:#FBFBFD;}
+    .imgscreen{width: 250px;height: 250px;}
+    .imgtags{max-width: 100%;height: auto;}
+    main{display:flex;justify-content:space-around;text-align:center;margin:0 auto;background:white;}
+    .jarvisfamily{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;justify-content:center;padding-bottom:3vh;}
+    .jarvisforhotels{background:#FBFBFD;width: 50%;height: auto;margin:0.5vh;text-align:center;padding-bottom:3vh;}
+    .imghotel{width: 400px;height: 200px;}
+    .imgfamily{width: 450px;height: 250px;}
     article{width:100%;height:auto;display:flex;justify-content:space-around;margin:0 auto;text-align:center;}
-    div .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
-    
-    div .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin-top: 1VH;margin-right: 1vh;margin-left: 1vh;}
-    div .imgabonnement{width:300px;height:200px;}
-    .medical{height: 50px;width: 50PX;}
-    .repas{height: 50px;width: 50PX;}
-    .ballade{height: 50px;width: 50PX;}
-    .menage{height: 50px;width: 50PX;}
-
-    .netflix{height: 50px;width: 50PX;}
-    .deliveroo{height: 50px;width: 50PX;}
-    .justEat{height: 50px;width: 50PX;}
-    .uber{height: 50px;width: 50PX;}
-    footer{display:flex;flex-direction:column;background:#263271;height:25vh;margin:1vh;}
-     div .reseau {height: 50%;display: flex;justify-content: center;/* vertical-align: middle !important; */align-items: center;}
-    div .copy{align-items: flex-end;justify-content: center;color:#C1A291;height: 50%;text-align: center;font-weight:bold;}
+    .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
+    .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
+    .imgabonnement{width:300px;height:200px;}
+    .logo{height: 50px;width: 50px;}
 
 </style>
 
@@ -55,22 +37,15 @@
 <header>
     <div class="texte">
         <h1 class="">JarvisPro</h1>
-
         <h2 class="pro">Une app pour gérer l'ensemble de votre domotique</h2>
-
         <h5>à partir de 900 €</h5>
-
     </div>
-
 <div class="lien">
         <a href="jarvisPro" src="">En savoir plus</a>
         <a href="" src="">Acheter</a>
 </div>
-
     <img class="tel" src="img/Entete1.png" alt="" id="imgtel">
-
 </header>
-
 <div class="cadre">
     <div class="acces">
             <h2>JarvisAcces</h2>
@@ -80,177 +55,94 @@
              <a href="{{path('jarvisAcces')}}" src="">En savoir plus</a>
              <a href="" src="">Acheter</a>
         </div>
-
         <div class="enceinte">
              <img class="" src="img/enceinte1.jpg">
              <br>
              <img class="" src="img/enceinte.jpg">
-        
         </div>
-        
-        
     </div>
 </div>
-
 <section>
-    
     <div class="jarvisscreen">
             <h2 class="screen">JarvisScreen</h2>
-
             <h3>Plus qu'un écran un monstre</h3>
-
             <h5>à partir de 1020 €</h5>
-
         <div>
              <a href="jarvisscreen" src="">En savoir plus</a>
              <a href="" src="">Acheter</a>
          </div>
           <div class="tablette">
-
-             <img class="imgscreen" src="img/Jarvisscreen.jpg">
-
-            
-
-           
+             <img class="imgscreen" src="img/Jarvisscreen.jpg">  
         </div>   
     </div>
-
     <div class="jarvistags">
         <h2>JarvisTags</h2>
         <h3>Prochainement disponible</h3>
-
          <div>
              <a href="jarvistag" src="">En savoir plus</a>
              <a href="" src="">Acheter</a>
          </div>
           <div class="tags">
-
-             <img class="imgtags" src="img/enceinte.jpg">
-
-            
-
-           
+             <img class="imgtags" src="img/enceinte.jpg"> 
         </div>   
-
     </div>
-
 </section>
-
 <main>
- <div class="jarvisfamily">
+    <div class="jarvisfamily">
             <h2 class="family">JarvisFamily</h2>
-
             <h3>Le réseau familial,privé et sécurisé</h3>
-
-          
-
         <div>
-
-             <a href="" src="">En savoir plus</a>
-
-             <a href="{{ path('jarvisFamily') }}" src="">En savoir plus</a>
-
-             
+             <a href="{{ path('jarvisFamily') }}" src="">En savoir plus</a> 
          </div>
           <div class="tablette family">
-
              <img class="imgfamily" src="img/FamilyTab.jpg">
-
-           
-
-           
         </div>   
     </div>
- 
     <div class="jarvisforhotels">
         <h2>JarvisForHotels</h2>
         <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
-
          <div>
              <a href="jarvisforhotels" src="">En savoir plus</a>
-            
          </div>
           <div class="hotel">
-
              <img class="imghotel" src="img/Façade1.jpeg">
-
-            
-
-           
         </div>   
-
     </div>
 </main>
 <article>
-
 <div class="jarvisabonnement">
-            <h2 class="">Abonnement</h2>
-
+            <h2>Abonnement</h2>
             <h3>En achat ou en location, votre Jarvis à porter de main</h3>
-
-          
-
         <div>
              <a href="abonnement" src="">En savoir plus</a>
-             
          </div>
           <div class="">
              <img class="imgabonnement" src="img/img/Annotation 2020-02-28 155121.png">
-           
         </div>   
     </div>
-
     <div class="jarvisservices">
-       
         <h2>Services</h2>
         <h3>Femme de ménage,jardinier,nounous,
         tout ce monde à votre service</h3>
-        
-
          <div>
              <a href="Services" src="">En savoir plus</a>
-            
          </div>
-          <div class="logoservices">
-             <img class="uber" src="../img/img/logo rond/ubereat.png">
-             <img class="deliveroo" src="../img/img/logo rond/deliveroo.png">
-            <img class="justEat" src="../img/JustEat.png">
-             <img class="netflix" src="../img/img/logo rond/netflix.png">
-             
+          <div>
+             <img class="logo" src="../img/img/logo rond/ubereat.png">
+             <img class="logo" src="../img/img/logo rond/deliveroo.png">
+            <img class="logo" src="../img/JustEat.png">
+             <img class="logo" src="../img/img/logo rond/netflix.png">
         </div>
-            <div class="logo">
-             <img class="ballade" src="../img/img/logo rond/aideballade.png">
-             <img class="medical" src="../img/img/logo rond/aideMedical.jpg">
-             <img class="menage" src="../img/img/logo rond/aideMenage.jpg">
-             <img class="repas" src="../img/img/logo rond/aideRepas.png">
-             
+            <div>
+             <img class="logo" src="../img/img/logo rond/aideballade.png">
+             <img class="logo" src="../img/img/logo rond/aideMedical.jpg">
+             <img class="logo" src="../img/img/logo rond/aideMenage.jpg">
+             <img class="logo" src="../img/img/logo rond/aideRepas.png">
         </div>
-
-
     </div>
 </article>
 
-
-<footer>
-    <div class="reseau">
-            <a href="#"><img class="facebook" src="img/"></a>
-            <a href="#"><img class="linkedin" src="img/"></a>
-            <a href="#"><img class="instagram" src="img/"></a>
-            <a href="#"><img class="twitter" src="img/"></a>
-</div>
-    <div class="copy">
-        <p>Copyright 2020 mySmartJarvis All Rights Reserved</p>
-        <p>Engagement de confisdentialité Utilisation des cookies Mentions légales Plan du site</p>
-</div>
-
- 
-
-
-
-
-
-</footer>
 
  </body>
 
@@ -259,33 +151,3 @@
 
 {% endblock %}
 
-
-
-
-
-
-
-
-
-
-        
-
-        
-       
-        
-
-
-
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-   
