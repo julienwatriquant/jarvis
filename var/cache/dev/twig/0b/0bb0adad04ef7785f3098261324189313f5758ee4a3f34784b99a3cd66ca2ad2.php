@@ -88,46 +88,46 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         echo "
     <style>
 
-        .entete{background:url(\"../img/home_smarthome.png\")5%;width:100%;height:100vh;position:relative;z-index:1;}
+        .entete{background-repeat:no-repeat;background:url(\"../img/home_smarthome.png\");background-size:cover;height:100vh;position:relative;z-index:1;}
         .titre{display:flex;position:absolute;top:50px;left:260px;width:80%;}
         .produit{color:#C1A291;display:flex;}
         a{color:#C1A291;}
         p{color:#ffffff;}
         .navpro{width:80%;align-items: center;}
-        .tabInt{position:absolute;top:140px;left:320px;height:510px;}
-        .slogan{position:absolute;top:680px;left:440px;color:#ffffff;}
+        .tabInt{position:absolute;top:21vh;left:45vh;height:60vh;}
+        .slogan{position:absolute;top:84vh;left:64vh;color:#ffffff;}
         .corps{background:#263271;}
         .titrePro{display:flex;align-items:center;justify-content:center;height:30vh;}
         .titreProd{display:flex;align-items:flex-start;justify-content:center;height:20vh;}
-        .textProd{font-size:30px;width:70%;text-align:center;}
+        .textProd{font-size:2vw;width:70%;text-align:center;}
         .imagePro{display:flex;align-items:center;justify-content:center;height:50vh;}
-        .imgPro{height:330px;}
+        .imgPro{height:315px;}
         .marqueText{display:flex;align-items:flex-end;height:30vh;}
-        .textMarque{font-size:30px;width:60%;margin-left:20px;}
+        .textMarque{font-size:2vw;width:60%;margin-left:20px;}
         .imageMarque{display:flex;align-items:center;justify-content:center;height:90vh;}
         .imgMarque{height:700px;}
         .marqueText1{display:flex;align-items:start;justify-content:flex-end;height:30vh;}
-        .textMarque1{font-size:30px;width:60%;margin-right:20px;}
+        .textMarque1{font-size:2vw;width:60%;margin-right:20px;}
         .imageMaison{display:flex;align-items:center;justify-content:center;height:120vh;}
         .interface{background:#ffffff;}
         .interSlogan{display:flex;align-items:flex-end;justify-content:center;height:20vh;}
-        .titreBleu{color:#263271;font-size:40px;width:70%;text-align:center;}
+        .titreBleu{color:#263271;font-size:2.5vw;width:70%;text-align:center;}
         .interText{display:flex;align-items:center;justify-content:center;height:30vh;}
-        .textBleu{color:#263271;font-size:30px;width:70%;text-align:center;}
+        .textBleu{color:#263271;font-size:2vw;width:60%;text-align:center;}
         .imageInter{display:flex;align-items:center;justify-content:center;height:120vh;}
         .imgInter{width:100%;}
         .titreFamily{display:flex;align-items:flex-end;justify-content:center;height:20vh;}
         .textFamily{display:flex;align-items:center;justify-content:center;height:15vh;}
         .produitFamily{color:#C1A291;display:flex;}
-        .textProdFami{font-size:40px;width:70%;text-align:center;}
-        .savoirPlus{display:flex;align-items:center;justify-content:center;height:20vh;}
-        .savoir{color:#EF7E40;font-size:30px;}
-        .imageFamily{display:flex;align-items:center;justify-content:center;height:120vh;}
-        .imgFamily{width:60%;}
+        .textProdFami{font-size:2.5vw;width:70%;text-align:center;}
+        .savoirPlus{display:flex;align-items:center;justify-content:center;height:10vh;}
+        .savoir{color:#EF7E40;font-size:2vw;}
+        .imageFamily{display:flex;align-items:center;justify-content:center;height:110vh;}
+        .imgFamily{width:55%;}
         .videoPro{background:#ffffff;height:90vh;display:flex;align-items:center;}
         .videoText{display:flex;flex-direction:column;align-items:center;justify-content:center;width:40%;height:60vh;}
-        .titreVideo{color:black;font-size:40px;text-align:center;height:20vh;width:70%;}
-        .textVideo{color:#263271;font-size:25px;width:70%;}
+        .titreVideo{color:black;font-size:2.5vw;text-align:center;height:20vh;width:70%;}
+        .textVideo{color:#263271;font-size:1.8vw;width:70%;}
         .video{width:60%;height:70vh;margin-right:30px;}
         footer{background:#263271;text-align:center;height:20vh;}
         .reseau{display:flex;justify-content:space-around;}
@@ -137,7 +137,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
     <body>
 
-        <header class=\"entete\">
+        <header class=\"img-fluid entete\">
 
             <div class=\"titre\">
             <h1 class=\"produit\">JarvisPro</h1>
@@ -180,7 +180,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
             <div class=\"marques\">
                 <div class=\"marqueText\">
-                    <p class=\"textMarque\">Plusieurs marques sont d'ores et déjà compatibles avec moi et leurs nombres ne cesse d'auguemnter.</p>
+                    <p class=\"textMarque\">Plusieurs marques sont d'ores et déjà compatibles avec moi et leurs nombres ne cesse d'auguementer.</p>
                 </div>
                 <div class=\"imageMarque\">
                     <img class=\"img-fluid imgMarque\" src=\"../img/ListeCompatible.png\">
@@ -214,10 +214,13 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
                     <p class=\"textProdFami\">Pour que toute la famille reste en contact</p></h1>
                 </div>
                 <div class=\"savoirPlus\">
-                    <a class=\"savoir\" href=\"\">En savoir plus ></a>
+                    <a class=\"savoir\" href=\"";
+        // line 135
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
+        echo "\">En savoir plus ></a>
                 </div>
                 <div class=\"imageFamily\">
-                    <img class=\"imgFamily\" src=\"../img/FamilyTab.jpg\">
+                    <img class=\"imgFamily\" src=\"../img/FamilyTab.png\">
                 </div>
             </div>
 
@@ -231,21 +234,9 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
         </section>
 
-        <footer>
-
-            <div class=\"reseau\">
-                    <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
-                    <a href=\"#\"><img class=\"linkedin\" src=\"img/\"></a>
-                    <a href=\"#\"><img class=\"instagram\" src=\"img/\"></a>
-                    <a href=\"#\"><img class=\"twitter\" src=\"img/\"></a>
-            </div>
-            <div class=\"copy\">
-                <p>© Copyright 2020 mySmartJarvis All Rights Reserved</p>
-                <p>Engagement de confisdentialité Utilisation des cookies Mentiobns légales Plan du site</p>
-            </div>
-
-        </footer>
-
+        ";
+        // line 166
+        echo "
     </body>
 
 ";
@@ -269,7 +260,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  239 => 166,  219 => 135,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -282,46 +273,46 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
     <style>
 
-        .entete{background:url(\"../img/home_smarthome.png\")5%;width:100%;height:100vh;position:relative;z-index:1;}
+        .entete{background-repeat:no-repeat;background:url(\"../img/home_smarthome.png\");background-size:cover;height:100vh;position:relative;z-index:1;}
         .titre{display:flex;position:absolute;top:50px;left:260px;width:80%;}
         .produit{color:#C1A291;display:flex;}
         a{color:#C1A291;}
         p{color:#ffffff;}
         .navpro{width:80%;align-items: center;}
-        .tabInt{position:absolute;top:140px;left:320px;height:510px;}
-        .slogan{position:absolute;top:680px;left:440px;color:#ffffff;}
+        .tabInt{position:absolute;top:21vh;left:45vh;height:60vh;}
+        .slogan{position:absolute;top:84vh;left:64vh;color:#ffffff;}
         .corps{background:#263271;}
         .titrePro{display:flex;align-items:center;justify-content:center;height:30vh;}
         .titreProd{display:flex;align-items:flex-start;justify-content:center;height:20vh;}
-        .textProd{font-size:30px;width:70%;text-align:center;}
+        .textProd{font-size:2vw;width:70%;text-align:center;}
         .imagePro{display:flex;align-items:center;justify-content:center;height:50vh;}
-        .imgPro{height:330px;}
+        .imgPro{height:315px;}
         .marqueText{display:flex;align-items:flex-end;height:30vh;}
-        .textMarque{font-size:30px;width:60%;margin-left:20px;}
+        .textMarque{font-size:2vw;width:60%;margin-left:20px;}
         .imageMarque{display:flex;align-items:center;justify-content:center;height:90vh;}
         .imgMarque{height:700px;}
         .marqueText1{display:flex;align-items:start;justify-content:flex-end;height:30vh;}
-        .textMarque1{font-size:30px;width:60%;margin-right:20px;}
+        .textMarque1{font-size:2vw;width:60%;margin-right:20px;}
         .imageMaison{display:flex;align-items:center;justify-content:center;height:120vh;}
         .interface{background:#ffffff;}
         .interSlogan{display:flex;align-items:flex-end;justify-content:center;height:20vh;}
-        .titreBleu{color:#263271;font-size:40px;width:70%;text-align:center;}
+        .titreBleu{color:#263271;font-size:2.5vw;width:70%;text-align:center;}
         .interText{display:flex;align-items:center;justify-content:center;height:30vh;}
-        .textBleu{color:#263271;font-size:30px;width:70%;text-align:center;}
+        .textBleu{color:#263271;font-size:2vw;width:60%;text-align:center;}
         .imageInter{display:flex;align-items:center;justify-content:center;height:120vh;}
         .imgInter{width:100%;}
         .titreFamily{display:flex;align-items:flex-end;justify-content:center;height:20vh;}
         .textFamily{display:flex;align-items:center;justify-content:center;height:15vh;}
         .produitFamily{color:#C1A291;display:flex;}
-        .textProdFami{font-size:40px;width:70%;text-align:center;}
-        .savoirPlus{display:flex;align-items:center;justify-content:center;height:20vh;}
-        .savoir{color:#EF7E40;font-size:30px;}
-        .imageFamily{display:flex;align-items:center;justify-content:center;height:120vh;}
-        .imgFamily{width:60%;}
+        .textProdFami{font-size:2.5vw;width:70%;text-align:center;}
+        .savoirPlus{display:flex;align-items:center;justify-content:center;height:10vh;}
+        .savoir{color:#EF7E40;font-size:2vw;}
+        .imageFamily{display:flex;align-items:center;justify-content:center;height:110vh;}
+        .imgFamily{width:55%;}
         .videoPro{background:#ffffff;height:90vh;display:flex;align-items:center;}
         .videoText{display:flex;flex-direction:column;align-items:center;justify-content:center;width:40%;height:60vh;}
-        .titreVideo{color:black;font-size:40px;text-align:center;height:20vh;width:70%;}
-        .textVideo{color:#263271;font-size:25px;width:70%;}
+        .titreVideo{color:black;font-size:2.5vw;text-align:center;height:20vh;width:70%;}
+        .textVideo{color:#263271;font-size:1.8vw;width:70%;}
         .video{width:60%;height:70vh;margin-right:30px;}
         footer{background:#263271;text-align:center;height:20vh;}
         .reseau{display:flex;justify-content:space-around;}
@@ -331,7 +322,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
     <body>
 
-        <header class=\"entete\">
+        <header class=\"img-fluid entete\">
 
             <div class=\"titre\">
             <h1 class=\"produit\">JarvisPro</h1>
@@ -374,7 +365,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
             <div class=\"marques\">
                 <div class=\"marqueText\">
-                    <p class=\"textMarque\">Plusieurs marques sont d'ores et déjà compatibles avec moi et leurs nombres ne cesse d'auguemnter.</p>
+                    <p class=\"textMarque\">Plusieurs marques sont d'ores et déjà compatibles avec moi et leurs nombres ne cesse d'auguementer.</p>
                 </div>
                 <div class=\"imageMarque\">
                     <img class=\"img-fluid imgMarque\" src=\"../img/ListeCompatible.png\">
@@ -408,10 +399,10 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
                     <p class=\"textProdFami\">Pour que toute la famille reste en contact</p></h1>
                 </div>
                 <div class=\"savoirPlus\">
-                    <a class=\"savoir\" href=\"\">En savoir plus ></a>
+                    <a class=\"savoir\" href=\"{{path('jarvisFamily')}}\">En savoir plus ></a>
                 </div>
                 <div class=\"imageFamily\">
-                    <img class=\"imgFamily\" src=\"../img/FamilyTab.jpg\">
+                    <img class=\"imgFamily\" src=\"../img/FamilyTab.png\">
                 </div>
             </div>
 
@@ -425,7 +416,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
         </section>
 
-        <footer>
+        {# <footer>
 
             <div class=\"reseau\">
                     <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
@@ -438,7 +429,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
                 <p>Engagement de confisdentialité Utilisation des cookies Mentiobns légales Plan du site</p>
             </div>
 
-        </footer>
+        </footer> #}
 
     </body>
 

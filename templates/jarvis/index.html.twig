@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello JarvisController!{% endblock %}
+{% block title %}Acceuil Jarvis{% endblock %}
 
 {% block body %}
 <style>
@@ -41,7 +41,7 @@
         <h5>à partir de 900 €</h5>
     </div>
 <div class="lien">
-        <a href="jarvisPro" src="">En savoir plus</a>
+        <a href="{{path('jarvisPro')}}" src="">En savoir plus</a>
         <a href="" src="">Acheter</a>
 </div>
     <img class="tel" src="img/Entete1.png" alt="" id="imgtel">
@@ -103,7 +103,7 @@
         <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
          <div>
-             <a href="jarvisforhotels" src="">En savoir plus</a>
+             <a href="{{path('jarvisHotel')}}" src="">En savoir plus</a>
          </div>
           <div class="hotel">
              <img class="imghotel" src="img/Façade1.jpeg">

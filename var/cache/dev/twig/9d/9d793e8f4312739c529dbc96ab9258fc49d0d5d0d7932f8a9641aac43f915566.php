@@ -98,7 +98,10 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
               <a class=\"nav-link\" href=\"#\">JarvisScreen</a>
             </li>
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"#\">JarvisForHotel</a>
+              <a class=\"nav-link\" href=\"";
+        // line 40
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisHotel");
+        echo "\">JarvisForHotel</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"#\">Services</a>
@@ -250,7 +253,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  213 => 59,  201 => 55,  191 => 54,  173 => 11,  154 => 10,  124 => 60,  122 => 59,  119 => 58,  117 => 54,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  216 => 59,  204 => 55,  194 => 54,  176 => 11,  157 => 10,  127 => 60,  125 => 59,  122 => 58,  120 => 54,  103 => 40,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -294,7 +297,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
               <a class=\"nav-link\" href=\"#\">JarvisScreen</a>
             </li>
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"#\">JarvisForHotel</a>
+              <a class=\"nav-link\" href=\"{{path('jarvisHotel')}}\">JarvisForHotel</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"#\">Services</a>
