@@ -99,35 +99,35 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         .corps{background:#263271;}
         .titrePro{display:flex;align-items:center;justify-content:center;height:30vh;}
         .titreProd{display:flex;align-items:flex-start;justify-content:center;height:20vh;}
-        .textProd{font-size:2vw;width:70%;text-align:center;}
+        .textProd{font-size:2em;width:70%;text-align:center;}
         .imagePro{display:flex;align-items:center;justify-content:center;height:50vh;}
         .imgPro{height:315px;}
         .marqueText{display:flex;align-items:flex-end;height:30vh;}
-        .textMarque{font-size:2vw;width:60%;margin-left:20px;}
+        .textMarque{font-size:2em;width:60%;margin-left:20px;}
         .imageMarque{display:flex;align-items:center;justify-content:center;height:90vh;}
         .imgMarque{height:700px;}
         .marqueText1{display:flex;align-items:start;justify-content:flex-end;height:30vh;}
-        .textMarque1{font-size:2vw;width:60%;margin-right:20px;}
+        .textMarque1{font-size:2em;width:60%;margin-right:20px;}
         .imageMaison{display:flex;align-items:center;justify-content:center;height:120vh;}
         .interface{background:#ffffff;}
         .interSlogan{display:flex;align-items:flex-end;justify-content:center;height:20vh;}
-        .titreBleu{color:#263271;font-size:2.5vw;width:70%;text-align:center;}
+        .titreBleu{color:#263271;font-size:2.5em;width:70%;text-align:center;}
         .interText{display:flex;align-items:center;justify-content:center;height:30vh;}
-        .textBleu{color:#263271;font-size:2vw;width:60%;text-align:center;}
+        .textBleu{color:#263271;font-size:2em;width:60%;text-align:center;}
         .imageInter{display:flex;align-items:center;justify-content:center;height:120vh;}
         .imgInter{width:100%;}
         .titreFamily{display:flex;align-items:flex-end;justify-content:center;height:20vh;}
         .textFamily{display:flex;align-items:center;justify-content:center;height:15vh;}
         .produitFamily{color:#C1A291;display:flex;}
-        .textProdFami{font-size:2.5vw;width:70%;text-align:center;}
+        .textProdFami{font-size:2.5em;width:70%;text-align:center;}
         .savoirPlus{display:flex;align-items:center;justify-content:center;height:10vh;}
-        .savoir{color:#EF7E40;font-size:2vw;}
+        .savoir{color:#EF7E40;font-size:2em;}
         .imageFamily{display:flex;align-items:center;justify-content:center;height:110vh;}
         .imgFamily{width:55%;}
         .videoPro{background:#ffffff;height:90vh;display:flex;align-items:center;}
         .videoText{display:flex;flex-direction:column;align-items:center;justify-content:center;width:40%;height:60vh;}
-        .titreVideo{color:black;font-size:2.5vw;text-align:center;height:20vh;width:70%;}
-        .textVideo{color:#263271;font-size:1.8vw;width:70%;}
+        .titreVideo{color:black;font-size:2.5em;text-align:center;height:20vh;width:70%;}
+        .textVideo{color:#263271;font-size:1.8em;width:70%;}
         .video{width:60%;height:70vh;margin-right:30px;}
         footer{background:#263271;text-align:center;height:20vh;}
         .reseau{display:flex;justify-content:space-around;}
@@ -284,35 +284,35 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         .corps{background:#263271;}
         .titrePro{display:flex;align-items:center;justify-content:center;height:30vh;}
         .titreProd{display:flex;align-items:flex-start;justify-content:center;height:20vh;}
-        .textProd{font-size:2vw;width:70%;text-align:center;}
+        .textProd{font-size:2em;width:70%;text-align:center;}
         .imagePro{display:flex;align-items:center;justify-content:center;height:50vh;}
         .imgPro{height:315px;}
         .marqueText{display:flex;align-items:flex-end;height:30vh;}
-        .textMarque{font-size:2vw;width:60%;margin-left:20px;}
+        .textMarque{font-size:2em;width:60%;margin-left:20px;}
         .imageMarque{display:flex;align-items:center;justify-content:center;height:90vh;}
         .imgMarque{height:700px;}
         .marqueText1{display:flex;align-items:start;justify-content:flex-end;height:30vh;}
-        .textMarque1{font-size:2vw;width:60%;margin-right:20px;}
+        .textMarque1{font-size:2em;width:60%;margin-right:20px;}
         .imageMaison{display:flex;align-items:center;justify-content:center;height:120vh;}
         .interface{background:#ffffff;}
         .interSlogan{display:flex;align-items:flex-end;justify-content:center;height:20vh;}
-        .titreBleu{color:#263271;font-size:2.5vw;width:70%;text-align:center;}
+        .titreBleu{color:#263271;font-size:2.5em;width:70%;text-align:center;}
         .interText{display:flex;align-items:center;justify-content:center;height:30vh;}
-        .textBleu{color:#263271;font-size:2vw;width:60%;text-align:center;}
+        .textBleu{color:#263271;font-size:2em;width:60%;text-align:center;}
         .imageInter{display:flex;align-items:center;justify-content:center;height:120vh;}
         .imgInter{width:100%;}
         .titreFamily{display:flex;align-items:flex-end;justify-content:center;height:20vh;}
         .textFamily{display:flex;align-items:center;justify-content:center;height:15vh;}
         .produitFamily{color:#C1A291;display:flex;}
-        .textProdFami{font-size:2.5vw;width:70%;text-align:center;}
+        .textProdFami{font-size:2.5em;width:70%;text-align:center;}
         .savoirPlus{display:flex;align-items:center;justify-content:center;height:10vh;}
-        .savoir{color:#EF7E40;font-size:2vw;}
+        .savoir{color:#EF7E40;font-size:2em;}
         .imageFamily{display:flex;align-items:center;justify-content:center;height:110vh;}
         .imgFamily{width:55%;}
         .videoPro{background:#ffffff;height:90vh;display:flex;align-items:center;}
         .videoText{display:flex;flex-direction:column;align-items:center;justify-content:center;width:40%;height:60vh;}
-        .titreVideo{color:black;font-size:2.5vw;text-align:center;height:20vh;width:70%;}
-        .textVideo{color:#263271;font-size:1.8vw;width:70%;}
+        .titreVideo{color:black;font-size:2.5em;text-align:center;height:20vh;width:70%;}
+        .textVideo{color:#263271;font-size:1.8em;width:70%;}
         .video{width:60%;height:70vh;margin-right:30px;}
         footer{background:#263271;text-align:center;height:20vh;}
         .reseau{display:flex;justify-content:space-around;}

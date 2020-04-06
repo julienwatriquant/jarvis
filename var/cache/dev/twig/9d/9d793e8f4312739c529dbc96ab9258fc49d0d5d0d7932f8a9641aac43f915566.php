@@ -120,30 +120,28 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
       </nav>
 
 
-        ";
-        // line 54
-        $this->displayBlock('body', $context, $blocks);
-
-        // line 55
-        echo "
-        
-
-        // line 58
-        echo "        
-
-        ";
+      ";
         // line 59
-        $this->displayBlock('javascripts', $context, $blocks);
-        // line 60
+        $this->displayBlock('body', $context, $blocks);
+        // line 63
         echo "
-       <footer>
+
+
+
+        
+      ";
+        // line 68
+        $this->displayBlock('javascripts', $context, $blocks);
+        // line 69
+        echo "
+      <footer>
 
         
           <div class=\"iconReseaux\">
 
             <a class=\"icon\" href=\"http://www.facebook.com/mysmartjarvis\"><i class=\"fab fa-facebook-square\"></i></a>
 
-            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis/\"><i class=\"fab fa-instagram\"></i></a>
+            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis\"><i class=\"fab fa-instagram\"></i></a>
           </div>
           <div>
             <p>© 2020 Copyright :
@@ -201,7 +199,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 54
+    // line 59
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -211,10 +209,10 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 55
+        // line 60
         echo "        
         
-        ";
+      ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -223,7 +221,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 59
+    // line 68
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -253,7 +251,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  216 => 59,  204 => 55,  194 => 54,  176 => 11,  157 => 10,  127 => 60,  125 => 59,  122 => 58,  120 => 54,  103 => 40,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  225 => 68,  213 => 60,  203 => 59,  185 => 11,  166 => 10,  136 => 69,  134 => 68,  127 => 63,  125 => 59,  103 => 40,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -313,28 +311,28 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         </nav>
 
         </ul>
-
       </nav>
 
-        {% block body %}
+
+      {% block body %}
         
         
-        {% endblock %}
+      {% endblock %}
 
 
 
 
         
-        {% block javascripts %}{% endblock %}
+      {% block javascripts %}{% endblock %}
 
-       <footer>
+      <footer>
 
         
           <div class=\"iconReseaux\">
 
             <a class=\"icon\" href=\"http://www.facebook.com/mysmartjarvis\"><i class=\"fab fa-facebook-square\"></i></a>
 
-            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis/\"><i class=\"fab fa-instagram\"></i></a>
+            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis\"><i class=\"fab fa-instagram\"></i></a>
           </div>
           <div>
             <p>© 2020 Copyright :
