@@ -11,7 +11,7 @@
         {% block stylesheets %}{% endblock %}
     </head>
     <style>
-    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
+    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
     .logo{height:6vh;}
     .nav-link{color:#C1A291;}
     .icon{color:#C1A291;}
@@ -39,7 +39,7 @@
               <a class="nav-link" href="#">JarvisScreen</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">JarvisForHotel</a>
+              <a class="nav-link" href="{{path('jarvisHotel')}}">JarvisForHotel</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Services</a>
@@ -50,24 +50,33 @@
             <li class="nav-item">
               <a class="nav-link" href="#"><img class="panier" src="../img/BagOr.png"></a>
             </li>
+
+          </ul>
+        </nav>
+
         </ul>
       </nav>
 
-        {% block body %}
-        
-        
-        {% endblock %}
-        
-        {% block javascripts %}{% endblock %}
 
-       <footer>
+      {% block body %}
+        
+        
+      {% endblock %}
+
+
+
+
+        
+      {% block javascripts %}{% endblock %}
+
+      <footer>
 
         
           <div class="iconReseaux">
 
             <a class="icon" href="http://www.facebook.com/mysmartjarvis"><i class="fab fa-facebook-square"></i></a>
 
-            <a class="icon" href="http://www.instagram.com/mysmartjarvis/"><i class="fab fa-instagram"></i></a>
+            <a class="icon" href="http://www.instagram.com/mysmartjarvis"><i class="fab fa-instagram"></i></a>
           </div>
           <div>
             <p>© 2020 Copyright :

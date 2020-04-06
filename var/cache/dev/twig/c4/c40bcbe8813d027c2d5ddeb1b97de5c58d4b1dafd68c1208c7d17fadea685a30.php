@@ -75,23 +75,23 @@ header{width:100%;margin: 0 auto;align-items:center;text-align:center;}
 a:hover{text-decoration:none;}
 h1{color: #C1A291;}
 h2 .cloud{text-align:center;color:white;display:flex;justify-content:center;}
-h4{margin-right:5%;}
-.imgtablettefamily{height:auto;width:60%;padding-top:8vh;padding-bottom:5vh;}
-.texte{color:white;display:flex;justify-content:center;text-align:center;}
-article{text-align:center;}
-section{margin-top: 5vh;align-items:center;justify-content:center;width:80%;}
- .transports{height:70px;width:70px;}
- .Transport{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .photo{height:70px;width:70px;}
- .Photos{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .new{height:70px;width:70px;}
- .news{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .calendrier{height:70px;width:70px;}
- .agenda{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .listeB{height:70px;width:70px;}
- .listes{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .message{height:70px;width:70px;}
- .messages{display:flex;justify-content:space-between;align-items:center;text-align:center;}
+div .jarvis{display: flex;justify-content: space-evenly;position: relative;right: -41vh;}
+div .family{height: 750px;width: 750px;position: relative;right: 13vh;}
+div .imgtablettefamily{height:auto;max-width:100%;position: relative;right: -40vh;bottom: -16vh;}
+div .texte{color:white;display:flex;justify-content:center;}
+section{margin-top: 5vh;}
+ .transports{height:50px;width:50px;}
+ .pTransport{position: relative;top: -6vh;right: -24vh;}
+ .photo{height:50px;width:50px;}
+ .pPhoto{position: relative;top: -6vh;right: -23vh;}
+ .new{height:50px;width:50px;}
+ .pNews{position: relative;top: -6vh;right: -23vh;}
+ .calendrier{height:50px;width:50px;}
+ .pCalendrier{position: relative;top: -6vh;right: -22vh;}
+ .listeB{height:50px;width:50px;}
+ .pListe{position: relative;top: -6vh;right: -21vh;}
+ .message{height:50px;width:50px;}
+ .pMessage{position: relative;top: -6vh;right: -24vh;}
  .my{color:#C1A291;}
  
 
@@ -228,23 +228,23 @@ header{width:100%;margin: 0 auto;align-items:center;text-align:center;}
 a:hover{text-decoration:none;}
 h1{color: #C1A291;}
 h2 .cloud{text-align:center;color:white;display:flex;justify-content:center;}
-h4{margin-right:5%;}
-.imgtablettefamily{height:auto;width:60%;padding-top:8vh;padding-bottom:5vh;}
-.texte{color:white;display:flex;justify-content:center;text-align:center;}
-article{text-align:center;}
-section{margin-top: 5vh;align-items:center;justify-content:center;width:80%;}
- .transports{height:70px;width:70px;}
- .Transport{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .photo{height:70px;width:70px;}
- .Photos{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .new{height:70px;width:70px;}
- .news{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .calendrier{height:70px;width:70px;}
- .agenda{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .listeB{height:70px;width:70px;}
- .listes{display:flex;justify-content:space-between;align-items:center;text-align:center;}
- .message{height:70px;width:70px;}
- .messages{display:flex;justify-content:space-between;align-items:center;text-align:center;}
+div .jarvis{display: flex;justify-content: space-evenly;position: relative;right: -41vh;}
+div .family{height: 750px;width: 750px;position: relative;right: 13vh;}
+div .imgtablettefamily{height:auto;max-width:100%;position: relative;right: -40vh;bottom: -16vh;}
+div .texte{color:white;display:flex;justify-content:center;}
+section{margin-top: 5vh;}
+ .transports{height:50px;width:50px;}
+ .pTransport{position: relative;top: -6vh;right: -24vh;}
+ .photo{height:50px;width:50px;}
+ .pPhoto{position: relative;top: -6vh;right: -23vh;}
+ .new{height:50px;width:50px;}
+ .pNews{position: relative;top: -6vh;right: -23vh;}
+ .calendrier{height:50px;width:50px;}
+ .pCalendrier{position: relative;top: -6vh;right: -22vh;}
+ .listeB{height:50px;width:50px;}
+ .pListe{position: relative;top: -6vh;right: -21vh;}
+ .message{height:50px;width:50px;}
+ .pMessage{position: relative;top: -6vh;right: -24vh;}
  .my{color:#C1A291;}
  
 
