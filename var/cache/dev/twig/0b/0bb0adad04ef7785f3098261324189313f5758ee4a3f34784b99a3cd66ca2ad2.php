@@ -416,20 +416,6 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
         </section>
 
-        {# <footer>
-
-            <div class=\"reseau\">
-                    <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
-                    <a href=\"#\"><img class=\"linkedin\" src=\"img/\"></a>
-                    <a href=\"#\"><img class=\"instagram\" src=\"img/\"></a>
-                    <a href=\"#\"><img class=\"twitter\" src=\"img/\"></a>
-            </div>
-            <div class=\"copy\">
-                <p>© Copyright 2020 mySmartJarvis All Rights Reserved</p>
-                <p>Engagement de confisdentialité Utilisation des cookies Mentiobns légales Plan du site</p>
-            </div>
-
-        </footer> #}
 
     </body>
 

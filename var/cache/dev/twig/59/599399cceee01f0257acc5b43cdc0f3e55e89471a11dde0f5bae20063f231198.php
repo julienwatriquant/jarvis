@@ -32,7 +32,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     protected function doGetParent(array $context)
     {
-        // line 1
+       
+      // line 1
         return "base.html.twig";
     }
 
@@ -86,13 +87,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
         // line 6
         echo "<style>
-    header{background:#263271;width:100%;text-align:center;padding-top:6vh;}
-    .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;}
+    header{background:#263271;width:100%;text-align:center;padding-top:6vh;margin: 0 auto;}
+    .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;padding-bottom:5vh;padding-top:5vh;}
     h1 {text-align:center;color:#C1A291;}
     h2{color:#C1A291;}
     .pro{color:white;}
     h5{color:#C1A291;}
-    .lien{display:flex;justify-content:space-around;}
+    .lien{display:flex;justify-content:center;}
+    .a-lien{color:#EF7E40;font-size:4vh;margin-left:5vh;}
+    .plus{color:#EF7E40;}
     .cadre{margin:0 auto;padding-bottom:5vh;margin-bottom:0.5vh;background:#FBFBFD;}
     .acces{text-align:center;background:#FBFBFD;}
     .enceinte{display:flex;justify-content:space-around;}
@@ -111,6 +114,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
     .imgabonnement{width:300px;height:200px;}
     .logo{height: 50px;width: 50px;}
+    .logo-service{padding-top:8vh;}
+
 
 </style>
 
@@ -122,12 +127,13 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h2 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h2>
         <h5>à partir de 900 €</h5>
     </div>
+
     <div class=\"lien\">
             <a href=\"";
         // line 44
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisPro");
-        echo "\" src=\"\">En savoir plus</a>
-            <a href=\"\" src=\"\">Acheter</a>
+        echo "\" class=\"plus\"  src=\"\">En savoir plus ></a>
+            <a class=\"plus\"  href=\"\" src=\"\">Acheter ></a>
     </div>
     <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
 </header>
@@ -137,11 +143,12 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Une alternative au Ehpad à domicile</h3>
             <h5>à partir de 450 €</h5>
         <div>
-             <a href=\"";
-        // line 55
+             <a class=\"plus\" href=\"";
+        // line 58
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
-        echo "\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
+        echo "\" src=\"\">En savoir plus ></a>
+             <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
         </div>
         <div class=\"enceinte\">
              <img class=\"\" src=\"img/enceinte1.jpg\">
@@ -156,8 +163,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Plus qu'un écran un monstre</h3>
             <h5>à partir de 1020 €</h5>
         <div>
-             <a href=\"jarvisscreen\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
+             <a class=\"plus\" href=\"jarvisscreen\" src=\"\">En savoir plus ></a>
+             <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
          </div>
           <div class=\"tablette\">
              <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">  
@@ -167,8 +174,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h2>JarvisTags</h2>
         <h3>Prochainement disponible</h3>
          <div>
-             <a href=\"jarvistag\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
+             <a class=\"plus\" href=\"jarvistag\" src=\"\">En savoir plus ></a>
+             <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
          </div>
           <div class=\"tags\">
              <img class=\"imgtags\" src=\"img/enceinte.jpg\"> 
@@ -180,10 +187,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
-             <a href=\"";
-        // line 95
+             <a class=\"plus\" href=\"";
+        // line 98
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
-        echo "\" src=\"\">En savoir plus</a> 
+        echo "\" src=\"\">En savoir plus ></a> 
          </div>
           <div class=\"tablette family\">
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
@@ -197,7 +205,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a href=\"";
         // line 106
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisHotel");
-        echo "\" src=\"\">En savoir plus</a>
+        echo "\" src=\"\">En savoir plus ></a>
          </div>
           <div class=\"hotel\">
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
@@ -209,7 +217,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2>Abonnement</h2>
             <h3>En achat ou en location, votre Jarvis à porter de main</h3>
         <div>
-             <a href=\"abonnement\" src=\"\">En savoir plus</a>
+             <a class=\"plus\" href=\"abonnement\" src=\"\">En savoir plus ></a>
          </div>
           <div class=\"\">
              <img class=\"imgabonnement\" src=\"img/img/Annotation 2020-02-28 155121.png\">
@@ -220,20 +228,23 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h3>Femme de ménage,jardinier,nounous,
         tout ce monde à votre service</h3>
          <div>
-            <a href=\"Services\" src=\"\">En savoir plus</a>
-        </div>
-        <div>
-            <img class=\"logo\" src=\"../img/img/logo rond/ubereat.png\">
-            <img class=\"logo\" src=\"../img/img/logo rond/deliveroo.png\">
-            <img class=\"logo\" src=\"../img/JustEat.png\">
+             <a class=\"plus\" href=\"Services\" src=\"\">En savoir plus ></a>
+         </div>
+         <div>
+          <div class=\"logo-service\">
+             <img class=\"logo\" src=\"../img/img/logo rond/ubereat.png\">
+             <img class=\"logo\" src=\"../img/img/logo rond/deliveroo.png\">
+             <img class=\"logo\" src=\"../img/JustEat.png\">
              <img class=\"logo\" src=\"../img/img/logo rond/netflix.png\">
-        </div>
+           </div>
+           <br>
             <div>
-                <img class=\"logo\" src=\"../img/img/logo rond/aideballade.png\">
-                <img class=\"logo\" src=\"../img/img/logo rond/aideMedical.jpg\">
-                <img class=\"logo\" src=\"../img/img/logo rond/aideMenage.jpg\">
-                <img class=\"logo\" src=\"../img/img/logo rond/aideRepas.png\">
+             <img class=\"logo\" src=\"../img/img/logo rond/aideballade.png\">
+             <img class=\"logo\" src=\"../img/img/logo rond/aideMedical.jpg\">
+             <img class=\"logo\" src=\"../img/img/logo rond/aideMenage.jpg\">
+             <img class=\"logo\" src=\"../img/img/logo rond/aideRepas.png\">
             </div>
+          </div>
     </div>
 </article>
 
@@ -264,7 +275,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     public function getDebugInfo()
     {
-        return array (  199 => 106,  185 => 95,  142 => 55,  128 => 44,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  191 => 98,  147 => 58,  133 => 44,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -275,13 +286,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 {% block body %}
 <style>
-    header{background:#263271;width:100%;text-align:center;padding-top:6vh;}
-    .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;}
+    header{background:#263271;width:100%;text-align:center;padding-top:6vh;margin: 0 auto;}
+    .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;padding-bottom:5vh;padding-top:5vh;}
     h1 {text-align:center;color:#C1A291;}
     h2{color:#C1A291;}
     .pro{color:white;}
     h5{color:#C1A291;}
-    .lien{display:flex;justify-content:space-around;}
+    .lien{display:flex;justify-content:center;}
+    .a-lien{color:#EF7E40;font-size:4vh;margin-left:5vh;}
+    .plus{color:#EF7E40;}
     .cadre{margin:0 auto;padding-bottom:5vh;margin-bottom:0.5vh;background:#FBFBFD;}
     .acces{text-align:center;background:#FBFBFD;}
     .enceinte{display:flex;justify-content:space-around;}
@@ -300,7 +313,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
     .imgabonnement{width:300px;height:200px;}
     .logo{height: 50px;width: 50px;}
-
+    .logo-service{padding-top:8vh;}
 </style>
 
 <body>
@@ -312,8 +325,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h5>à partir de 900 €</h5>
     </div>
     <div class=\"lien\">
-            <a href=\"{{path('jarvisPro')}}\" src=\"\">En savoir plus</a>
-            <a href=\"\" src=\"\">Acheter</a>
+            <a class=\"plus\"  href=\"{{path('jarvisPro')}}\" src=\"\">En savoir plus > </a>
+            <a class=\"plus\"  href=\"\" src=\"\">Acheter > </a>
     </div>
     <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
 </header>
@@ -323,8 +336,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Une alternative au Ehpad à domicile</h3>
             <h5>à partir de 450 €</h5>
         <div>
-             <a href=\"{{path('jarvisAcces')}}\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
+             <a class=\"plus\" href=\"{{path('jarvisAcces')}}\" src=\"\">En savoir plus ></a>
+             <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
         </div>
         <div class=\"enceinte\">
              <img class=\"\" src=\"img/enceinte1.jpg\">
@@ -339,8 +352,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Plus qu'un écran un monstre</h3>
             <h5>à partir de 1020 €</h5>
         <div>
-             <a href=\"jarvisscreen\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
+             <a class=\"plus\" href=\"jarvisscreen\" src=\"\">En savoir plus ></a>
+             <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
          </div>
           <div class=\"tablette\">
              <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">  
@@ -350,8 +363,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h2>JarvisTags</h2>
         <h3>Prochainement disponible</h3>
          <div>
-             <a href=\"jarvistag\" src=\"\">En savoir plus</a>
-             <a href=\"\" src=\"\">Acheter</a>
+             <a class=\"plus\" href=\"jarvistag\" src=\"\">En savoir plus ></a>
+             <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
          </div>
           <div class=\"tags\">
              <img class=\"imgtags\" src=\"img/enceinte.jpg\"> 
@@ -363,7 +376,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
-             <a href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus</a> 
+             <a class=\"plus\" href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus ></a> 
          </div>
           <div class=\"tablette family\">
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
@@ -374,7 +387,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
          <div>
-             <a href=\"{{path('jarvisHotel')}}\" src=\"\">En savoir plus</a>
+             <a class=\"plus\"  href=\"{{path('jarvisHotel')}}\" src=\"\">En savoir plus > </a>
          </div>
           <div class=\"hotel\">
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
@@ -386,7 +399,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2>Abonnement</h2>
             <h3>En achat ou en location, votre Jarvis à porter de main</h3>
         <div>
-             <a href=\"abonnement\" src=\"\">En savoir plus</a>
+             <a class=\"plus\" href=\"abonnement\" src=\"\">En savoir plus ></a>
          </div>
           <div class=\"\">
              <img class=\"imgabonnement\" src=\"img/img/Annotation 2020-02-28 155121.png\">
@@ -397,20 +410,23 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h3>Femme de ménage,jardinier,nounous,
         tout ce monde à votre service</h3>
          <div>
-            <a href=\"Services\" src=\"\">En savoir plus</a>
-        </div>
-        <div>
-            <img class=\"logo\" src=\"../img/img/logo rond/ubereat.png\">
-            <img class=\"logo\" src=\"../img/img/logo rond/deliveroo.png\">
-            <img class=\"logo\" src=\"../img/JustEat.png\">
+             <a class=\"plus\" href=\"Services\" src=\"\">En savoir plus ></a>
+         </div>
+         <div>
+          <div class=\"logo-service\">
+             <img class=\"logo\" src=\"../img/img/logo rond/ubereat.png\">
+             <img class=\"logo\" src=\"../img/img/logo rond/deliveroo.png\">
+             <img class=\"logo\" src=\"../img/JustEat.png\">
              <img class=\"logo\" src=\"../img/img/logo rond/netflix.png\">
-        </div>
+           </div>
+           <br>
             <div>
-                <img class=\"logo\" src=\"../img/img/logo rond/aideballade.png\">
-                <img class=\"logo\" src=\"../img/img/logo rond/aideMedical.jpg\">
-                <img class=\"logo\" src=\"../img/img/logo rond/aideMenage.jpg\">
-                <img class=\"logo\" src=\"../img/img/logo rond/aideRepas.png\">
+             <img class=\"logo\" src=\"../img/img/logo rond/aideballade.png\">
+             <img class=\"logo\" src=\"../img/img/logo rond/aideMedical.jpg\">
+             <img class=\"logo\" src=\"../img/img/logo rond/aideMenage.jpg\">
+             <img class=\"logo\" src=\"../img/img/logo rond/aideRepas.png\">
             </div>
+          </div>
     </div>
 </article>
 

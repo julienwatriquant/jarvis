@@ -65,7 +65,9 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
     <style>
     nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
     .logo{height:6vh;}
-    a{color:#C1A291;}
+    .nav-link{color:#C1A291;}
+    .icon{color:#C1A291;}
+    a:hover{text-decoration:none;}
     .panier{height:3vh;}
     ul{align-items:center;}
     li{margin-left:4vh;margin-right:4vh;}
@@ -123,16 +125,12 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
       ";
         // line 59
         $this->displayBlock('body', $context, $blocks);
-        // line 63
-        echo "
-
-
-
-        
-      ";
-        // line 68
+        // line 60
+        echo "        
+        ";
+        // line 61
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 69
+        // line 62
         echo "
       <footer>
 
@@ -199,6 +197,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
+
     // line 59
     public function block_body($context, array $blocks = [])
     {
@@ -209,7 +208,9 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
+
         // line 60
+
         echo "        
         
       ";
@@ -220,6 +221,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
 
     }
+
 
     // line 68
     public function block_javascripts($context, array $blocks = [])
@@ -251,7 +253,8 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  225 => 68,  213 => 60,  203 => 59,  185 => 11,  166 => 10,  136 => 69,  134 => 68,  127 => 63,  125 => 59,  103 => 40,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+
+        return array (  226 => 68,  212 => 60,  201 => 59,  182 => 11,  163 => 10,  133 => 62,  131 => 61,  128 => 60,  126 => 59,  104 => 40,  95 => 34,  89 => 31,  83 => 28,  643=> 12,  61 => 11,  57 => 10,  46=> 1,);
     }
 
     public function getSourceContext()
@@ -269,9 +272,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         {% block stylesheets %}{% endblock %}
     </head>
     <style>
-    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
+    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
     .logo{height:6vh;}
-    a{color:#C1A291;}
+    .nav-link{color:#C1A291;}
+    .icon{color:#C1A291;}
+    a:hover{text-decoration:none;}
     .panier{height:3vh;}
     ul{align-items:center;}
     li{margin-left:4vh;margin-right:4vh;}
@@ -313,16 +318,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         </ul>
       </nav>
 
-
       {% block body %}
         
-        
+
       {% endblock %}
 
-
-
-
-        
       {% block javascripts %}{% endblock %}
 
       <footer>
