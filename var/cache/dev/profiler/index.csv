@@ -981,4 +981,15 @@ a9aac4,127.0.0.1,GET,http://localhost:8000/jarvis/pro,1586004988,,200
 0787dc,127.0.0.1,GET,http://localhost:8000/jarvis/pro,1586007558,,200
 618d81,127.0.0.1,GET,http://localhost:8000/jarvis/pro,1586008408,,200
 02544d,127.0.0.1,GET,http://localhost:8000/jarvis/pro,1586008491,,200
-8edcd5,127.0.0.1,GET,http://localhost:8000/jarvis/pro,1586008510,,200
+8edcd5,127.0.0.1,GET,http://localhost:8000/jarvis/pro,1586008510,,200da5d1c,127.0.0.1,GET,http://localhost:8000/,1586173027,e9640a,500
+e9640a,127.0.0.1,GET,http://localhost:8000/,1586173027,,500
+8a9715,127.0.0.1,GET,http://localhost:8000/,1586173320,9eaf5a,500
+9eaf5a,127.0.0.1,GET,http://localhost:8000/,1586173320,,500
+229ff0,127.0.0.1,GET,http://localhost:8000/,1586173553,73c879,500
+73c879,127.0.0.1,GET,http://localhost:8000/,1586173553,,500
+4cbdf3,127.0.0.1,GET,http://localhost:8000/,1586174028,,200
+4723e0,127.0.0.1,GET,http://localhost:8000/jarvis/pro,1586174078,,200
+9d676e,127.0.0.1,GET,http://localhost:8000/jarvis/pro,1586174314,,200
+1e019c,127.0.0.1,GET,http://localhost:8000/jarvis/family,1586174991,,200
+16bd0e,127.0.0.1,GET,http://localhost:8000/jarvis/img/,1586174996,5095d2,404
+5095d2,127.0.0.1,GET,http://localhost:8000/jarvis/img/,1586174996,,404
