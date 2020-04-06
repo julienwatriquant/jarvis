@@ -65,9 +65,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-
         echo "JarvisPro";
-
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -87,9 +85,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "<style>"
-
-    body{margin:auto;padding:auto;}
+        echo "<style>
     header{background:url(\"../img/home_smarthome.png\")5%;width:100%;height:100vh;text-align:center;}
     .titre{display:flex;}
     .prod{color:#C1A291;}
@@ -106,7 +102,8 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 <body>
 
 <header>
-    <h2>hello</h2>
+
+
         <ul class=\"nav navpro justify-content-end\">
             <li class=\"nav-item\">
                 <a class=\"nav-link\" href=\"#\">Compatibilités</a>
@@ -138,6 +135,8 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         </div>
     </div>
 </div>
+
+
 <footer>
     <div class=\"reseau\">
             <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>
@@ -191,12 +190,10 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
     {
         return new Source("{% extends 'base.html.twig' %}
 
-
 {% block title %}JarvisPro{% endblock %}
 
 {% block body %}
 <style>
-    body{margin:auto;padding:auto;}
     header{background:url(\"../img/home_smarthome.png\")5%;width:100%;height:100vh;text-align:center;}
     .titre{display:flex;}
     .prod{color:#C1A291;}
@@ -213,7 +210,8 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 <body>
 
 <header>
-    <h2>hello</h2>
+
+
         <ul class=\"nav navpro justify-content-end\">
             <li class=\"nav-item\">
                 <a class=\"nav-link\" href=\"#\">Compatibilités</a>
@@ -244,6 +242,8 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
         </div>
     </div>
 </div>
+
+
 <footer>
     <div class=\"reseau\">
             <a href=\"#\"><img class=\"facebook\" src=\"img/\"></a>

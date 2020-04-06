@@ -65,7 +65,9 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
     <style>
     nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
     .logo{height:6vh;}
-    a{color:#C1A291;}
+    .nav-link{color:#C1A291;}
+    .icon{color:#C1A291;}
+    a:hover{text-decoration:none;}
     .panier{height:3vh;}
     ul{align-items:center;}
     li{margin-left:4vh;margin-right:4vh;}
@@ -116,12 +118,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         // line 56
         $this->displayBlock('body', $context, $blocks);
         // line 60
-        echo "
-        
+        echo "        
         ";
-        // line 62
+        // line 61
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 63
+        // line 62
         echo "
        <footer>
 
@@ -141,7 +142,6 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
       </footer>  
     </body>
-
 </html>
 ";
         
@@ -189,6 +189,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
+    // line 56
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -198,6 +199,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
+        // line 57
         echo "        
         
         ";
@@ -209,6 +211,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
+    // line 61
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -238,7 +241,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  216 => 62,  204 => 57,  194 => 56,  176 => 11,  157 => 10,  127 => 63,  125 => 62,  121 => 60,  119 => 56,  96 => 36,  90 => 33,  84 => 30,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  215 => 61,  203 => 57,  193 => 56,  175 => 11,  156 => 10,  126 => 62,  124 => 61,  121 => 60,  119 => 56,  96 => 36,  90 => 33,  84 => 30,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -256,10 +259,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         {% block stylesheets %}{% endblock %}
     </head>
     <style>
-
     nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
     .logo{height:6vh;}
-    a{color:#C1A291;}
+    .nav-link{color:#C1A291;}
+    .icon{color:#C1A291;}
+    a:hover{text-decoration:none;}
     .panier{height:3vh;}
     ul{align-items:center;}
     li{margin-left:4vh;margin-right:4vh;}
@@ -301,7 +305,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         
         
         {% endblock %}
-
+        
         {% block javascripts %}{% endblock %}
 
        <footer>
