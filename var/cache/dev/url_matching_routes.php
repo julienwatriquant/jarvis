@@ -18,6 +18,7 @@ return [
         '/jarvis/acces' => [[['_route' => 'jarvisAcces', '_controller' => 'App\\Controller\\JarvisController::jarvisAcces'], null, null, null, false, false, null]],
         '/jarvis/family' => [[['_route' => 'jarvisFamily', '_controller' => 'App\\Controller\\JarvisController::jarvisFamily'], null, null, null, false, false, null]],
         '/jarvis/hotel' => [[['_route' => 'jarvisHotel', '_controller' => 'App\\Controller\\JarvisController::jarvisHotel'], null, null, null, false, false, null]],
+        '/jarvis/screen' => [[['_route' => 'jarvisScreen', '_controller' => 'App\\Controller\\JarvisController::jarvisScreen'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'
