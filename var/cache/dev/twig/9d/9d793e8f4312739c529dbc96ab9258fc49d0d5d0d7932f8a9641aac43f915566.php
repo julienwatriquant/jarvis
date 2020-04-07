@@ -65,7 +65,9 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
     <style>
     nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
     .logo{height:6vh;}
-    a{color:#C1A291;}
+    .nav-link{color:#C1A291;}
+    .icon{color:#C1A291;}
+    a:hover{text-decoration:none;}
     .panier{height:3vh;}
     ul{align-items:center;}
     li{margin-left:4vh;margin-right:4vh;}
@@ -137,14 +139,14 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $this->displayBlock('javascripts', $context, $blocks);
         // line 69
         echo "
-       <footer>
+      <footer>
 
         
           <div class=\"iconReseaux\">
 
             <a class=\"icon\" href=\"http://www.facebook.com/mysmartjarvis\"><i class=\"fab fa-facebook-square\"></i></a>
 
-            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis/\"><i class=\"fab fa-instagram\"></i></a>
+            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis\"><i class=\"fab fa-instagram\"></i></a>
           </div>
           <div>
             <p>© 2020 Copyright :
@@ -215,7 +217,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         // line 60
         echo "        
         
-        ";
+      ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -272,9 +274,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         {% block stylesheets %}{% endblock %}
     </head>
     <style>
-    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
+    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
     .logo{height:6vh;}
-    a{color:#C1A291;}
+    .nav-link{color:#C1A291;}
+    .icon{color:#C1A291;}
+    a:hover{text-decoration:none;}
     .panier{height:3vh;}
     ul{align-items:center;}
     li{margin-left:4vh;margin-right:4vh;}
@@ -320,22 +324,19 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         {% block body %}
         
         
-        {% endblock %}
 
+      {% endblock %}
 
+      {% block javascripts %}{% endblock %}
 
-
-        
-        {% block javascripts %}{% endblock %}
-
-       <footer>
+      <footer>
 
         
           <div class=\"iconReseaux\">
 
             <a class=\"icon\" href=\"http://www.facebook.com/mysmartjarvis\"><i class=\"fab fa-facebook-square\"></i></a>
 
-            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis/\"><i class=\"fab fa-instagram\"></i></a>
+            <a class=\"icon\" href=\"http://www.instagram.com/mysmartjarvis\"><i class=\"fab fa-instagram\"></i></a>
           </div>
           <div>
             <p>© 2020 Copyright :

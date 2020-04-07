@@ -88,9 +88,8 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
         echo "<style>
     .contenu{margin: 0 auto;}
     header{width:100%;margin: 0 auto;background:#263271;text-align:center;min-height:80vh;align-items:center;padding-top:5vh;}
-    .titre{padding-top:2vh;}
     .lien{display:flex;padding-left:30%;}
-    .titre{display:flex;align-items:center;justify-content:space-evenly;}
+    .titre{display:flex;align-items:center;justify-content:space-evenly;padding-top:2vh;}
     .a-lien{position:relative;margin-left:6vh;color:#C1A291;}
     a:hover{text-decoration:none;}
     h2{color:#C1A291;font-size:7vh;}
@@ -142,7 +141,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
   <div class=\"contenu\">
     <header>
       <div class=\"titre\">
-        <h2>JArvisAcces</h2>
+        <h2>JarvisAcces</h2>
         <div class=\"lien\">
               <a class=\"a-lien\" href=\"\">Compatibilités</a>
               <a class=\"a-lien\" href=\"\">Caractéristiques techniques</a>
@@ -157,7 +156,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
       <div class=\"acces-text\"><p>Démultiplier vos<br> possibilités sans ajouter la moindre complexité.</p> </div>
       <br>
         <div class=\"acces-text2\">
-        <p>Composer de 4 éléments, le <span>JArvisTag</span>, le <span>JarvisSmoke</span>, le <span>JarvisMotion</span>
+        <p>Composer de 4 éléments, le <span>JarvisTag</span>, le <span>JarvisSmoke</span>, le <span>JarvisMotion</span>
         <br>et le <span>JarvisPlug</span> ainsi que la <span>JarvisWatch</span> (en option)</p>
         </div>
         <br>
@@ -165,7 +164,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     </div>";
         // line 84
         echo "    <div class=\"tag\">
-    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisTag</h2>
+    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisTag</h2>
     <br>
     <div class=\"tag-text\">
       <img class=\"tag-img\" src=\"../img/enceinte1.jpg\">
@@ -177,14 +176,14 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     </div>";
         // line 95
         echo "  <div class=\"smoke\">
-   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisSmoke</h2>
+   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisSmoke</h2>
    <div class=\"smoke-text\">
    <p class=\"smoke-text2\">Le détecteur de fumée connecté, afin de <br> prévenir tout dépard de feu.</p>
    <img class=\"smoke-img\" src=\"../img/img/JarvisSmoke/smoke.png\">
    </div>
   </div>
  <div class=\"motion\">
-   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisMotion</h2>
+   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisMotion</h2>
    <div class=\"motion-text\">
     <img class=\"motion-img\" src=\"../img/img/JarvisMotion/IMG-0613.jpg\">
     <p>Le détecteur de mouvement multidirectionnel<br> de taille réduite, détectera vos déplacement la<br> nuit et
@@ -193,9 +192,9 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
    </div>
   </div>
   <div class=\"plug\">
-   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisPlug</h2>
+   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisPlug</h2>
    <div class=\"plug-text\">
-    <p class=\"plug-text2\">Prise intelligente (voir àrajouter du texte)</p>
+    <p class=\"plug-text2\">Prise intelligente</p>
     <img class=\"plug-img\" src=\"../img/img/JarvisPlug/IMG-0610.jpg\">
    </div>
    <br>
@@ -211,7 +210,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     <br>
   </div>
   <div class=\"watch\">
-    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisWatch</h2>
+    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisWatch</h2>
     <p>À partir de 170 € <a class=\"\" href=\"\">Acheter ></a></p>
     <div class=\"watch-text\">
       <img class=\"img-watch-1\" src=\"../img/img/jarvisWatch/IMG-0602.jpg\">
@@ -310,9 +309,8 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
 <style>
     .contenu{margin: 0 auto;}
     header{width:100%;margin: 0 auto;background:#263271;text-align:center;min-height:80vh;align-items:center;padding-top:5vh;}
-    .titre{padding-top:2vh;}
     .lien{display:flex;padding-left:30%;}
-    .titre{display:flex;align-items:center;justify-content:space-evenly;}
+    .titre{display:flex;align-items:center;justify-content:space-evenly;padding-top:2vh;}
     .a-lien{position:relative;margin-left:6vh;color:#C1A291;}
     a:hover{text-decoration:none;}
     h2{color:#C1A291;font-size:7vh;}
@@ -364,7 +362,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
   <div class=\"contenu\">
     <header>
       <div class=\"titre\">
-        <h2>JArvisAcces</h2>
+        <h2>JarvisAcces</h2>
         <div class=\"lien\">
               <a class=\"a-lien\" href=\"\">Compatibilités</a>
               <a class=\"a-lien\" href=\"\">Caractéristiques techniques</a>
@@ -379,14 +377,14 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
       <div class=\"acces-text\"><p>Démultiplier vos<br> possibilités sans ajouter la moindre complexité.</p> </div>
       <br>
         <div class=\"acces-text2\">
-        <p>Composer de 4 éléments, le <span>JArvisTag</span>, le <span>JarvisSmoke</span>, le <span>JarvisMotion</span>
+        <p>Composer de 4 éléments, le <span>JarvisTag</span>, le <span>JarvisSmoke</span>, le <span>JarvisMotion</span>
         <br>et le <span>JarvisPlug</span> ainsi que la <span>JarvisWatch</span> (en option)</p>
         </div>
         <br>
         <br>
     </div>{# fin acces #}
     <div class=\"tag\">
-    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisTag</h2>
+    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisTag</h2>
     <br>
     <div class=\"tag-text\">
       <img class=\"tag-img\" src=\"../img/enceinte1.jpg\">
@@ -397,14 +395,14 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     </div>
     </div>{# fin tag #}
   <div class=\"smoke\">
-   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisSmoke</h2>
+   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisSmoke</h2>
    <div class=\"smoke-text\">
    <p class=\"smoke-text2\">Le détecteur de fumée connecté, afin de <br> prévenir tout dépard de feu.</p>
    <img class=\"smoke-img\" src=\"../img/img/JarvisSmoke/smoke.png\">
    </div>
   </div>
  <div class=\"motion\">
-   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisMotion</h2>
+   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisMotion</h2>
    <div class=\"motion-text\">
     <img class=\"motion-img\" src=\"../img/img/JarvisMotion/IMG-0613.jpg\">
     <p>Le détecteur de mouvement multidirectionnel<br> de taille réduite, détectera vos déplacement la<br> nuit et
@@ -413,9 +411,9 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
    </div>
   </div>
   <div class=\"plug\">
-   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisPlug</h2>
+   <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisPlug</h2>
    <div class=\"plug-text\">
-    <p class=\"plug-text2\">Prise intelligente (voir àrajouter du texte)</p>
+    <p class=\"plug-text2\">Prise intelligente</p>
     <img class=\"plug-img\" src=\"../img/img/JarvisPlug/IMG-0610.jpg\">
    </div>
    <br>
@@ -431,7 +429,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     <br>
   </div>
   <div class=\"watch\">
-    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisWatch</h2>
+    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisWatch</h2>
     <p>À partir de 170 € <a class=\"\" href=\"\">Acheter ></a></p>
     <div class=\"watch-text\">
       <img class=\"img-watch-1\" src=\"../img/img/jarvisWatch/IMG-0602.jpg\">
