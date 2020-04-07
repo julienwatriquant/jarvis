@@ -47,5 +47,13 @@ class JarvisController extends AbstractController
         return $this->render('jarvis/hotel.html.twig');
     }
     
+    /**
+     * @Route("/jarvis/screen", name="jarvisScreen")
+     */
+    public function jarvisScreen()
+    {    
+        return $this->render('jarvis/screen.html.twig');
+    }
+    
 }
 

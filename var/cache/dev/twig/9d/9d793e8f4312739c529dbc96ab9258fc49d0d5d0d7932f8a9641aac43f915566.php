@@ -95,7 +95,10 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         echo "\">JarvisAcces</a>
             </li>
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"#\">JarvisScreen</a>
+              <a class=\"nav-link\" href=\"";
+        // line 37
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisScreen");
+        echo "\">JarvisScreen</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
@@ -121,20 +124,18 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
 
         ";
-        // line 54
-        $this->displayBlock('body', $context, $blocks);
-
-        // line 55
-        echo "
-        
-
-        // line 58
-        echo "        
-
-        ";
         // line 59
+        $this->displayBlock('body', $context, $blocks);
+        // line 63
+        echo "
+
+
+
+        
+        ";
+        // line 68
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 60
+        // line 69
         echo "
        <footer>
 
@@ -201,7 +202,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 54
+    // line 59
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -211,7 +212,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 55
+        // line 60
         echo "        
         
         ";
@@ -223,7 +224,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 59
+    // line 68
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -253,7 +254,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  216 => 59,  204 => 55,  194 => 54,  176 => 11,  157 => 10,  127 => 60,  125 => 59,  122 => 58,  120 => 54,  103 => 40,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  228 => 68,  216 => 60,  206 => 59,  188 => 11,  169 => 10,  139 => 69,  137 => 68,  130 => 63,  128 => 59,  106 => 40,  100 => 37,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -294,7 +295,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
               <a class=\"nav-link\" href=\"{{path('jarvisAcces')}}\">JarvisAcces</a>
             </li>
             <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"#\">JarvisScreen</a>
+              <a class=\"nav-link\" href=\"{{path('jarvisScreen')}}\">JarvisScreen</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"{{path('jarvisHotel')}}\">JarvisForHotel</a>
@@ -313,8 +314,8 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         </nav>
 
         </ul>
-
       </nav>
+
 
         {% block body %}
         

@@ -65,7 +65,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Hello JarvisController!";
+        echo "Acceuil Jarvis";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -111,6 +111,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
     .imgabonnement{width:300px;height:200px;}
     .logo{height: 50px;width: 50px;}
+
 </style>
 
 <body>
@@ -122,7 +123,10 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h5>à partir de 900 €</h5>
     </div>
 <div class=\"lien\">
-        <a href=\"jarvisPro\" src=\"\">En savoir plus</a>
+        <a href=\"";
+        // line 44
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisPro");
+        echo "\" src=\"\">En savoir plus</a>
         <a href=\"\" src=\"\">Acheter</a>
 </div>
     <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
@@ -134,11 +138,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h5>à partir de 450 €</h5>
         <div>
              <a href=\"";
-
-        // line 80
-
-        // line 54
-
+        // line 55
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
         echo "\" src=\"\">En savoir plus</a>
              <a href=\"\" src=\"\">Acheter</a>
@@ -180,22 +180,10 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
-
-
-             <a href=\"\" src=\"\">En savoir plus</a>
-
              <a href=\"";
-        // line 151
-        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
-        echo "\" src=\"\">En savoir plus</a>
-
-             
-
-             <a href=\"";
-        // line 96
+        // line 95
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
         echo "\" src=\"\">En savoir plus</a> 
-
          </div>
           <div class=\"tablette family\">
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
@@ -206,7 +194,10 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
          <div>
-             <a href=\"jarvisforhotels\" src=\"\">En savoir plus</a>
+             <a href=\"";
+        // line 106
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisHotel");
+        echo "\" src=\"\">En savoir plus</a>
          </div>
           <div class=\"hotel\">
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
@@ -273,18 +264,14 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     public function getDebugInfo()
     {
-
-        return array (  238 => 151,  164 => 80,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
-
-        return array (  183 => 96,  138 => 54,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
-
+        return array (  199 => 106,  185 => 95,  142 => 55,  128 => 44,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Hello JarvisController!{% endblock %}
+{% block title %}Acceuil Jarvis{% endblock %}
 
 {% block body %}
 <style>
@@ -313,6 +300,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
     .imgabonnement{width:300px;height:200px;}
     .logo{height: 50px;width: 50px;}
+
 </style>
 
 <body>
@@ -324,7 +312,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h5>à partir de 900 €</h5>
     </div>
 <div class=\"lien\">
-        <a href=\"jarvisPro\" src=\"\">En savoir plus</a>
+        <a href=\"{{path('jarvisPro')}}\" src=\"\">En savoir plus</a>
         <a href=\"\" src=\"\">Acheter</a>
 </div>
     <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
@@ -375,16 +363,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h2 class=\"family\">JarvisFamily</h2>
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
-
-
-             <a href=\"\" src=\"\">En savoir plus</a>
-
-             <a href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus</a>
-
-             
-
              <a href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus</a> 
-
          </div>
           <div class=\"tablette family\">
              <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
@@ -395,7 +374,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
          <div>
-             <a href=\"jarvisforhotels\" src=\"\">En savoir plus</a>
+             <a href=\"{{path('jarvisHotel')}}\" src=\"\">En savoir plus</a>
          </div>
           <div class=\"hotel\">
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
@@ -443,7 +422,6 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 {% endblock %}
 
-
-   ", "jarvis/index.html.twig", "C:\\xampp\\htdocs\\symfony\\jarvis\\templates\\jarvis\\index.html.twig");
+", "jarvis/index.html.twig", "C:\\xampp\\htdocs\\symfony\\jarvis\\templates\\jarvis\\index.html.twig");
     }
 }

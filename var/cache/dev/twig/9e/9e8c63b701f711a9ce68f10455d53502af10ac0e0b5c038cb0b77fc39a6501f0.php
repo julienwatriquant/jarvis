@@ -65,7 +65,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Jarvis Acces";
+        echo "JarvisAcces";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -138,8 +138,6 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     .img-bas-page{width:55%;}
     .bas-page-text{font-size:3.5vh;}
 </style>
-
-
 <body>
   <div class=\"contenu\">
     <header>
@@ -165,7 +163,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
         <br>
         <br>
     </div>";
-
+        // line 84
         echo "    <div class=\"tag\">
     <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisTag</h2>
     <br>
@@ -177,7 +175,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
       </p>
     </div>
     </div>";
-
+        // line 95
         echo "  <div class=\"smoke\">
    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JArvisSmoke</h2>
    <div class=\"smoke-text\">
@@ -245,20 +243,22 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/chute.png\" class=\"img-logo\"><p class=\"text-logo\">Détection de chute</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/gps.png\" class=\"img-logo\"><p class=\"text-logo\">Géofencing</p></div>
         </div>";
+        // line 162
         echo "        <div class=\"item4-6\">
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/appels.png\" class=\"img-logo\"><p class=\"text-logo\">Appels</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/sms.png\" class=\"img-logo\"><p class=\"text-logo\">SMS</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/sos.png\" class=\"img-logo\"><p class=\"text-logo\">SOS</p></div>
         </div>";
+        // line 167
         echo "        <div class=\"item7-8\">
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/vibreur.png\" class=\"img-logo\"><p class=\"text-logo\">Vibreur</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/cardiaque.png\" class=\"img-logo\"><p class=\"text-logo\">Rythme cardiaque</p></div>
         </div>";
-
+        // line 171
         echo "      </div>";
-       
+        // line 172
         echo "    </div> ";
-     
+        // line 173
         echo "    <div class=\"watch-abonement\">
       <p class=\"abonement-text1\">Abonnement 7€ par mois.</p>
       <br>
@@ -297,14 +297,14 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
 
     public function getDebugInfo()
     {
-        return array (  264 => 175,  262 => 174,  260 => 173,  255 => 169,  249 => 164,  181 => 97,  169 => 86,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  262 => 173,  260 => 172,  258 => 171,  253 => 167,  247 => 162,  179 => 95,  167 => 84,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Jarvis Acces{% endblock %}
+{% block title %}JarvisAcces{% endblock %}
 
 {% block body %}
 <style>
@@ -360,8 +360,6 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     .img-bas-page{width:55%;}
     .bas-page-text{font-size:3.5vh;}
 </style>
-
-
 <body>
   <div class=\"contenu\">
     <header>

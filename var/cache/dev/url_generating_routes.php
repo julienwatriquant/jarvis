@@ -20,4 +20,5 @@ return [
     'jarvisAcces' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisAcces'], [], [['text', '/jarvis/acces']], [], []],
     'jarvisFamily' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisFamily'], [], [['text', '/jarvis/family']], [], []],
     'jarvisHotel' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisHotel'], [], [['text', '/jarvis/hotel']], [], []],
+    'jarvisScreen' => [[], ['_controller' => 'App\\Controller\\JarvisController::jarvisScreen'], [], [['text', '/jarvis/screen']], [], []],
 ];
