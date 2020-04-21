@@ -91,10 +91,11 @@ class __TwigTemplate_ef5e5b3ea0737b950d19fd94531d77a8af135e8845e80585a45c9bd2afb
     body{background:#263271;}
     .colOra{color:#EF7E40;}
     .fond{height:100vh;}
-    .imgFond{position:relative;width:100%;height:95%;opacity:0.6}
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:10vh;width:100%;margin-bottom:0px;position:absolute;top:5vh;}
-    .produit{color:#C1A291;margin-left:26vh;}
-    .tablette{position:absolute;left:50vh;height:60vh;bottom:5vh}
+    .imgFond{position:relative;width:100%;height:95%;opacity:0.6;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:13vh;width:100%;margin-bottom:0px;position:absolute;top:5vh;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
+    .tablette{position:absolute;left:50vh;height:60vh;bottom:5vh;}
+    .navProduit{display:flex;align-items:end;margin-right:6vh;}
 
 
 </style>
@@ -105,18 +106,14 @@ class __TwigTemplate_ef5e5b3ea0737b950d19fd94531d77a8af135e8845e80585a45c9bd2afb
 
         <img class=\"img-fluid imgFond\" src=\"../img/chambre5.png\">
         <div class=\"jarvis\">
-            <h1 class=\"produit\">JarvisForHôtels</h1>
-            <ul class=\"nav navHotel\">
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Compatibilités</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link colOra\" href=\"#\">Demander un devis</a>
-                </li>
-            </ul>
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisForHôtels</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+                <a class=\"nav-link colOra\" href=\"#\">Demander un devis</a>
+            </div>
         </div>
         <img class=\"tablette\" src=\"../img/Tab.png\">
 
@@ -171,10 +168,11 @@ class __TwigTemplate_ef5e5b3ea0737b950d19fd94531d77a8af135e8845e80585a45c9bd2afb
     body{background:#263271;}
     .colOra{color:#EF7E40;}
     .fond{height:100vh;}
-    .imgFond{position:relative;width:100%;height:95%;opacity:0.6}
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:10vh;width:100%;margin-bottom:0px;position:absolute;top:5vh;}
-    .produit{color:#C1A291;margin-left:26vh;}
-    .tablette{position:absolute;left:50vh;height:60vh;bottom:5vh}
+    .imgFond{position:relative;width:100%;height:95%;opacity:0.6;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:13vh;width:100%;margin-bottom:0px;position:absolute;top:5vh;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
+    .tablette{position:absolute;left:50vh;height:60vh;bottom:5vh;}
+    .navProduit{display:flex;align-items:end;margin-right:6vh;}
 
 
 </style>
@@ -185,18 +183,14 @@ class __TwigTemplate_ef5e5b3ea0737b950d19fd94531d77a8af135e8845e80585a45c9bd2afb
 
         <img class=\"img-fluid imgFond\" src=\"../img/chambre5.png\">
         <div class=\"jarvis\">
-            <h1 class=\"produit\">JarvisForHôtels</h1>
-            <ul class=\"nav navHotel\">
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Compatibilités</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link colOra\" href=\"#\">Demander un devis</a>
-                </li>
-            </ul>
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisForHôtels</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+                <a class=\"nav-link colOra\" href=\"#\">Demander un devis</a>
+            </div>
         </div>
         <img class=\"tablette\" src=\"../img/Tab.png\">
 

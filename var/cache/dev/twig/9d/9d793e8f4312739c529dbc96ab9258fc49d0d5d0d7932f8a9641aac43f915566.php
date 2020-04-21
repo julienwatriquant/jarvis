@@ -45,22 +45,23 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
         // line 1
         echo "<!DOCTYPE html>
-<html>
+<html lang=\"fr\">
     <head>
-        <meta charset=\"UTF-8\">
-        
+        <meta charset=\"UTF-8\">        
         <meta name=\"viewport\" content=\"width=device-width,height=device-height, initial-scale=1.0\">
-         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css\">
-    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\"
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
+        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css\">
+        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\"
         integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
+        
         <title>";
-        // line 10
+        // line 11
         $this->displayBlock('title', $context, $blocks);
         echo "</title>
         ";
-        // line 11
-        $this->displayBlock('stylesheets', $context, $blocks);
         // line 12
+        $this->displayBlock('stylesheets', $context, $blocks);
+        // line 13
         echo "    </head>
     <style>
     nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
@@ -80,31 +81,31 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         <ul class=\"nav justify-content:center\">
             <li class=\"nav-item\">
               <a class=\"nav-link active\" href=\"";
-        // line 28
+        // line 31
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvis");
         echo "\"><img class=\"logo\" src=\"../img/img/jarvisLogo.gif\"></a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
-        // line 31
+        // line 34
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisPro");
         echo "\">JarvisPro</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
-        // line 34
+        // line 37
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
         echo "\">JarvisAcces</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
-        // line 37
+        // line 40
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisScreen");
         echo "\">JarvisScreen</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
-        // line 40
+        // line 43
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisHotel");
         echo "\">JarvisForHotel</a>
             </li>
@@ -125,19 +126,19 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
       </nav>
 
 
-        ";
-        // line 59
+      ";
+        // line 62
         $this->displayBlock('body', $context, $blocks);
-        // line 63
+        // line 66
         echo "
 
 
 
         
-        ";
-        // line 68
+      ";
+        // line 71
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 69
+        // line 72
         echo "
       <footer>
 
@@ -167,7 +168,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 10
+    // line 11
     public function block_title($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -186,7 +187,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 11
+    // line 12
     public function block_stylesheets($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -204,7 +205,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 59
+    // line 62
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -214,7 +215,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 60
+        // line 63
         echo "        
         
       ";
@@ -226,7 +227,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
-    // line 68
+    // line 71
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -256,25 +257,26 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
-        return array (  228 => 68,  216 => 60,  206 => 59,  188 => 11,  169 => 10,  139 => 69,  137 => 68,  130 => 63,  128 => 59,  106 => 40,  100 => 37,  94 => 34,  88 => 31,  82 => 28,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+        return array (  231 => 71,  219 => 63,  209 => 62,  191 => 12,  172 => 11,  142 => 72,  140 => 71,  133 => 66,  131 => 62,  109 => 43,  103 => 40,  97 => 37,  91 => 34,  85 => 31,  65 => 13,  63 => 12,  59 => 11,  47 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<!DOCTYPE html>
-<html>
+<html lang=\"fr\">
     <head>
-        <meta charset=\"UTF-8\">
-        
+        <meta charset=\"UTF-8\">        
         <meta name=\"viewport\" content=\"width=device-width,height=device-height, initial-scale=1.0\">
-         <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css\">
-    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\"
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
+        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css\">
+        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\"
         integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\">
+        
         <title>{% block title %}Accueil{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
     <style>
-    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;width:100%;opacity:0.98;}
+    nav{background:#263271;height:6vh;display:flex;align-items:center;justify-content:center;position:fixed;z-index:2;width:100%;opacity:0.98;}
     .logo{height:6vh;}
     .nav-link{color:#C1A291;}
     .icon{color:#C1A291;}
@@ -321,12 +323,15 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
       </nav>
 
 
-        {% block body %}
+      {% block body %}
         
         
-
       {% endblock %}
 
+
+
+
+        
       {% block javascripts %}{% endblock %}
 
       <footer>
