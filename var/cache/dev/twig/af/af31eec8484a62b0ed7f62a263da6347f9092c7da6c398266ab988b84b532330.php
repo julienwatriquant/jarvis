@@ -90,30 +90,28 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
 
     body{background:#263271;}
     .colOra{color:#EF7E40;}
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:20vh;width:100%;margin-bottom:0px;top:5vh;}
-    .produit{color:#C1A291;margin-left:26vh;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
+    .navProduit{display:flex;justify-content:flex-end;margin-right:6vh;}
 
 
 </style>
 
 <body>
 
-    <header class=\"img-fluid\">
+    <header class=\"img-fluid fond\">
 
+        <img class=\"img-fluid imgFond\" src=\"\">
         <div class=\"jarvis\">
-            <h1 class=\"produit\">JarvisScreen</h1>
-            <ul class=\"nav navScreen\">
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Compatibilités</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link colOra\" href=\"#\">Acheter</a>
-                </li>
-            </ul>
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisScreen</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+            </div>
         </div>
+
     </header>
 
     <section>
@@ -164,30 +162,28 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
 
     body{background:#263271;}
     .colOra{color:#EF7E40;}
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:20vh;width:100%;margin-bottom:0px;top:5vh;}
-    .produit{color:#C1A291;margin-left:26vh;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
+    .navProduit{display:flex;justify-content:flex-end;margin-right:6vh;}
 
 
 </style>
 
 <body>
 
-    <header class=\"img-fluid\">
+    <header class=\"img-fluid fond\">
 
+        <img class=\"img-fluid imgFond\" src=\"\">
         <div class=\"jarvis\">
-            <h1 class=\"produit\">JarvisScreen</h1>
-            <ul class=\"nav navScreen\">
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Compatibilités</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link colOra\" href=\"#\">Acheter</a>
-                </li>
-            </ul>
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisScreen</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+            </div>
         </div>
+
     </header>
 
     <section>
