@@ -92,9 +92,10 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
     p{color:#ffffff;}
     .colOra{color:#EF7E40;}
     .fond{background-repeat:no-repeat;background:url(\"../img/home_smarthome.png\");background-size:cover;height:100vh;position:relative;z-index:1;}
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:20vh;width:100%;margin-bottom:0px;}
-    .produit{color:#C1A291;margin-left:26vh}
-    .tabInt{position:absolute;top:30vh;left:50vh;height:55vh;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:23vh;width:100%;margin-bottom:0px;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw}
+    .navProduit{display:flex;align-items:end;margin-right:6vh}
+    .tabInt{position:absolute;top:26vh;left:50vh;height:55vh;}
     .slogan{position:absolute;top:90vh;left:62vh;color:#ffffff;}
     .corps{background:#263271;}
     .produit1{color:#C1A291;width:30%;display:flex;}
@@ -141,18 +142,14 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
     <header class=\"img-fluid fond\">
 
         <div class=\"jarvis\">
-            <h1 class=\"produit\">JarvisPro</h1>
-            <ul class=\"nav navPro\">
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Compatibilités</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link colOra\" href=\"#\">Acheter</a>
-                </li>
-            </ul>
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisPro</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+                <a class=\"nav-link colOra\" href=\"#\">Acheter</a>
+            </div>
         </div>
         <img class=\"img-fluid tabInt\" src=\"../img/TabBlack.png\">
         <h2 class=\"slogan\">\"Bonjour, je suis Jarvis votre majordome\"</h2>
@@ -216,7 +213,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
             </div>
             <div class=\"savoirPlus\">
                 <a class=\"savoir\" href=\"";
-        // line 136
+        // line 133
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
         echo "\">En savoir plus ></a>
             </div>
@@ -258,7 +255,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
     public function getDebugInfo()
     {
-        return array (  220 => 136,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  217 => 133,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -275,9 +272,10 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
     p{color:#ffffff;}
     .colOra{color:#EF7E40;}
     .fond{background-repeat:no-repeat;background:url(\"../img/home_smarthome.png\");background-size:cover;height:100vh;position:relative;z-index:1;}
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:20vh;width:100%;margin-bottom:0px;}
-    .produit{color:#C1A291;margin-left:26vh}
-    .tabInt{position:absolute;top:30vh;left:50vh;height:55vh;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:23vh;width:100%;margin-bottom:0px;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw}
+    .navProduit{display:flex;align-items:end;margin-right:6vh}
+    .tabInt{position:absolute;top:26vh;left:50vh;height:55vh;}
     .slogan{position:absolute;top:90vh;left:62vh;color:#ffffff;}
     .corps{background:#263271;}
     .produit1{color:#C1A291;width:30%;display:flex;}
@@ -324,18 +322,14 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
     <header class=\"img-fluid fond\">
 
         <div class=\"jarvis\">
-            <h1 class=\"produit\">JarvisPro</h1>
-            <ul class=\"nav navPro\">
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Compatibilités</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link colOra\" href=\"#\">Acheter</a>
-                </li>
-            </ul>
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisPro</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+                <a class=\"nav-link colOra\" href=\"#\">Acheter</a>
+            </div>
         </div>
         <img class=\"img-fluid tabInt\" src=\"../img/TabBlack.png\">
         <h2 class=\"slogan\">\"Bonjour, je suis Jarvis votre majordome\"</h2>

@@ -87,10 +87,12 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
         // line 7
         echo "
 <style>
+
     body{background:#263271;}
-    .jarvis{display:flex;justify-content:space-evenly;align-items:center;height:20vh;width:100%;margin-bottom:0px;}
-    .produit{color:#C1A291;width:29%;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:23vh;width:100%;margin-bottom:0px;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
     .family{height: 150vh;display:flex;align-items:center;justify-content:center;height:60vh;}
+    .navProduit{display:flex;justify-content:flex-end;margin-right:6vh;}
     .imgFamilyTab{height:95%}
     h2{display:flex;justify-content:center;align-items:center;height:20vh;width:70%}
     .slogan{color:white;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;height:50vh;width:100%;}
@@ -112,16 +114,15 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
 <body>
 
     <header>
+
         <div class=\"jarvis\">
-            <h1 class=\"produit\">JarvisFamily</h1>
-            <ul class=\"nav navfami\">
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Compatibilités</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
-                </li>
-            </ul>
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisFamily</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+            </div>
         </div>
 
         <div class=\"family\">
@@ -137,6 +138,7 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
     </header>
 
     <section>
+
         <div class=\"corp\">
             <div class=\"iconFami\">
                 <img class=\"iconF\" src=\"../img/news1.png\" alt=\"\">
@@ -185,10 +187,11 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
         <div class=\"imageEnfant\">
             <img class=\"imgEnfant\" src=\"../img/EnfantFamily.png\">
         </div>
+
     </section>
 
-
 </body>
+
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -223,10 +226,12 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
 {% block body %}
 
 <style>
+
     body{background:#263271;}
-    .jarvis{display:flex;justify-content:space-evenly;align-items:center;height:20vh;width:100%;margin-bottom:0px;}
-    .produit{color:#C1A291;width:29%;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:23vh;width:100%;margin-bottom:0px;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
     .family{height: 150vh;display:flex;align-items:center;justify-content:center;height:60vh;}
+    .navProduit{display:flex;justify-content:flex-end;margin-right:6vh;}
     .imgFamilyTab{height:95%}
     h2{display:flex;justify-content:center;align-items:center;height:20vh;width:70%}
     .slogan{color:white;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;height:50vh;width:100%;}
@@ -248,16 +253,15 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
 <body>
 
     <header>
+
         <div class=\"jarvis\">
-            <h1 class=\"produit\">JarvisFamily</h1>
-            <ul class=\"nav navfami\">
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Compatibilités</a>
-                </li>
-                <li class=\"nav-item\">
-                    <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
-                </li>
-            </ul>
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisFamily</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+            </div>
         </div>
 
         <div class=\"family\">
@@ -273,6 +277,7 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
     </header>
 
     <section>
+
         <div class=\"corp\">
             <div class=\"iconFami\">
                 <img class=\"iconF\" src=\"../img/news1.png\" alt=\"\">
@@ -289,3 +294,44 @@ class __TwigTemplate_3e21678c489acc9991dac9247ba0bbd8cc922a951ca107f8ef16b68724a
             </div>
 
             <div class=\"titreIcon\">
+                <span><strong>News</strong></span>
+
+                <span><strong>Messages</strong></span>
+
+                <span><strong>Transport</strong></span>
+
+                <span><strong>Photos</strong></span>
+
+                <span><strong>Agenda</strong></span>
+
+                <span><strong>Listes</strong></span>            
+            </div>
+
+            <div class=\"textIcon\">
+                <p class=\"textI\">Consulter la météo et l'ensemble des actualités à proximité de chez vous</p>
+
+                <p class=\"textI\">Echanger des messages avec les membres de votre famille en toute confidentialité.</p>
+
+                <p class=\"textI\">Visualiser en direct l'ensemble des transports disponibles proche de chez vous. (prochainement disponible)</p>
+
+                <p class=\"textI\">Créer à nouveau vos albums photos d'antan de manière sécurisée et accessible depuis n'importe ou dans le monde. (prochainement disponible)</p>
+
+                <p class=\"textI\">Partager vos rencontres et rendez-vous commun à la famille. (prochainement disponible)</p>
+
+                <p class=\"textI\">Créer des listes à l'ensemble du foyer, comme vos listes de courses et assignez les à chacun des membres.</p>
+            </div>
+        </div>
+
+        <h3 class=\"text-white\">Services gratuit inclus dans l'ensemble des produits, <strong class=\"marque\"> mySmartJarvis</strong></h3>
+        <div class=\"imageEnfant\">
+            <img class=\"imgEnfant\" src=\"../img/EnfantFamily.png\">
+        </div>
+
+    </section>
+
+</body>
+
+{% endblock %}
+", "jarvis/family.html.twig", "C:\\xampp\\htdocs\\symfony\\jarvis\\templates\\jarvis\\family.html.twig");
+    }
+}
