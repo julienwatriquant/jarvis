@@ -89,10 +89,23 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
 <style>
 
     body{background:#263271;}
+    header{max-width: 100%;height: 30vh;}
     .colOra{color:#EF7E40;}
+
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:20vh;width:100%;margin-bottom:0px;top:5vh;position: relative;right: 17vh;}
+    .produit{color:#C1A291;margin-left: 57vh;}
+    section{text-align:center;margin-top:5vh;height:80vh;}
+    section .screen{vertical-align: middle;border-style: none;height: 71vh; width: auto;}
+    article{color:white;text-align:center;font-size:2em;font-weight:bold;}
+    main{text-align:center;font-size:2em;color:white;margin-top: 5vh;}
+    main .pro{color:#C1A291;}
+    p{text-align:center;color:white;font-size:1em;text-justify:none;margin-top:5vh;margin-right: 60vh;margin-left: 69vh;font-size: 1.2em;}!important;
+    footer{align-items: center;text-align: center;background: #263271;height:20vh;padding-top:3vh;}
+
     .jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}
     .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
     .navProduit{display:flex;justify-content:flex-end;margin-right:6vh;}
+
 
 
 </style>
@@ -115,13 +128,14 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
     </header>
 
     <section>
-
+        <img class=\"screen\" src=\"../img/jarvisscreen.png\" alt=\"photo jarvis screen\">
 
 
 
     </section>    
-
-
+    <article> Plus qu'un écran , un monstre</article>
+    <main> Disponible en option pour votre <strong class=\"pro color:#EF7E40\">jarvisPro</strong></main>
+    <p>Ecran tactile de 10 pouces alimenté en POE et permettant le contrôle total de la maison. Disposant de LED de chaque côté , l'écran permet de passer des messages clairs et simples : les led sont vertes, c'est que la qualité d'air est excellente ! </p>
 </body>
 
 
@@ -161,10 +175,23 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
 <style>
 
     body{background:#263271;}
+    header{max-width: 100%;height: 30vh;}
     .colOra{color:#EF7E40;}
+
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:20vh;width:100%;margin-bottom:0px;top:5vh;position: relative;right: 17vh;}
+    .produit{color:#C1A291;margin-left: 57vh;}
+    section{text-align:center;margin-top:5vh;height:80vh;}
+    section .screen{vertical-align: middle;border-style: none;height: 71vh; width: auto;}
+    article{color:white;text-align:center;font-size:2em;font-weight:bold;}
+    main{text-align:center;font-size:2em;color:white;margin-top: 5vh;}
+    main .pro{color:#C1A291;}
+    p{text-align:center;color:white;font-size:1em;text-justify:none;margin-top:5vh;margin-right: 60vh;margin-left: 69vh;font-size: 1.2em;}!important;
+    footer{align-items: center;text-align: center;background: #263271;height:20vh;padding-top:3vh;}
+
     .jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}
     .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
     .navProduit{display:flex;justify-content:flex-end;margin-right:6vh;}
+
 
 
 </style>
@@ -187,13 +214,14 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
     </header>
 
     <section>
-
+        <img class=\"screen\" src=\"../img/jarvisscreen.png\" alt=\"photo jarvis screen\">
 
 
 
     </section>    
-
-
+    <article> Plus qu'un écran , un monstre</article>
+    <main> Disponible en option pour votre <strong class=\"pro color:#EF7E40\">jarvisPro</strong></main>
+    <p>Ecran tactile de 10 pouces alimenté en POE et permettant le contrôle total de la maison. Disposant de LED de chaque côté , l'écran permet de passer des messages clairs et simples : les led sont vertes, c'est que la qualité d'air est excellente ! </p>
 </body>
 
 

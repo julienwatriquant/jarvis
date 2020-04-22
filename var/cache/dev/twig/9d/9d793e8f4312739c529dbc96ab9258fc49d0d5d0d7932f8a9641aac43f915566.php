@@ -81,31 +81,51 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         <ul class=\"nav justify-content:center\">
             <li class=\"nav-item\">
               <a class=\"nav-link active\" href=\"";
+
+        // line 30
+
         // line 31
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvis");
         echo "\"><img class=\"logo\" src=\"../img/img/jarvisLogo.gif\"></a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
+
+        // line 33
+
         // line 34
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisPro");
         echo "\">JarvisPro</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
+
+        // line 36
+
         // line 37
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
         echo "\">JarvisAcces</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
+
+        // line 39
+
         // line 40
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisScreen");
         echo "\">JarvisScreen</a>
             </li>
             <li class=\"nav-item\">
               <a class=\"nav-link\" href=\"";
+
+        // line 42
+
         // line 43
+
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisHotel");
         echo "\">JarvisForHotel</a>
             </li>
@@ -127,18 +147,30 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
 
       ";
+
+        // line 61
+        $this->displayBlock('body', $context, $blocks);
+        // line 65
+
         // line 62
         $this->displayBlock('body', $context, $blocks);
         // line 66
+
         echo "
 
 
 
         
       ";
+
+        // line 70
+        $this->displayBlock('javascripts', $context, $blocks);
+        // line 71
+
         // line 71
         $this->displayBlock('javascripts', $context, $blocks);
         // line 72
+
         echo "
       <footer>
 
@@ -151,7 +183,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           </div>
           <div>
             <p>© 2020 Copyright :
-                <a href=\"\" class=\"lienFin\"> mysmartjarivs .com</a></p>
+                <a href=\"\" class=\"lienFin\"> mysmartjarvis .com</a></p>
           </div>
 
         
@@ -205,7 +237,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
+
+    // line 61
+
     // line 62
+
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -215,7 +251,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
+
+        // line 62
+
         // line 63
+
         echo "        
         
       ";
@@ -227,7 +267,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     }
 
+
+    // line 70
+
     // line 71
+
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -257,7 +301,11 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
 
     public function getDebugInfo()
     {
+
+        return array (  230 => 70,  218 => 62,  208 => 61,  190 => 11,  171 => 10,  141 => 71,  139 => 70,  132 => 65,  130 => 61,  108 => 42,  102 => 39,  96 => 36,  90 => 33,  84 => 30,  64 => 12,  62 => 11,  58 => 10,  47 => 1,);
+
         return array (  231 => 71,  219 => 63,  209 => 62,  191 => 12,  172 => 11,  142 => 72,  140 => 71,  133 => 66,  131 => 62,  109 => 43,  103 => 40,  97 => 37,  91 => 34,  85 => 31,  65 => 13,  63 => 12,  59 => 11,  47 => 1,);
+
     }
 
     public function getSourceContext()
@@ -345,7 +393,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           </div>
           <div>
             <p>© 2020 Copyright :
-                <a href=\"\" class=\"lienFin\"> mysmartjarivs .com</a></p>
+                <a href=\"\" class=\"lienFin\"> mysmartjarvis .com</a></p>
           </div>
 
         
