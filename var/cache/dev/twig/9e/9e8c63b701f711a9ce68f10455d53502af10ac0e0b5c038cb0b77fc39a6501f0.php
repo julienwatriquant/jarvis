@@ -89,12 +89,20 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     .contenu{margin: 0 auto;}
     header{width:100%;margin: 0 auto;background:#263271;text-align:center;min-height:80vh;align-items:center;padding-top:5vh;}
     .lien{display:flex;padding-left:30%;}
-    .titre{display:flex;align-items:center;justify-content:space-evenly;padding-top:2vh;}
-    .a-lien{position:relative;margin-left:6vh;color:#C1A291;}
-    a:hover{text-decoration:none;}
-    h2{color:#C1A291;font-size:7vh;}
-    span{color:#C1A291;}
-    #imgenceinte{width:40%;height:auto;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:13vh;width:100%;margin-bottom:0px;position:absolute;top:5vh;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
+    .navProduit{display:flex;align-items:end;margin-right:6vh;}
+
+    ";
+        // line 15
+        echo "    ";
+        // line 16
+        echo "    ";
+        // line 17
+        echo "    ";
+        // line 18
+        echo "    span{color:#C1A291;}
+    #imgenceinte{width:20%;height:auto;margin-top:20vh;}
     .tv-assist{font-size:7vh;color:white;margin-bottom:10vh;margin-top:10vh;}
     .mini-logo{height:15vh;}
     .acces{text-align:center;margin: 0 auto;background-color:#FBFBFD;}
@@ -140,15 +148,17 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
 <body>
   <div class=\"contenu\">
     <header>
-      <div class=\"titre\">
-        <h2>JarvisAcces</h2>
-        <div class=\"lien\">
-              <a class=\"a-lien\" href=\"\">Compatibilités</a>
-              <a class=\"a-lien\" href=\"\">Caractéristiques techniques</a>
-              <a class=\"a-lien\" href=\"\">Acheter</a>
+        <div class=\"jarvis\">
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisAcces</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+                <a class=\"nav-link colOra\" href=\"#\">Acheter</a>
+            </div>
         </div>
-      </div>
-    <img class=\"img-fluid\" src=\"../img/enceinte.jpg\" id=\"imgenceinte\">
+    <img class=\"img-fluid\" src=\"../img/enceinte.png\" id=\"imgenceinte\">
     <p class=\"tv-assist\">La téléassistance visionnaire</p>
     <br>
   </header>
@@ -162,19 +172,19 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
         <br>
         <br>
     </div>";
-        // line 83
+        // line 89
         echo "    <div class=\"tag\">
     <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisTag</h2>
     <br>
     <div class=\"tag-text\">
-      <img class=\"tag-img\" src=\"../img/enceinte1.jpg\">
+      <img class=\"tag-img\" src=\"../img/enceinte1.png\">
       <p class=\"tag-text2\">L'assistant vocal qui permet de veiller sur <br> toutes personnes dépendantes, séniors ou en <br> situation d’handicap,
         il  permet de faire de <br> l’appel silencieux et vérifier que tout va bien, <br> 
         ou permet à l’usager de demander un appel <br> de courtoisie vers un proche ou la <br> téléassistance.
       </p>
     </div>
     </div>";
-        // line 94
+        // line 100
         echo "  <div class=\"smoke\">
    <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisSmoke</h2>
    <div class=\"smoke-text\">
@@ -242,22 +252,22 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/chute.png\" class=\"img-logo\"><p class=\"text-logo\">Détection de chute</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/gps.png\" class=\"img-logo\"><p class=\"text-logo\">Géofencing</p></div>
         </div>";
-        // line 161
+        // line 167
         echo "        <div class=\"item4-6\">
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/appels.png\" class=\"img-logo\"><p class=\"text-logo\">Appels</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/sms.png\" class=\"img-logo\"><p class=\"text-logo\">SMS</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/sos.png\" class=\"img-logo\"><p class=\"text-logo\">SOS</p></div>
         </div>";
-        // line 166
+        // line 172
         echo "        <div class=\"item7-8\">
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/vibreur.png\" class=\"img-logo\"><p class=\"text-logo\">Vibreur</p></div>
           <div class=\"mini-item\"><img src=\"../img/img/logo_rond/cardiaque.png\" class=\"img-logo\"><p class=\"text-logo\">Rythme cardiaque</p></div>
         </div>";
-        // line 170
+        // line 176
         echo "      </div>";
-        // line 171
+        // line 177
         echo "    </div> ";
-        // line 172
+        // line 178
         echo "    <div class=\"watch-abonement\">
       <p class=\"abonement-text1\">Abonnement 7€ par mois.</p>
       <br>
@@ -270,7 +280,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     <div class=\"watch-bas-page\">
       <p class=\"bas-page-text\">soyez alerté via le JarvisFamily<br>
        de l’ensemble des intervenants passant chez votre proche</p>
-       <img class=\"img-bas-page\" src=\"../img/familyTab.jpg\"> 
+       <img class=\"img-bas-page\" src=\"../img/familyTab.png\"> 
     </div>
   
  </div>  
@@ -296,7 +306,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
 
     public function getDebugInfo()
     {
-        return array (  261 => 172,  259 => 171,  257 => 170,  252 => 166,  246 => 161,  178 => 94,  166 => 83,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  271 => 178,  269 => 177,  267 => 176,  262 => 172,  256 => 167,  188 => 100,  176 => 89,  104 => 18,  102 => 17,  100 => 16,  98 => 15,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -310,12 +320,16 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     .contenu{margin: 0 auto;}
     header{width:100%;margin: 0 auto;background:#263271;text-align:center;min-height:80vh;align-items:center;padding-top:5vh;}
     .lien{display:flex;padding-left:30%;}
-    .titre{display:flex;align-items:center;justify-content:space-evenly;padding-top:2vh;}
-    .a-lien{position:relative;margin-left:6vh;color:#C1A291;}
-    a:hover{text-decoration:none;}
-    h2{color:#C1A291;font-size:7vh;}
+    .jarvis{display:flex;justify-content:space-between;align-items:center;height:13vh;width:100%;margin-bottom:0px;position:absolute;top:5vh;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
+    .navProduit{display:flex;align-items:end;margin-right:6vh;}
+
+    {# .titre{display:flex;align-items:center;justify-content:space-evenly;padding-top:2vh;} #}
+    {# .a-lien{position:relative;margin-left:6vh;color:#C1A291;} #}
+    {# a:hover{text-decoration:none;} #}
+    {# h2{color:#C1A291;font-size:7vh;} #}
     span{color:#C1A291;}
-    #imgenceinte{width:40%;height:auto;}
+    #imgenceinte{width:20%;height:auto;margin-top:20vh;}
     .tv-assist{font-size:7vh;color:white;margin-bottom:10vh;margin-top:10vh;}
     .mini-logo{height:15vh;}
     .acces{text-align:center;margin: 0 auto;background-color:#FBFBFD;}
@@ -361,15 +375,17 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
 <body>
   <div class=\"contenu\">
     <header>
-      <div class=\"titre\">
-        <h2>JarvisAcces</h2>
-        <div class=\"lien\">
-              <a class=\"a-lien\" href=\"\">Compatibilités</a>
-              <a class=\"a-lien\" href=\"\">Caractéristiques techniques</a>
-              <a class=\"a-lien\" href=\"\">Acheter</a>
+        <div class=\"jarvis\">
+            <div class=\"nomProduit\">
+                <h1 class=\"produit\">JarvisAcces</h1>
+            </div>
+            <div class=\"navProduit\">
+                <a class=\"nav-link\" href=\"#\">Compatibilités</a>
+                <a class=\"nav-link\" href=\"#\">Caractéristiques techniques</a>
+                <a class=\"nav-link colOra\" href=\"#\">Acheter</a>
+            </div>
         </div>
-      </div>
-    <img class=\"img-fluid\" src=\"../img/enceinte.jpg\" id=\"imgenceinte\">
+    <img class=\"img-fluid\" src=\"../img/enceinte.png\" id=\"imgenceinte\">
     <p class=\"tv-assist\">La téléassistance visionnaire</p>
     <br>
   </header>
@@ -387,7 +403,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     <h2><img class=\"mini-logo\" src=\"../img/img/jarvisLogo.gif\">  JarvisTag</h2>
     <br>
     <div class=\"tag-text\">
-      <img class=\"tag-img\" src=\"../img/enceinte1.jpg\">
+      <img class=\"tag-img\" src=\"../img/enceinte1.png\">
       <p class=\"tag-text2\">L'assistant vocal qui permet de veiller sur <br> toutes personnes dépendantes, séniors ou en <br> situation d’handicap,
         il  permet de faire de <br> l’appel silencieux et vérifier que tout va bien, <br> 
         ou permet à l’usager de demander un appel <br> de courtoisie vers un proche ou la <br> téléassistance.
@@ -484,7 +500,7 @@ class __TwigTemplate_444a4ab96a9b60fc19cde668cd717e6df3cd30b1aac8983645e22e549e4
     <div class=\"watch-bas-page\">
       <p class=\"bas-page-text\">soyez alerté via le JarvisFamily<br>
        de l’ensemble des intervenants passant chez votre proche</p>
-       <img class=\"img-bas-page\" src=\"../img/familyTab.jpg\"> 
+       <img class=\"img-bas-page\" src=\"../img/familyTab.png\"> 
     </div>
   
  </div>  

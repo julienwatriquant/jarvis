@@ -90,21 +90,28 @@ class __TwigTemplate_ef5e5b3ea0737b950d19fd94531d77a8af135e8845e80585a45c9bd2afb
 
     body{background:#263271;}
     .colOra{color:#EF7E40;}
-    .fond{height:100vh;}
-    .imgFond{position:relative;width:100%;height:95%;opacity:0.6;}
+    .imgFond{position:relative;width:100%;height:80vh;margin-top:15vh;opacity:0.6;}
     .jarvis{display:flex;justify-content:space-between;align-items:center;height:13vh;width:100%;margin-bottom:0px;position:absolute;top:5vh;}
     .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
     .tablette{position:absolute;left:50vh;height:60vh;bottom:5vh;}
     .navProduit{display:flex;align-items:end;margin-right:6vh;}
+    .intro{color:white;}
+    .titreIntro{display:flex;align-items:center;justify-content:center;height:20vh;}
+    .textIntro{text-align:center;font-size:1.6vw;margin:0 10em 0 10em;height:25vh;}
+    .reception{display:flex;margin:5vh;text-align:center;height:70vh;margin-top:20vh;}
+    .hall{display:flex;margin:5vh;text-align:center;height:70vh;margin-top:20vh;}
+    .imgReception{height:55vh;}
+    .imgHall{height:55vh;}
+    p{color:#ffffff;font-size:1.6vw;}
+    h2{color:#ffffff;font-size:2.5vw;}
 
 
 </style>
 
 <body>
 
-    <header class=\"img-fluid fond\">
+    <header class=\"img-fluid\">
 
-        <img class=\"img-fluid imgFond\" src=\"../img/chambre5.png\">
         <div class=\"jarvis\">
             <div class=\"nomProduit\">
                 <h1 class=\"produit\">JarvisForHôtels</h1>
@@ -115,16 +122,41 @@ class __TwigTemplate_ef5e5b3ea0737b950d19fd94531d77a8af135e8845e80585a45c9bd2afb
                 <a class=\"nav-link colOra\" href=\"#\">Demander un devis</a>
             </div>
         </div>
-        <img class=\"tablette\" src=\"../img/Tab.png\">
+
+        <div class=\"img-fluid fond\">
+            <img class=\"img-fluid imgFond\" src=\"../img/chambre5.png\">
+            <img class=\"tablette\" src=\"../img/Tab.png\">
+        </div>
 
     </header>
 
-    <section>
+    <section class=\"intro\">
 
+        <h2 class=\"titreIntro\">Service en chambre</h2>
+        <p class=\"textIntro\">Jarvis est un majordome, grâce à lui vos clients auront accès à un catalogue de services exceptionnels tel que: place de théâtre, baby-sitter, visite culturelle,  roomservice… Mais aussi  l'accès à leur compte Netflix ou playlist Spotify simplement</p>
 
+    </section>
 
+    <article class=\"reception\">
 
-    </section>    
+        <div class=\"\">
+            <h2 class=\"\">Même le personnel d'hôtel aime ça!</h2>
+            <p class=\"\">il est simple avec cette interface incroyable d'ajuster la luminosité du restaurant,  pour augmenter la température dans le hall ou pour changer la playlist musicale. depuis n'importe quel ordinateur de l'hôtel, le staff peut tout gérer d'un jeux d'enfant.</p>
+        </div>
+        <img class=\"imgReception\" src=\"../img/reception.png\">
+
+    </article>
+
+    <article class=\"hall\">
+
+        <img class=\"imgHall\" src=\"../img/tabHall.png\">
+        <div class=\"\">
+            <h2 class=\"\">De la maison à l'hôtel, votre Jarvis reste le même.</h2>
+            <p class=\"\">basé sur la même technologie votre majordome vous accompagnera jusqu'à l'hôtel. Il connaît vos préférences et adapte automatiquement la pièce. Lors de la réservation, vous découvrirez votre chambre d'hôtel dans votre application habituelle.</p>
+        </div>
+
+    </article>
+
 
 
 </body>
@@ -167,21 +199,28 @@ class __TwigTemplate_ef5e5b3ea0737b950d19fd94531d77a8af135e8845e80585a45c9bd2afb
 
     body{background:#263271;}
     .colOra{color:#EF7E40;}
-    .fond{height:100vh;}
-    .imgFond{position:relative;width:100%;height:95%;opacity:0.6;}
+    .imgFond{position:relative;width:100%;height:80vh;margin-top:15vh;opacity:0.6;}
     .jarvis{display:flex;justify-content:space-between;align-items:center;height:13vh;width:100%;margin-bottom:0px;position:absolute;top:5vh;}
     .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
     .tablette{position:absolute;left:50vh;height:60vh;bottom:5vh;}
     .navProduit{display:flex;align-items:end;margin-right:6vh;}
+    .intro{color:white;}
+    .titreIntro{display:flex;align-items:center;justify-content:center;height:20vh;}
+    .textIntro{text-align:center;font-size:1.6vw;margin:0 10em 0 10em;height:25vh;}
+    .reception{display:flex;margin:5vh;text-align:center;height:70vh;margin-top:20vh;}
+    .hall{display:flex;margin:5vh;text-align:center;height:70vh;margin-top:20vh;}
+    .imgReception{height:55vh;}
+    .imgHall{height:55vh;}
+    p{color:#ffffff;font-size:1.6vw;}
+    h2{color:#ffffff;font-size:2.5vw;}
 
 
 </style>
 
 <body>
 
-    <header class=\"img-fluid fond\">
+    <header class=\"img-fluid\">
 
-        <img class=\"img-fluid imgFond\" src=\"../img/chambre5.png\">
         <div class=\"jarvis\">
             <div class=\"nomProduit\">
                 <h1 class=\"produit\">JarvisForHôtels</h1>
@@ -192,16 +231,41 @@ class __TwigTemplate_ef5e5b3ea0737b950d19fd94531d77a8af135e8845e80585a45c9bd2afb
                 <a class=\"nav-link colOra\" href=\"#\">Demander un devis</a>
             </div>
         </div>
-        <img class=\"tablette\" src=\"../img/Tab.png\">
+
+        <div class=\"img-fluid fond\">
+            <img class=\"img-fluid imgFond\" src=\"../img/chambre5.png\">
+            <img class=\"tablette\" src=\"../img/Tab.png\">
+        </div>
 
     </header>
 
-    <section>
+    <section class=\"intro\">
 
+        <h2 class=\"titreIntro\">Service en chambre</h2>
+        <p class=\"textIntro\">Jarvis est un majordome, grâce à lui vos clients auront accès à un catalogue de services exceptionnels tel que: place de théâtre, baby-sitter, visite culturelle,  roomservice… Mais aussi  l'accès à leur compte Netflix ou playlist Spotify simplement</p>
 
+    </section>
 
+    <article class=\"reception\">
 
-    </section>    
+        <div class=\"\">
+            <h2 class=\"\">Même le personnel d'hôtel aime ça!</h2>
+            <p class=\"\">il est simple avec cette interface incroyable d'ajuster la luminosité du restaurant,  pour augmenter la température dans le hall ou pour changer la playlist musicale. depuis n'importe quel ordinateur de l'hôtel, le staff peut tout gérer d'un jeux d'enfant.</p>
+        </div>
+        <img class=\"imgReception\" src=\"../img/reception.png\">
+
+    </article>
+
+    <article class=\"hall\">
+
+        <img class=\"imgHall\" src=\"../img/tabHall.png\">
+        <div class=\"\">
+            <h2 class=\"\">De la maison à l'hôtel, votre Jarvis reste le même.</h2>
+            <p class=\"\">basé sur la même technologie votre majordome vous accompagnera jusqu'à l'hôtel. Il connaît vos préférences et adapte automatiquement la pièce. Lors de la réservation, vous découvrirez votre chambre d'hôtel dans votre application habituelle.</p>
+        </div>
+
+    </article>
+
 
 
 </body>
