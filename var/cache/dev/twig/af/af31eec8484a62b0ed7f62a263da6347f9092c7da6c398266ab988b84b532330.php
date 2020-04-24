@@ -92,10 +92,10 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
     header{max-width: 100%;height: 30vh;}
     .colOra{color:#EF7E40;}
  julien11
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:20vh;width:100%;margin-bottom:0px;top:5vh;position: relative;right: 17vh;}
     
-    section{text-align: center;margin-top: -10vh;height: 81vh;}
-    section .screen{vertical-align: middle;border-style: none;height: 96vh;width: auto;}
+    section{display:flex;text-align:center;height: 75vh;}
+    .imgScreen{display:flex;justify-content:center;align-items:center;height:70vh;}
+    .screen{border-style: none;height:95vh;width: auto;}
     article{color:white;text-align:center;font-size:2em;font-weight:bold;margin-top: 3vh;}
     main{text-align:center;font-size:2em;color:white;margin-top: 5vh;}
     main .pro{color:#C1A291;}
@@ -103,7 +103,7 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
     footer{align-items: center;text-align: center;background: #263271;height:20vh;margin-top: 18vh;}
 
     .jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}
-    .produit{color:#C1A291;margin-left:39vh;font-size:4vw;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
     .navProduit{display:flex;justify-content:flex-end;margin-right:19vh;}
 
 
@@ -128,9 +128,9 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
     </header>
 
     <section>
-        <img class=\"screen\" src=\"../img/jarvisscreen.jpg\" alt=\"photo jarvis screen\">
-
-
+        <div class=\"imgScreen\">
+            <img class=\"screen\" src=\"../img/jarvisscreen.jpg\" alt=\"photo jarvis screen\">
+        </div>
 
     </section>    
     <article> Plus qu'un écran , un monstre</article>
@@ -178,10 +178,10 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
     header{max-width: 100%;height: 30vh;}
     .colOra{color:#EF7E40;}
  julien11
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:20vh;width:100%;margin-bottom:0px;top:5vh;position: relative;right: 17vh;}
     
-    section{text-align: center;margin-top: -10vh;height: 81vh;}
-    section .screen{vertical-align: middle;border-style: none;height: 96vh;width: auto;}
+    section{display:flex;text-align:center;height: 75vh;}
+    .imgScreen{display:flex;justify-content:center;align-items:center;height:70vh;}
+    .screen{border-style: none;height:95vh;width: auto;}
     article{color:white;text-align:center;font-size:2em;font-weight:bold;margin-top: 3vh;}
     main{text-align:center;font-size:2em;color:white;margin-top: 5vh;}
     main .pro{color:#C1A291;}
@@ -189,7 +189,7 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
     footer{align-items: center;text-align: center;background: #263271;height:20vh;margin-top: 18vh;}
 
     .jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}
-    .produit{color:#C1A291;margin-left:39vh;font-size:4vw;}
+    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
     .navProduit{display:flex;justify-content:flex-end;margin-right:19vh;}
 
 
@@ -214,9 +214,9 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
     </header>
 
     <section>
-        <img class=\"screen\" src=\"../img/jarvisscreen.jpg\" alt=\"photo jarvis screen\">
-
-
+        <div class=\"imgScreen\">
+            <img class=\"screen\" src=\"../img/jarvisscreen.jpg\" alt=\"photo jarvis screen\">
+        </div>
 
     </section>    
     <article> Plus qu'un écran , un monstre</article>
