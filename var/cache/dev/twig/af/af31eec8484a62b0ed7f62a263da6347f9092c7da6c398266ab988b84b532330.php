@@ -90,23 +90,69 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
 
     body{background:#263271;}
     header{max-width: 100%;height: 30vh;}
-    .colOra{color:#EF7E40;}
- julien11
-    
-    section{display:flex;text-align:center;height: 75vh;}
-    .imgScreen{display:flex;justify-content:center;align-items:center;height:70vh;}
-    .screen{border-style: none;height:95vh;width: auto;}
-    article{color:white;text-align:center;font-size:2em;font-weight:bold;margin-top: 3vh;}
-    main{text-align:center;font-size:2em;color:white;margin-top: 5vh;}
+     jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}  
+     .produit{color:#C1A291;margin-left:39vh;font-size:4vw;}
+    .navProduit{display:flex;justify-content:flex-end;margin-right:19vh;margin-top: -7vh;}
+    section{text-align: center;margin-top: -10vh;height: 81vh;}
+    section .screen{vertical-align: middle;border-style: none;height: auto ;max-width: 100%;}
+    article{color:white;text-align:center;font-size:2em;font-weight:bold;margin-top: 6vh;margin-right: 5vh;}
+    main {text-align: center;font-size: 2em;color: white;margin-top: 5vh;
+    margin-right: 5vh}
     main .pro{color:#C1A291;}
-    p{text-align:center;color:white;font-size:1em;text-justify:none;margin-top:5vh;margin-right: 60vh;margin-left: 69vh;font-size: 1.2em;}!important;
-    footer{align-items: center;text-align: center;background: #263271;height:20vh;margin-top: 18vh;}
+    p{text-align:center;color:white;font-size:1em;text-justify:none;margin-top:5vh;margin-right: 60vh;margin-left: 69vh;font-size: 1.2em !important;}
+    footer{align-items: center;text-align: center;background: #263271;height:20vh;margin-top: 18vh;} 
+    ";
+        // line 34
+        echo "
 
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}
-    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
-    .navProduit{display:flex;justify-content:flex-end;margin-right:19vh;}
 
 
+    @media screen and (max-width: 205px){
+    .produit {color: #C1A291;margin-left: 3vh;font-size: 16vw;margin-top: 22vh;} 
+    .navProduit {display: flex;justify-content: flex-end;margin-right: 15vh;margin-top: 24vh;margin-left: 8vh;}
+    section {text-align: center;margin-top: -10vh;height: 73vh;}
+    section .screen {vertical-align: middle;border-style: none;height: 96vh;width: auto;margin-left: 7vh;}
+    article {color: white;text-align: center;font-size: 2em;font-weight: bold;margin-top: 4vh;margin-right: -57vh;margin-left: 3vh;}
+    main {text-align: center;font-size: 2em;color: white;margin-top: 11vh; margin-right: -54vh; margin-left: 5vh;height: 12vh;}
+    p {text-align: center;color: white;font-size: 1em;text-justify: none;
+    margin-top: 18vh;margin-right: -46vh;margin-left: 12vh;font-size: 1.2em;margin:  O auto;}
+    .iconReseaux {margin-right: -37vh;padding: 3vh;margin-left: 18vh;
+    margin-top: 9vh;text-align: center;}
+    
+    }   
+    @media screen and (max-width:360px){
+    section .screen{vertical-align: middle;border-style: none;height: 85vh;width: auto;margin-left: 1vh;margin-top: 8vh;}
+    article {color: white;text-align: center;font-size: 2em;font-weight: bold;margin-top: 3vh;margin-left: 30vh;}
+    main {text-align: center;font-size: 2em;color: white;margin-top: 5vh;margin-left: 32vh;}
+    p {text-align: center;color: white;font-size: 1em;text-justify: none;margin-top: 5vh;
+margin-right: -15vh; margin-left: 25vh;font-size: 1.2em;}
+    .iconReseaux {padding: 3vh;margin-left: 35vh;}
+}
+
+
+   @media screen and (max-width:768px){
+    section .screen{height: 50vh;margin-right: 11vh;padding-top: -2vh;margin-top: 1vh;}
+   article{color: white;text-align: center;font-size: 2em;font-weight: bold;margin-top: -33vh;margin-right: 27vh;margin-left: 21vh;}
+   main{text-align: center;font-size: 2em;color: white;margin-top: 5vh;margin-right: 33vh;margin-left: 27vh;}
+   p{text-align: center;color: white; font-size: 1em; text-justify: none; margin-top: 5vh; margin-right: 22vh;margin-left: 17vh;
+    font-size: 1.6em;}
+    .iconReseaux{padding: 3vh; margin-left: -6vh; margin-bottom: -5vh;}
+}
+
+   @media screen and (max-width:1024px){
+    .produit {color: #C1A291;margin-left: 9vh;
+    font-size: 7vh !important;}
+   .navProduit { display: flex;justify-content: flex-end;margin-right: 45vh;margin-top: 22vh;margin-left: 1vh;font-size: 1.2em;}
+   section {text-align: center;margin-top: -10vh;height: 42vh;}
+
+  article {color: white;text-align: center;font-size: 2em;font-weight: bold;margin-top: 3vh;margin-right: 22vh;margin-left: 20vh;}
+  main{text-align: center;font-size: 2em; color: white; margin-top: 5vh;
+  margin-right: -1vh; margin-left: 5vh;}
+  p{text-align: center;color: white;font-size: 1em;text-justify: none;margin-top: 5vh;margin-right: 15vh;margin-left: 20vh;font-size: 1.6em !important;}
+}
+
+   
+   
 
 </style>
 
@@ -161,7 +207,7 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
 
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  106 => 34,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -176,23 +222,79 @@ class __TwigTemplate_9edbee21fa72e0b8512786c94f52a4a5189519310aba3d9c495167a9d2b
 
     body{background:#263271;}
     header{max-width: 100%;height: 30vh;}
-    .colOra{color:#EF7E40;}
- julien11
-    
-    section{display:flex;text-align:center;height: 75vh;}
-    .imgScreen{display:flex;justify-content:center;align-items:center;height:70vh;}
-    .screen{border-style: none;height:95vh;width: auto;}
-    article{color:white;text-align:center;font-size:2em;font-weight:bold;margin-top: 3vh;}
-    main{text-align:center;font-size:2em;color:white;margin-top: 5vh;}
+     jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}  
+     .produit{color:#C1A291;margin-left:39vh;font-size:4vw;}
+    .navProduit{display:flex;justify-content:flex-end;margin-right:19vh;margin-top: -7vh;}
+    section{text-align: center;margin-top: -10vh;height: 81vh;}
+    section .screen{vertical-align: middle;border-style: none;height: auto ;max-width: 100%;}
+    article{color:white;text-align:center;font-size:2em;font-weight:bold;margin-top: 6vh;margin-right: 5vh;}
+    main {text-align: center;font-size: 2em;color: white;margin-top: 5vh;
+    margin-right: 5vh}
     main .pro{color:#C1A291;}
-    p{text-align:center;color:white;font-size:1em;text-justify:none;margin-top:5vh;margin-right: 60vh;margin-left: 69vh;font-size: 1.2em;}!important;
-    footer{align-items: center;text-align: center;background: #263271;height:20vh;margin-top: 18vh;}
+    p{text-align:center;color:white;font-size:1em;text-justify:none;margin-top:5vh;margin-right: 60vh;margin-left: 69vh;font-size: 1.2em !important;}
+    footer{align-items: center;text-align: center;background: #263271;height:20vh;margin-top: 18vh;} 
+    {# section{margin-top: 5vh;
+    height: 72vh;}
+    section .screen{height: 87vh;}
+    p{margin-right: 44vh;
+    margin-left: 59vh;
+    margin-top: 11vh;}
+    footer{align-items: center;
+    text-align: center;
+    background: #263271;
+    height: 20vh;
+    margin-top: 18vh;}
+    .iconReseaux{margin-bottom: -3vh;} #}
 
-    .jarvis{display:flex;justify-content:space-between;align-items:center;height:17vh;width:100%;margin-bottom:0px;}
-    .produit{color:#C1A291;margin-left:26vh;font-size:4vw;}
-    .navProduit{display:flex;justify-content:flex-end;margin-right:19vh;}
 
 
+
+    @media screen and (max-width: 205px){
+    .produit {color: #C1A291;margin-left: 3vh;font-size: 16vw;margin-top: 22vh;} 
+    .navProduit {display: flex;justify-content: flex-end;margin-right: 15vh;margin-top: 24vh;margin-left: 8vh;}
+    section {text-align: center;margin-top: -10vh;height: 73vh;}
+    section .screen {vertical-align: middle;border-style: none;height: 96vh;width: auto;margin-left: 7vh;}
+    article {color: white;text-align: center;font-size: 2em;font-weight: bold;margin-top: 4vh;margin-right: -57vh;margin-left: 3vh;}
+    main {text-align: center;font-size: 2em;color: white;margin-top: 11vh; margin-right: -54vh; margin-left: 5vh;height: 12vh;}
+    p {text-align: center;color: white;font-size: 1em;text-justify: none;
+    margin-top: 18vh;margin-right: -46vh;margin-left: 12vh;font-size: 1.2em;margin:  O auto;}
+    .iconReseaux {margin-right: -37vh;padding: 3vh;margin-left: 18vh;
+    margin-top: 9vh;text-align: center;}
+    
+    }   
+    @media screen and (max-width:360px){
+    section .screen{vertical-align: middle;border-style: none;height: 85vh;width: auto;margin-left: 1vh;margin-top: 8vh;}
+    article {color: white;text-align: center;font-size: 2em;font-weight: bold;margin-top: 3vh;margin-left: 30vh;}
+    main {text-align: center;font-size: 2em;color: white;margin-top: 5vh;margin-left: 32vh;}
+    p {text-align: center;color: white;font-size: 1em;text-justify: none;margin-top: 5vh;
+margin-right: -15vh; margin-left: 25vh;font-size: 1.2em;}
+    .iconReseaux {padding: 3vh;margin-left: 35vh;}
+}
+
+
+   @media screen and (max-width:768px){
+    section .screen{height: 50vh;margin-right: 11vh;padding-top: -2vh;margin-top: 1vh;}
+   article{color: white;text-align: center;font-size: 2em;font-weight: bold;margin-top: -33vh;margin-right: 27vh;margin-left: 21vh;}
+   main{text-align: center;font-size: 2em;color: white;margin-top: 5vh;margin-right: 33vh;margin-left: 27vh;}
+   p{text-align: center;color: white; font-size: 1em; text-justify: none; margin-top: 5vh; margin-right: 22vh;margin-left: 17vh;
+    font-size: 1.6em;}
+    .iconReseaux{padding: 3vh; margin-left: -6vh; margin-bottom: -5vh;}
+}
+
+   @media screen and (max-width:1024px){
+    .produit {color: #C1A291;margin-left: 9vh;
+    font-size: 7vh !important;}
+   .navProduit { display: flex;justify-content: flex-end;margin-right: 45vh;margin-top: 22vh;margin-left: 1vh;font-size: 1.2em;}
+   section {text-align: center;margin-top: -10vh;height: 42vh;}
+
+  article {color: white;text-align: center;font-size: 2em;font-weight: bold;margin-top: 3vh;margin-right: 22vh;margin-left: 20vh;}
+  main{text-align: center;font-size: 2em; color: white; margin-top: 5vh;
+  margin-right: -1vh; margin-left: 5vh;}
+  p{text-align: center;color: white;font-size: 1em;text-justify: none;margin-top: 5vh;margin-right: 15vh;margin-left: 20vh;font-size: 1.6em !important;}
+}
+
+   
+   
 
 </style>
 
