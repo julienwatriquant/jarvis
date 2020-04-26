@@ -174,9 +174,9 @@ margin-right: -15vh; margin-left: 25vh;font-size: 1.2em;}
     </header>
 
     <section>
-        <img class=\"screen\" src=\"../img/jarvisscreen.jpg\" alt=\"photo jarvis screen\">
-
-
+        <div class=\"imgScreen\">
+            <img class=\"screen\" src=\"../img/jarvisscreen.jpg\" alt=\"photo jarvis screen\">
+        </div>
 
     </section>    
     <article> Plus qu'un écran , un monstre</article>
@@ -316,9 +316,9 @@ margin-right: -15vh; margin-left: 25vh;font-size: 1.2em;}
     </header>
 
     <section>
-        <img class=\"screen\" src=\"../img/jarvisscreen.jpg\" alt=\"photo jarvis screen\">
-
-
+        <div class=\"imgScreen\">
+            <img class=\"screen\" src=\"../img/jarvisscreen.jpg\" alt=\"photo jarvis screen\">
+        </div>
 
     </section>    
     <article> Plus qu'un écran , un monstre</article>

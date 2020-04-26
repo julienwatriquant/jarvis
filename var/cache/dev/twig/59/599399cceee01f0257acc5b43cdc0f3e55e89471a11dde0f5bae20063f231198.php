@@ -86,28 +86,29 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
         // line 6
         echo "<style>
-    header{background:#263271;width:100%;text-align:center;padding-top:6vh;margin: 0 auto;}
+    header{background:#263271;width:100%;height:110vh;text-align:center;padding-top:6vh;margin: 0 auto;}
     .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;padding-bottom:5vh;padding-top:5vh;}
-    h1 {text-align:center;color:#C1A291;}
-    h2{color:#C1A291;}
+    h1 {text-align:center;color:#C1A291;font-size:4vw;}
+    h2{color:#C1A291;padding:5vh;font-size:3vw;}
     .pro{color:white;}
     h5{color:#C1A291;}
-    .lien{display:flex;justify-content:center;}
-    .a-lien{color:#EF7E40;font-size:4vh;margin-left:5vh;}
-    .plus{color:#EF7E40;}
+    .lien{display:flex;justify-content:space-evenly;margin:5vh 40vh 0vh 40vh;}
+    .a-lien{color:#EF7E40;margin-left:5vh;}
+    .plus{color:#EF7E40;font-size:1.5vw;padding:3vh;}
     .cadre{margin:0 auto;padding-bottom:5vh;margin-bottom:0.5vh;background:#FBFBFD;}
     .acces{text-align:center;background:#FBFBFD;}
-    .enceinte{display:flex;justify-content:space-around;}
+    .enceinte{display:flex;justify-content:space-evenly;}
     section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
     .jarvisscreen{width: 50%;height: auto;margin:0.5vh;;background:#FBFBFD;}
     .jarvistags{width: 50%;height: auto;margin: 0.5vh;background:#FBFBFD;}
-    .imgscreen{width: 250px;height: 250px;}
-    .imgtags{max-width: 100%;height: auto;}
+    .imgscreen{width: 350px;height: 250px;}
+    .imgtags{width:250px;height: auto;}
+    .imgtags1{width:320px;height: auto;}
     main{display:flex;justify-content:space-around;text-align:center;margin:0 auto;background:white;}
     .jarvisfamily{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;justify-content:center;padding-bottom:3vh;}
     .jarvisforhotels{background:#FBFBFD;width: 50%;height: auto;margin:0.5vh;text-align:center;padding-bottom:3vh;}
     .imghotel{width: 400px;height: 200px;}
-    .imgfamily{width: 450px;height: 250px;}
+    .imgfamily{width: 350px;height: 250px;}
     article{width:100%;height:auto;display:flex;justify-content:space-around;margin:0 auto;text-align:center;}
     .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
     .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
@@ -120,17 +121,17 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 <body>
 
 <header>
-    <div class=\"texte\">
+    <div class=\"text\">
         <h1 class=\"\">JarvisPro</h1>
-        <h2 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h2>
+        <h3 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h3>
         <h5>à partir de 900 €</h5>
     </div>
     <div class=\"lien\">
-            <a href=\"";
-        // line 47
+            <a class=\"plus\" href=\"";
+        // line 48
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisPro");
         echo "\" src=\"\">En savoir plus ></a>
-            <a href=\"\" src=\"\">Acheter ></a>
+            <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
     </div>
     <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
 </header>
@@ -141,15 +142,15 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h5>à partir de 450 €</h5>
         <div>
              <a class=\"plus\" href=\"";
-        // line 58
+        // line 59
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisAcces");
         echo "\" src=\"\">En savoir plus ></a>
              <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
         </div>
         <div class=\"enceinte\">
-             <img class=\"\" src=\"img/enceinte1.jpg\">
+             <img class=\"imgtags\" src=\"img/enceinte.png\">
              <br>
-             <img class=\"\" src=\"img/enceinte.jpg\">
+             <img class=\"imgtags1\" src=\"img/enceinte1.png\">
         </div>
     </div>
 </div>
@@ -159,11 +160,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Plus qu'un écran un monstre</h3>
             <h5>à partir de 1020 €</h5>
         <div>
-             <a class=\"plus\" href=\"jarvisscreen\" src=\"\">En savoir plus ></a>
+             <a class=\"plus\" href=\"jarvisScreen\" src=\"\">En savoir plus ></a>
              <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
          </div>
           <div class=\"tablette\">
-             <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">  
+             <img class=\"imgscreen\" src=\"img/JarvisScreen.png\">  
         </div>   
     </div>
     <div class=\"jarvistags\">
@@ -174,7 +175,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
          </div>
           <div class=\"tags\">
-             <img class=\"imgtags\" src=\"img/enceinte.jpg\"> 
+             <img class=\"imgtags\" src=\"img/enceinte.png\"> 
         </div>   
     </div>
 </section>
@@ -184,12 +185,12 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Le réseau familial,privé et sécurisé</h3>
         <div>
              <a class=\"plus\" href=\"";
-        // line 98
+        // line 99
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
         echo "\" src=\"\">En savoir plus ></a> 
          </div>
           <div class=\"tablette family\">
-             <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
+             <img class=\"imgfamily\" src=\"img/FamilyTab.png\">
         </div>   
     </div>
     <div class=\"jarvisforhotels\">
@@ -197,8 +198,8 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
          <div>
-               <a href=\"";
-        // line 109
+               <a class=\"plus\" href=\"";
+        // line 110
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisHotel");
         echo "\" src=\"\">En savoir plus ></a>
          </div>
@@ -220,8 +221,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     </div>
     <div class=\"jarvisservices\">
         <h2>Services</h2>
-        <h3>Femme de ménage,jardinier,nounous,
-        tout ce monde à votre service</h3>
+        <h3>Femme de ménage, jardinier, nounous, tout ce monde à votre service</h3>
          <div>
              <a class=\"plus\" href=\"Services\" src=\"\">En savoir plus ></a>
          </div>
@@ -270,7 +270,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
     public function getDebugInfo()
     {
-        return array (  202 => 109,  188 => 98,  145 => 58,  131 => 47,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  203 => 110,  189 => 99,  146 => 59,  132 => 48,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -281,28 +281,29 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 
 {% block body %}
 <style>
-    header{background:#263271;width:100%;text-align:center;padding-top:6vh;margin: 0 auto;}
+    header{background:#263271;width:100%;height:110vh;text-align:center;padding-top:6vh;margin: 0 auto;}
     .tel{vertical-align: middle;border-style: none;height: 500px;width: 650px;padding-bottom:5vh;padding-top:5vh;}
-    h1 {text-align:center;color:#C1A291;}
-    h2{color:#C1A291;}
+    h1 {text-align:center;color:#C1A291;font-size:4vw;}
+    h2{color:#C1A291;padding:5vh;font-size:3vw;}
     .pro{color:white;}
     h5{color:#C1A291;}
-    .lien{display:flex;justify-content:center;}
-    .a-lien{color:#EF7E40;font-size:4vh;margin-left:5vh;}
-    .plus{color:#EF7E40;}
+    .lien{display:flex;justify-content:space-evenly;margin:5vh 40vh 0vh 40vh;}
+    .a-lien{color:#EF7E40;margin-left:5vh;}
+    .plus{color:#EF7E40;font-size:1.5vw;padding:3vh;}
     .cadre{margin:0 auto;padding-bottom:5vh;margin-bottom:0.5vh;background:#FBFBFD;}
     .acces{text-align:center;background:#FBFBFD;}
-    .enceinte{display:flex;justify-content:space-around;}
+    .enceinte{display:flex;justify-content:space-evenly;}
     section{width: 100%;height: auto;display:flex;justify-content:space-around;text-align:center;margin:0 auto;}
     .jarvisscreen{width: 50%;height: auto;margin:0.5vh;;background:#FBFBFD;}
     .jarvistags{width: 50%;height: auto;margin: 0.5vh;background:#FBFBFD;}
-    .imgscreen{width: 250px;height: 250px;}
-    .imgtags{max-width: 100%;height: auto;}
+    .imgscreen{width: 350px;height: 250px;}
+    .imgtags{width:250px;height: auto;}
+    .imgtags1{width:320px;height: auto;}
     main{display:flex;justify-content:space-around;text-align:center;margin:0 auto;background:white;}
     .jarvisfamily{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;justify-content:center;padding-bottom:3vh;}
     .jarvisforhotels{background:#FBFBFD;width: 50%;height: auto;margin:0.5vh;text-align:center;padding-bottom:3vh;}
     .imghotel{width: 400px;height: 200px;}
-    .imgfamily{width: 450px;height: 250px;}
+    .imgfamily{width: 350px;height: 250px;}
     article{width:100%;height:auto;display:flex;justify-content:space-around;margin:0 auto;text-align:center;}
     .jarvisabonnement{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
     .jarvisservices{background:#FBFBFD;width: 50%;height: auto;margin: 0.5vh;padding-bottom:3vh;}
@@ -315,14 +316,14 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
 <body>
 
 <header>
-    <div class=\"texte\">
+    <div class=\"text\">
         <h1 class=\"\">JarvisPro</h1>
-        <h2 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h2>
+        <h3 class=\"pro\">Une app pour gérer l'ensemble de votre domotique</h3>
         <h5>à partir de 900 €</h5>
     </div>
     <div class=\"lien\">
-            <a href=\"{{path('jarvisPro')}}\" src=\"\">En savoir plus ></a>
-            <a href=\"\" src=\"\">Acheter ></a>
+            <a class=\"plus\" href=\"{{path('jarvisPro')}}\" src=\"\">En savoir plus ></a>
+            <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
     </div>
     <img class=\"tel\" src=\"img/Entete1.png\" alt=\"\" id=\"imgtel\">
 </header>
@@ -336,9 +337,9 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
         </div>
         <div class=\"enceinte\">
-             <img class=\"\" src=\"img/enceinte1.jpg\">
+             <img class=\"imgtags\" src=\"img/enceinte.png\">
              <br>
-             <img class=\"\" src=\"img/enceinte.jpg\">
+             <img class=\"imgtags1\" src=\"img/enceinte1.png\">
         </div>
     </div>
 </div>
@@ -348,11 +349,11 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
             <h3>Plus qu'un écran un monstre</h3>
             <h5>à partir de 1020 €</h5>
         <div>
-             <a class=\"plus\" href=\"jarvisscreen\" src=\"\">En savoir plus ></a>
+             <a class=\"plus\" href=\"jarvisScreen\" src=\"\">En savoir plus ></a>
              <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
          </div>
           <div class=\"tablette\">
-             <img class=\"imgscreen\" src=\"img/Jarvisscreen.jpg\">  
+             <img class=\"imgscreen\" src=\"img/JarvisScreen.png\">  
         </div>   
     </div>
     <div class=\"jarvistags\">
@@ -363,7 +364,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a class=\"plus\" href=\"\" src=\"\">Acheter ></a>
          </div>
           <div class=\"tags\">
-             <img class=\"imgtags\" src=\"img/enceinte.jpg\"> 
+             <img class=\"imgtags\" src=\"img/enceinte.png\"> 
         </div>   
     </div>
 </section>
@@ -375,7 +376,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
              <a class=\"plus\" href=\"{{ path('jarvisFamily') }}\" src=\"\">En savoir plus ></a> 
          </div>
           <div class=\"tablette family\">
-             <img class=\"imgfamily\" src=\"img/FamilyTab.jpg\">
+             <img class=\"imgfamily\" src=\"img/FamilyTab.png\">
         </div>   
     </div>
     <div class=\"jarvisforhotels\">
@@ -383,7 +384,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
         <h3>l'expérience client au coeur de votre hôtel</h3>
         <h5>à partir de 1500 € par chambre</h5>
          <div>
-               <a href=\"{{path('jarvisHotel')}}\" src=\"\">En savoir plus ></a>
+               <a class=\"plus\" href=\"{{path('jarvisHotel')}}\" src=\"\">En savoir plus ></a>
          </div>
           <div class=\"hotel\">
              <img class=\"imghotel\" src=\"img/Façade1.jpeg\">
@@ -403,8 +404,7 @@ class __TwigTemplate_f9500c2d662dde293d2ffe9dc7bb200863e8fc099af9ae68a23ace08feb
     </div>
     <div class=\"jarvisservices\">
         <h2>Services</h2>
-        <h3>Femme de ménage,jardinier,nounous,
-        tout ce monde à votre service</h3>
+        <h3>Femme de ménage, jardinier, nounous, tout ce monde à votre service</h3>
          <div>
              <a class=\"plus\" href=\"Services\" src=\"\">En savoir plus ></a>
          </div>

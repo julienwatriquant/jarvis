@@ -98,8 +98,9 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
     .tabInt{position:absolute;top:26vh;left:50vh;height:55vh;}
     .slogan{position:absolute;top:90vh;left:62vh;color:#ffffff;}
     .corps{background:#263271;}
-    .produit1{color:#C1A291;width:30%;display:flex;}
-    .titrePro{display:flex;align-items:center;justify-content:center;height:30vh;}
+    .produit1{color:#C1A291;width:50%;font-size:3vw;text-align:right;}
+    .sloganPro{color:#ffffff;text-align:left;width:50%;margin-bottom:0;font-size:2.5vw;}
+    .titrePro{display:flex;align-items:center;justify-content:center;height:25vh;}
     .titreProd{display:flex;align-items:flex-start;justify-content:center;height:20vh;}
     .textProd{font-size:2vw;width:70%;text-align:center;}
     .imagePro{display:flex;align-items:center;justify-content:center;height:50vh;}
@@ -160,7 +161,8 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
         <div class=\"jarvisPro\">
             <div class=\"titrePro\">
-                <h1 class=\"produit1\">JarvisPro<p class=\"\">, une révolution</p></h1>
+                <h1 class=\"produit1\">JarvisPro</h1>
+                <h2 class=\"sloganPro\">, une révolution</h2>
             </div>
             <div class=\"titreProd\">
                 <p class=\"textProd\">Grâce à moi, vos appareils connectés vont fonctionner de manière plus efficace et plus intelligente ensemble, pour vous faciliter la vie.</p>
@@ -213,7 +215,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
             </div>
             <div class=\"savoirPlus\">
                 <a class=\"savoir\" href=\"";
-        // line 133
+        // line 135
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("jarvisFamily");
         echo "\">En savoir plus ></a>
             </div>
@@ -255,7 +257,7 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
     public function getDebugInfo()
     {
-        return array (  217 => 133,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  219 => 135,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -278,8 +280,9 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
     .tabInt{position:absolute;top:26vh;left:50vh;height:55vh;}
     .slogan{position:absolute;top:90vh;left:62vh;color:#ffffff;}
     .corps{background:#263271;}
-    .produit1{color:#C1A291;width:30%;display:flex;}
-    .titrePro{display:flex;align-items:center;justify-content:center;height:30vh;}
+    .produit1{color:#C1A291;width:50%;font-size:3vw;text-align:right;}
+    .sloganPro{color:#ffffff;text-align:left;width:50%;margin-bottom:0;font-size:2.5vw;}
+    .titrePro{display:flex;align-items:center;justify-content:center;height:25vh;}
     .titreProd{display:flex;align-items:flex-start;justify-content:center;height:20vh;}
     .textProd{font-size:2vw;width:70%;text-align:center;}
     .imagePro{display:flex;align-items:center;justify-content:center;height:50vh;}
@@ -340,7 +343,8 @@ class __TwigTemplate_6b9b8f0df8b9aa01927d45ec3c26062916c5a8817502af1236beabf1be3
 
         <div class=\"jarvisPro\">
             <div class=\"titrePro\">
-                <h1 class=\"produit1\">JarvisPro<p class=\"\">, une révolution</p></h1>
+                <h1 class=\"produit1\">JarvisPro</h1>
+                <h2 class=\"sloganPro\">, une révolution</h2>
             </div>
             <div class=\"titreProd\">
                 <p class=\"textProd\">Grâce à moi, vos appareils connectés vont fonctionner de manière plus efficace et plus intelligente ensemble, pour vous faciliter la vie.</p>
