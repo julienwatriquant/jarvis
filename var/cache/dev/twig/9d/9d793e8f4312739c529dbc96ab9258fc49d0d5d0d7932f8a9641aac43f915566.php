@@ -152,7 +152,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           <div>
             <p>© 2020 Copyright :
                 <a href=\"\" class=\"lienFin\"> mysmartjarvis .com</a></p>
-          </div>
+        </div>
 
         
 
@@ -346,7 +346,7 @@ class __TwigTemplate_6ddc216faa59a07abe95bc8b7a0881f5557b0706db83acd786cf3af7f8d
           <div>
             <p>© 2020 Copyright :
                 <a href=\"\" class=\"lienFin\"> mysmartjarvis .com</a></p>
-          </div>
+        </div>
 
         
 

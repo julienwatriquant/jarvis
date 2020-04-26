@@ -1,6 +1,7 @@
 <?php
 
-namespace ContainerEUBkUoD;
+namespace ContainerJFNUIsX;
+
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -5229,6 +5230,7 @@ class App_KernelDevDebugContainer extends Container
             'serializer.mapping.cache.prefix' => '',
             'twig.form.resources' => [
                 0 => 'form_div_layout.html.twig',
+                1 => 'bootstrap_4_layout.html.twig',
             ],
             'twig.default_path' => (\dirname(__DIR__, 4).'/templates'),
             'web_profiler.debug_toolbar.intercept_redirects' => false,
